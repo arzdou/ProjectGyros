@@ -61,6 +61,8 @@ LZ_LONG_HI   EQU %00000011
 ; x: the new control command
 ; y: the length
 
+; For more information, refer to the code below and in extras/gfx.py.
+
 	; Save the output address
 	; for rewrite commands.
 	ld a, e

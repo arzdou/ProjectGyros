@@ -750,7 +750,7 @@ _MovePKMNWithoutMail:
 .a_button_2
 	call BillsPC_CheckSpaceInDestination
 	jr c, .no_space
-	call MovePKMNWithoutMail_InsertMon
+	call MovePKMNWitoutMail_InsertMon
 	ld a, $0
 	ld [wJumptableIndex], a
 	ret
@@ -1918,7 +1918,7 @@ ReleasePKMN_ByePKMN:
 	call DelayFrames
 	ret
 
-MovePKMNWithoutMail_InsertMon:
+MovePKMNWitoutMail_InsertMon:
 	push hl
 	push de
 	push bc
