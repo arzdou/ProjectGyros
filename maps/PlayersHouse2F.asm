@@ -3,6 +3,7 @@
 	const PLAYERSHOUSE2F_DOLL_1
 	const PLAYERSHOUSE2F_DOLL_2
 	const PLAYERSHOUSE2F_BIG_DOLL
+	const TEST_POKEBALL
 
 PlayersHouse2F_MapScripts:
 	def_scene_scripts
@@ -10,6 +11,7 @@ PlayersHouse2F_MapScripts:
 	def_callbacks
 	callback MAPCALLBACK_NEWMAP, .InitializeRoom
 	callback MAPCALLBACK_TILES, .SetUpTileDecorations
+
 
 .DummyScene: ; unreferenced
 	end
@@ -92,6 +94,46 @@ PlayersHousePCScript:
 	warp NONE, 0, 0
 	end
 
+PokeBallScript:
+	refreshscreen
+	pokepic CYNDAQUIL
+	cry CYNDAQUIL
+	waitbutton
+	closepokepic
+	opentext
+	writetext TakeTestPokemonText
+	yesorno
+	iffalse DidntChooseTestPokemonScript
+	disappear TEST_POKEBALL
+	promptbutton
+	waitsfx
+	getmonname STRING_BUFFER_3, CYNDAQUIL
+	writetext ReceivedTestPokemonText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke CYNDAQUIL, 5, BERRY
+	closetext
+	end
+
+TakeTestPokemonText:
+	text "Take #MON?"
+	done
+
+DidntChooseTestPokemonScript:
+	writetext DidntTakePokemonText
+	waitbutton
+	closetext
+	end
+
+DidntTakePokemonText:
+	text "OK."
+	done
+
+ReceivedTestPokemonText:
+	text "Congrats."
+	done
+
 PlayersRadioText1:
 	text "PROF.OAK'S #MON"
 	line "TALK! Please tune"
@@ -131,3 +173,4 @@ PlayersHouse2F_MapEvents:
 	object_event  4,  4, SPRITE_DOLL_1, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PlayersHouseDoll1Script, EVENT_PLAYERS_HOUSE_2F_DOLL_1
 	object_event  5,  4, SPRITE_DOLL_2, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PlayersHouseDoll2Script, EVENT_PLAYERS_HOUSE_2F_DOLL_2
 	object_event  0,  1, SPRITE_BIG_DOLL, SPRITEMOVEDATA_BIGDOLL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PlayersHouseBigDollScript, EVENT_PLAYERS_HOUSE_2F_BIG_DOLL
+	object_event  3,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PokeBallScript, EVENT_TEST_POKEBALL_IN_ROOM
