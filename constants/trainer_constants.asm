@@ -682,6 +682,7 @@ KRIS EQU __trainer_class__
 	const BEVERLY3 ; unused
 	const GEORGIA
 	const JAIME
+	const JORGE
 
 	trainerclass RED ; 3f
 	const RED1
