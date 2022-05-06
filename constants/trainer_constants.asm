@@ -654,6 +654,7 @@ KRIS EQU __trainer_class__
 	const ALEX
 	const REX
 	const ALLAN
+	const JORGE
 
 	trainerclass KIMONO_GIRL ; 3c
 	const NAOKO_UNUSED ; unused
@@ -682,7 +683,6 @@ KRIS EQU __trainer_class__
 	const BEVERLY3 ; unused
 	const GEORGIA
 	const JAIME
-	const JORGE
 
 	trainerclass RED ; 3f
 	const RED1

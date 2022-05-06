@@ -13,7 +13,7 @@ NewBarkTown_MapScripts:
 	endcallback
 
 TrainerJorge:
-	trainer POKEFANF, JORGE, EVENT_BEAT_POKEFANF_JORGE, TrainerJorgeSeenText, TrainerJorgeBeatenText, 0, .Script
+	trainer POKEFANM, JORGE, EVENT_BEAT_POKEFANM_JORGE, TrainerJorgeSeenText, TrainerJorgeBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
@@ -52,4 +52,4 @@ NewBarkTown_MapEvents:
 
 	def_object_events
 	; Uncomment line below to enable buggy trainer
-	; object_event 10, 10, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 1, TrainerJorge, -1
+	object_event 10, 10, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 1, TrainerJorge, -1
