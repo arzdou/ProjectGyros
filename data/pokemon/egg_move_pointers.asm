@@ -6,7 +6,8 @@ EggMovePointers::
 	dw CharmanderEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw SquirtleEggMoves
+	dw MudkipEggMoves ; +
+	;dw SquirtleEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

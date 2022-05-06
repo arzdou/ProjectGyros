@@ -30,14 +30,20 @@ CharmanderEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-SquirtleEggMoves:
-	db MIRROR_COAT
-	db HAZE
+MudkipEggMoves: ; + NEEDS UPDATE
+	db MAGNITUDE
 	db MIST
-	db CONFUSION
-	db FORESIGHT
-	db FLAIL
+	db BUBBLEBEAM
 	db -1 ; end
+
+;SquirtleEggMoves:
+;	db MIRROR_COAT
+;	db HAZE
+;	db MIST
+;	db CONFUSION
+;	db FORESIGHT
+;	db FLAIL
+;	db -1 ; end
 
 PidgeyEggMoves:
 	db PURSUIT

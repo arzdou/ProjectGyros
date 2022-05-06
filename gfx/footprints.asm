@@ -18,7 +18,8 @@ INCBIN "gfx/footprints/venusaur.1bpp",   footprint_top
 INCBIN "gfx/footprints/charmander.1bpp", footprint_top
 INCBIN "gfx/footprints/charmeleon.1bpp", footprint_top
 INCBIN "gfx/footprints/charizard.1bpp",  footprint_top
-INCBIN "gfx/footprints/squirtle.1bpp",   footprint_top
+INCBIN "gfx/footprints/mudkip.1bpp",     footprint_top  ; +
+;INCBIN "gfx/footprints/squirtle.1bpp",   footprint_top
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_top
 ; 001-008 bottom halves
 INCBIN "gfx/footprints/bulbasaur.1bpp",  footprint_bottom
@@ -27,7 +28,8 @@ INCBIN "gfx/footprints/venusaur.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/charmander.1bpp", footprint_bottom
 INCBIN "gfx/footprints/charmeleon.1bpp", footprint_bottom
 INCBIN "gfx/footprints/charizard.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/squirtle.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/mudkip.1bpp",     footprint_bottom  ; +
+;INCBIN "gfx/footprints/squirtle.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_bottom
 ; 009-016 top halves
 INCBIN "gfx/footprints/blastoise.1bpp",  footprint_top

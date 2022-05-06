@@ -138,6 +138,7 @@ AlphabeticalPokedexOrder:
 	db MISDREAVUS
 	db MOLTRES
 	db MR__MIME
+	db MUDKIP   ; +
 	db MUK
 	db MURKROW
 	db NATU
@@ -210,7 +211,7 @@ AlphabeticalPokedexOrder:
 	db SNUBBULL
 	db SPEAROW
 	db SPINARAK
-	db SQUIRTLE
+	;db SQUIRTLE
 	db STANTLER
 	db STARMIE
 	db STARYU

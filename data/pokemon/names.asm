@@ -6,7 +6,8 @@ PokemonNames::
 	db "CHARMANDER"
 	db "CHARMELEON"
 	db "CHARIZARD@"
-	db "SQUIRTLE@@"
+	db "MUDKIP@@@@" ; +
+	;db "SQUIRTLE@@"
 	db "WARTORTLE@"
 	db "BLASTOISE@"
 	db "CATERPIE@@"
