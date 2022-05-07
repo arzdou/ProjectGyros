@@ -1,3 +1,14 @@
+# -----------------------------------------------------------
+# Script that performs a pokemon swap in a pokecrystal 
+# disassembly project. This will not add a pokedex entry, 
+# evolutions, moves and other more subtle changes but it will 
+# reduce the number of files to modify
+#
+# (C) 2022 Gyros Team, Spain
+# Released under GNU Public License (GPL)
+# email arzdou@gmail.com
+# -----------------------------------------------------------
+
 import os, sys, logging
 
 # Swap and comment function
