@@ -2122,7 +2122,7 @@ BibarelEvosAttacks:
 ;	db 0 ; no more level-up moves
 
 FletchlingEvosAttacks:
-	db EVOLVE_LEVEL, 32, FLETCHINDER
+	db EVOLVE_LEVEL, 14, FLETCHINDER
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2156,6 +2156,7 @@ FletchlingEvosAttacks:
 ;	db 0 ; no more level-up moves
 
 FletchinderEvosAttacks:
+	db EVOLVE_LEVEL, 36, TALONFLAME
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2227,7 +2228,6 @@ TyphlosionEvosAttacks:
 ;	db 0 ; no more level-up moves
 
 TalonflameEvosAttacks:
-	db EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
