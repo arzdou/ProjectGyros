@@ -2090,7 +2090,7 @@ MewEvosAttacks:
 ;	db 0 ; no more level-up moves
 
 BibarelEvosAttacks:
-	db EVOLVE_LEVEL, 16, FLETCHLING ; edit this in the future
+	; db EVOLVE_LEVEL, 15, BIDOOF
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2125,7 +2125,7 @@ BibarelEvosAttacks:
 ;	db 0 ; no more level-up moves
 
 FletchlingEvosAttacks:
-	db EVOLVE_LEVEL, 14, FLETCHINDER
+	db EVOLVE_LEVEL, 17, FLETCHINDER
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2156,7 +2156,7 @@ FletchlingEvosAttacks:
 ;	db 0 ; no more level-up moves
 
 FletchinderEvosAttacks:
-	db EVOLVE_LEVEL, 36, TALONFLAME
+	db EVOLVE_LEVEL, 35, TALONFLAME
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2323,7 +2323,7 @@ FurretEvosAttacks:
 	db 0 ; no more level-up moves
 
 MunchlaxEvosAttacks: ; +
-	db 0 ; ADD YOUR EVOLUTION
+	db EVOLVE_LEVEL, 25, SNORLAX ; Note: custom evo level
 	db 1, TACKLE
 	db 1, METRONOME
 	db 4, DEFENSE_CURL
