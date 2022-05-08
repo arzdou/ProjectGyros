@@ -329,8 +329,10 @@ PokemonPicPointers::
 ;	dba_pic TotodileFrontpic
 	dba_pic TalonflameBackpic ; +
 ;	dba_pic TotodileBackpic
-	dba_pic CroconawFrontpic
-	dba_pic CroconawBackpic
+	dba_pic SkiddoFrontpic ; +
+;	dba_pic CroconawFrontpic
+	dba_pic SkiddoBackpic ; +
+;	dba_pic CroconawBackpic
 	dba_pic FeraligatrFrontpic
 	dba_pic FeraligatrBackpic
 	dba_pic SentretFrontpic

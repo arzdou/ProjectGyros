@@ -13,7 +13,8 @@ NewPokedexOrder:
 	db TYPHLOSION
 	db TALONFLAME ; +
 ;	db TOTODILE
-	db CROCONAW
+	db SKIDDO ; +
+;	db CROCONAW
 	db FERALIGATR
 	db PIDGEY
 	db PIDGEOTTO

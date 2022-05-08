@@ -163,7 +163,8 @@ BitmasksPointers:
 	dw TyphlosionBitmasks
 	dw TalonflameBitmasks ; +
 ;	dw TotodileBitmasks
-	dw CroconawBitmasks
+	dw SkiddoBitmasks ; +
+;	dw CroconawBitmasks
 	dw FeraligatrBitmasks
 	dw SentretBitmasks
 	dw FurretBitmasks

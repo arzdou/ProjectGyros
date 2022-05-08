@@ -169,7 +169,10 @@ TalonflameAnimation:   INCLUDE "gfx/pokemon/talonflame/anim.asm" ; + ; +
 ;TotodileAnimation:   INCLUDE "gfx/pokemon/talonflame/anim.asm" ; +
 ;TalonflameAnimation:   INCLUDE "gfx/pokemon/totodile/anim.asm" ; +
 ;;TotodileAnimation:   INCLUDE "gfx/pokemon/totodile/anim.asm"
-CroconawAnimation:   INCLUDE "gfx/pokemon/croconaw/anim.asm"
+SkiddoAnimation:   INCLUDE "gfx/pokemon/skiddo/anim.asm" ; + ; +
+;CroconawAnimation:   INCLUDE "gfx/pokemon/skiddo/anim.asm" ; +
+;SkiddoAnimation:   INCLUDE "gfx/pokemon/croconaw/anim.asm" ; +
+;;CroconawAnimation:   INCLUDE "gfx/pokemon/croconaw/anim.asm"
 FeraligatrAnimation: INCLUDE "gfx/pokemon/feraligatr/anim.asm"
 SentretAnimation:    INCLUDE "gfx/pokemon/sentret/anim.asm"
 FurretAnimation:     INCLUDE "gfx/pokemon/furret/anim.asm"

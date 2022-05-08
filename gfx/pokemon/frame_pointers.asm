@@ -163,7 +163,8 @@ FramesPointers:
 	dw TyphlosionFrames
 	dw TalonflameFrames ; +
 ;	dw TotodileFrames
-	dw CroconawFrames
+	dw SkiddoFrames ; +
+;	dw CroconawFrames
 	dw FeraligatrFrames
 	dw SentretFrames
 	dw FurretFrames

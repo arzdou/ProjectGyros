@@ -163,7 +163,8 @@ PokemonNames::
 	db "TYPHLOSION"
 	db "TALONFLAME" ; +
 ;	db "TOTODILE@@"
-	db "CROCONAW@@"
+	db "SKIDDO@@@@" ; +
+;	db "CROCONAW@@"
 	db "FERALIGATR"
 	db "SENTRET@@@"
 	db "FURRET@@@@"

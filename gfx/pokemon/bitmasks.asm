@@ -169,7 +169,10 @@ TalonflameBitmasks:   INCLUDE "gfx/pokemon/talonflame/bitmask.asm" ; + ; +
 ;TotodileBitmasks:   INCLUDE "gfx/pokemon/talonflame/bitmask.asm" ; +
 ;TalonflameBitmasks:   INCLUDE "gfx/pokemon/totodile/bitmask.asm" ; +
 ;;TotodileBitmasks:   INCLUDE "gfx/pokemon/totodile/bitmask.asm"
-CroconawBitmasks:   INCLUDE "gfx/pokemon/croconaw/bitmask.asm"
+SkiddoBitmasks:   INCLUDE "gfx/pokemon/skiddo/bitmask.asm" ; + ; +
+;CroconawBitmasks:   INCLUDE "gfx/pokemon/skiddo/bitmask.asm" ; +
+;SkiddoBitmasks:   INCLUDE "gfx/pokemon/croconaw/bitmask.asm" ; +
+;;CroconawBitmasks:   INCLUDE "gfx/pokemon/croconaw/bitmask.asm"
 FeraligatrBitmasks: INCLUDE "gfx/pokemon/feraligatr/bitmask.asm"
 SentretBitmasks:    INCLUDE "gfx/pokemon/sentret/bitmask.asm"
 FurretBitmasks:     INCLUDE "gfx/pokemon/furret/bitmask.asm"

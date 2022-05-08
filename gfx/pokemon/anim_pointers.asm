@@ -163,7 +163,8 @@ AnimationPointers:
 	dw TyphlosionAnimation
 	dw TalonflameAnimation ; +
 ;	dw TotodileAnimation
-	dw CroconawAnimation
+	dw SkiddoAnimation ; +
+;	dw CroconawAnimation
 	dw FeraligatrAnimation
 	dw SentretAnimation
 	dw FurretAnimation

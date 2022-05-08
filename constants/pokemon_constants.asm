@@ -183,7 +183,8 @@ JOHTO_POKEMON EQU const_value
 	const TYPHLOSION ; 9d
 	const TALONFLAME   ; 9e ; +
 ;	const TOTODILE   ; 9e
-	const CROCONAW   ; 9f
+	const SKIDDO   ; 9f ; +
+;	const CROCONAW   ; 9f
 	const FERALIGATR ; a0
 	const SENTRET    ; a1
 	const FURRET     ; a2

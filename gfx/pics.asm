@@ -96,7 +96,10 @@ ScytherFrontpic:     INCBIN "gfx/pokemon/scyther/front.animated.2bpp.lz"
 AerodactylFrontpic:  INCBIN "gfx/pokemon/aerodactyl/front.animated.2bpp.lz"
 SeakingFrontpic:     INCBIN "gfx/pokemon/seaking/front.animated.2bpp.lz"
 MukFrontpic:         INCBIN "gfx/pokemon/muk/front.animated.2bpp.lz"
-CroconawFrontpic:    INCBIN "gfx/pokemon/croconaw/front.animated.2bpp.lz"
+SkiddoFrontpic:    INCBIN "gfx/pokemon/skiddo/front.animated.2bpp.lz" ; + ; +
+;CroconawFrontpic:    INCBIN "gfx/pokemon/skiddo/front.animated.2bpp.lz" ; +
+;SkiddoFrontpic:    INCBIN "gfx/pokemon/croconaw/front.animated.2bpp.lz" ; +
+;;CroconawFrontpic:    INCBIN "gfx/pokemon/croconaw/front.animated.2bpp.lz"
 HypnoFrontpic:       INCBIN "gfx/pokemon/hypno/front.animated.2bpp.lz"
 NidorinoFrontpic:    INCBIN "gfx/pokemon/nidorino/front.animated.2bpp.lz"
 SandslashFrontpic:   INCBIN "gfx/pokemon/sandslash/front.animated.2bpp.lz"
@@ -372,7 +375,10 @@ MankeyBackpic:       INCBIN "gfx/pokemon/mankey/back.2bpp.lz"
 MagmarBackpic:       INCBIN "gfx/pokemon/magmar/back.2bpp.lz"
 HypnoBackpic:        INCBIN "gfx/pokemon/hypno/back.2bpp.lz"
 QuilavaBackpic:      INCBIN "gfx/pokemon/quilava/back.2bpp.lz"
-CroconawBackpic:     INCBIN "gfx/pokemon/croconaw/back.2bpp.lz"
+SkiddoBackpic:     INCBIN "gfx/pokemon/skiddo/back.2bpp.lz" ; + ; +
+;CroconawBackpic:     INCBIN "gfx/pokemon/skiddo/back.2bpp.lz" ; +
+;SkiddoBackpic:     INCBIN "gfx/pokemon/croconaw/back.2bpp.lz" ; +
+;;CroconawBackpic:     INCBIN "gfx/pokemon/croconaw/back.2bpp.lz"
 SandshrewBackpic:    INCBIN "gfx/pokemon/sandshrew/back.2bpp.lz"
 SailorPic:           INCBIN "gfx/trainers/sailor.2bpp.lz"
 BeautyPic:           INCBIN "gfx/trainers/beauty.2bpp.lz"

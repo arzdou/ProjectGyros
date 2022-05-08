@@ -2240,8 +2240,23 @@ TalonflameEvosAttacks:
 	db 52, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-CroconawEvosAttacks:
-	db EVOLVE_LEVEL, 30, FERALIGATR
+;CroconawEvosAttacks:
+;	db EVOLVE_LEVEL, 30, FERALIGATR
+;	db 0 ; no more evolutions
+;	db 1, SCRATCH
+;	db 1, LEER
+;	db 1, RAGE
+;	db 7, RAGE
+;	db 13, WATER_GUN
+;	db 21, BITE
+;	db 28, SCARY_FACE
+;	db 37, SLASH
+;	db 45, SCREECH
+;	db 55, HYDRO_PUMP
+;	db 0 ; no more level-up moves
+
+SkiddoEvosAttacks:
+	db EVOLVE_LEVEL, 32, FERALIGATR ; GOGOAT
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER

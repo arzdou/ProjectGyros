@@ -163,7 +163,8 @@ AnimationIdlePointers:
 	dw TyphlosionAnimationIdle
 	dw TalonflameAnimationIdle ; +
 ;	dw TotodileAnimationIdle
-	dw CroconawAnimationIdle
+	dw SkiddoAnimationIdle ; +
+;	dw CroconawAnimationIdle
 	dw FeraligatrAnimationIdle
 	dw SentretAnimationIdle
 	dw FurretAnimationIdle

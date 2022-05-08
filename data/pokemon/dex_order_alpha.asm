@@ -35,7 +35,7 @@ AlphabeticalPokedexOrder:
 	db CLOYSTER
 	db CORSOLA
 	db CROBAT
-	db CROCONAW
+	; db CROCONAW
 	db CUBONE
 	db CYNDAQUIL
 	db DELIBIRD
@@ -202,6 +202,7 @@ AlphabeticalPokedexOrder:
 	db SHELLDER
 	db SHUCKLE
 	db SKARMORY
+	db SKIDDO  ; +
 	db SKIPLOOM
 	db SLOWBRO
 	db SLOWKING

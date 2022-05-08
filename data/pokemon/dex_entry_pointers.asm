@@ -164,7 +164,8 @@ PokedexDataPointerTable:
 	dw TyphlosionPokedexEntry
 	dw TalonflamePokedexEntry ; +
 ;	dw TotodilePokedexEntry
-	dw CroconawPokedexEntry
+	dw SkiddoPokedexEntry ; +
+;	dw CroconawPokedexEntry
 	dw FeraligatrPokedexEntry
 	dw SentretPokedexEntry
 	dw FurretPokedexEntry

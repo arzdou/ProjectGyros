@@ -165,7 +165,8 @@ MonMenuIcons:
 	db ICON_FOX         ; TYPHLOSION
 	db ICON_MONSTER     ; TALONFLAME ; +
 ;	db ICON_MONSTER     ; TOTODILE
-	db ICON_MONSTER     ; CROCONAW
+	db ICON_MONSTER     ; SKIDDO ; +
+;	db ICON_MONSTER     ; CROCONAW
 	db ICON_MONSTER     ; FERALIGATR
 	db ICON_FOX         ; SENTRET
 	db ICON_FOX         ; FURRET

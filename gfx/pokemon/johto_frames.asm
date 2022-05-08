@@ -19,7 +19,10 @@ TalonflameFrames:   INCLUDE "gfx/pokemon/talonflame/frames.asm" ; + ; +
 ;TotodileFrames:   INCLUDE "gfx/pokemon/talonflame/frames.asm" ; +
 ;TalonflameFrames:   INCLUDE "gfx/pokemon/totodile/frames.asm" ; +
 ;;TotodileFrames:   INCLUDE "gfx/pokemon/totodile/frames.asm"
-CroconawFrames:   INCLUDE "gfx/pokemon/croconaw/frames.asm"
+SkiddoFrames:   INCLUDE "gfx/pokemon/skiddo/frames.asm" ; + ; +
+;CroconawFrames:   INCLUDE "gfx/pokemon/skiddo/frames.asm" ; +
+;SkiddoFrames:   INCLUDE "gfx/pokemon/croconaw/frames.asm" ; +
+;;CroconawFrames:   INCLUDE "gfx/pokemon/croconaw/frames.asm"
 FeraligatrFrames: INCLUDE "gfx/pokemon/feraligatr/frames.asm"
 SentretFrames:    INCLUDE "gfx/pokemon/sentret/frames.asm"
 FurretFrames:     INCLUDE "gfx/pokemon/furret/frames.asm"
