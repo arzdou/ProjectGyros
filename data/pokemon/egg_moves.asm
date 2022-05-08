@@ -476,7 +476,16 @@ CyndaquilEggMoves:
 	db SUBMISSION
 	db -1 ; end
 
-TotodileEggMoves:
+;TotodileEggMoves:
+;	db CRUNCH
+;	db THRASH
+;	db HYDRO_PUMP
+;	db ANCIENTPOWER
+;	db RAZOR_WIND
+;	db ROCK_SLIDE
+;	db -1 ; end
+
+TalonflameEggMoves:
 	db CRUNCH
 	db THRASH
 	db HYDRO_PUMP

@@ -232,7 +232,10 @@ PikachuFrontpic:     INCBIN "gfx/pokemon/pikachu/front.animated.2bpp.lz"
 SeadraFrontpic:      INCBIN "gfx/pokemon/seadra/front.animated.2bpp.lz"
 MagbyFrontpic:       INCBIN "gfx/pokemon/magby/front.animated.2bpp.lz"
 WeepinbellFrontpic:  INCBIN "gfx/pokemon/weepinbell/front.animated.2bpp.lz"
-TotodileFrontpic:    INCBIN "gfx/pokemon/totodile/front.animated.2bpp.lz"
+TalonflameFrontpic:    INCBIN "gfx/pokemon/talonflame/front.animated.2bpp.lz" ; + ; +
+;TotodileFrontpic:    INCBIN "gfx/pokemon/talonflame/front.animated.2bpp.lz" ; +
+;TalonflameFrontpic:    INCBIN "gfx/pokemon/totodile/front.animated.2bpp.lz" ; +
+;;TotodileFrontpic:    INCBIN "gfx/pokemon/totodile/front.animated.2bpp.lz"
 CorsolaFrontpic:     INCBIN "gfx/pokemon/corsola/front.animated.2bpp.lz"
 FirebreatherPic:     INCBIN "gfx/trainers/firebreather.2bpp.lz"
 MachopFrontpic:      INCBIN "gfx/pokemon/machop/front.animated.2bpp.lz"
@@ -525,7 +528,10 @@ GravelerBackpic:     INCBIN "gfx/pokemon/graveler/back.2bpp.lz"
 AipomBackpic:        INCBIN "gfx/pokemon/aipom/back.2bpp.lz"
 EspeonBackpic:       INCBIN "gfx/pokemon/espeon/back.2bpp.lz"
 WeedleFrontpic:      INCBIN "gfx/pokemon/weedle/front.animated.2bpp.lz"
-TotodileBackpic:     INCBIN "gfx/pokemon/totodile/back.2bpp.lz"
+TalonflameBackpic:     INCBIN "gfx/pokemon/talonflame/back.2bpp.lz" ; + ; +
+;TotodileBackpic:     INCBIN "gfx/pokemon/talonflame/back.2bpp.lz" ; +
+;TalonflameBackpic:     INCBIN "gfx/pokemon/totodile/back.2bpp.lz" ; +
+;;TotodileBackpic:     INCBIN "gfx/pokemon/totodile/back.2bpp.lz"
 SnubbullBackpic:     INCBIN "gfx/pokemon/snubbull/back.2bpp.lz"
 KinglerBackpic:      INCBIN "gfx/pokemon/kingler/back.2bpp.lz"
 GengarBackpic:       INCBIN "gfx/pokemon/gengar/back.2bpp.lz"

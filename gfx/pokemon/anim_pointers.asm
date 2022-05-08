@@ -161,7 +161,8 @@ AnimationPointers:
 	dw CyndaquilAnimation
 	dw QuilavaAnimation
 	dw TyphlosionAnimation
-	dw TotodileAnimation
+	dw TalonflameAnimation ; +
+;	dw TotodileAnimation
 	dw CroconawAnimation
 	dw FeraligatrAnimation
 	dw SentretAnimation

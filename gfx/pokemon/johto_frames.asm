@@ -15,7 +15,10 @@ FletchinderFrames:   INCLUDE "gfx/pokemon/fletchinder/frames.asm" ; + ; +
 CyndaquilFrames:  INCLUDE "gfx/pokemon/cyndaquil/frames.asm"
 QuilavaFrames:    INCLUDE "gfx/pokemon/quilava/frames.asm"
 TyphlosionFrames: INCLUDE "gfx/pokemon/typhlosion/frames.asm"
-TotodileFrames:   INCLUDE "gfx/pokemon/totodile/frames.asm"
+TalonflameFrames:   INCLUDE "gfx/pokemon/talonflame/frames.asm" ; + ; +
+;TotodileFrames:   INCLUDE "gfx/pokemon/talonflame/frames.asm" ; +
+;TalonflameFrames:   INCLUDE "gfx/pokemon/totodile/frames.asm" ; +
+;;TotodileFrames:   INCLUDE "gfx/pokemon/totodile/frames.asm"
 CroconawFrames:   INCLUDE "gfx/pokemon/croconaw/frames.asm"
 FeraligatrFrames: INCLUDE "gfx/pokemon/feraligatr/frames.asm"
 SentretFrames:    INCLUDE "gfx/pokemon/sentret/frames.asm"

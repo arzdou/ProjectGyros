@@ -87,7 +87,8 @@ Rival1Group:
 
 	; RIVAL1 (3)
 	db "?@", TRAINERTYPE_NORMAL
-	db  5, TOTODILE
+	db  5, TALONFLAME ; +
+;	db  5, TOTODILE
 	db -1 ; end
 
 	; RIVAL1 (4)
@@ -214,7 +215,8 @@ PKMNTrainerGroup:
 	db 10, BIBAREL ; +
 ;	db 10, CHIKORITA
 	db 10, CYNDAQUIL
-	db 10, TOTODILE
+	db 10, TALONFLAME ; +
+;	db 10, TOTODILE
 	db -1 ; end
 
 	; CAL (2)

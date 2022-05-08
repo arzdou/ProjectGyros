@@ -159,7 +159,8 @@ EggMovePointers::
 	dw CyndaquilEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw TotodileEggMoves
+	dw TalonflameEggMoves ; +
+;	dw TotodileEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw SentretEggMoves

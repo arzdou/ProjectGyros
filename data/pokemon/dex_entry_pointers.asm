@@ -162,7 +162,8 @@ PokedexDataPointerTable:
 	dw CyndaquilPokedexEntry
 	dw QuilavaPokedexEntry
 	dw TyphlosionPokedexEntry
-	dw TotodilePokedexEntry
+	dw TalonflamePokedexEntry ; +
+;	dw TotodilePokedexEntry
 	dw CroconawPokedexEntry
 	dw FeraligatrPokedexEntry
 	dw SentretPokedexEntry

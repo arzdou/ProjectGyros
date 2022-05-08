@@ -365,7 +365,8 @@ INCBIN "gfx/footprints/fletchinder.1bpp",   footprint_top ; +
 INCBIN "gfx/footprints/cyndaquil.1bpp",  footprint_top
 INCBIN "gfx/footprints/quilava.1bpp",    footprint_top
 INCBIN "gfx/footprints/typhlosion.1bpp", footprint_top
-INCBIN "gfx/footprints/totodile.1bpp",   footprint_top
+INCBIN "gfx/footprints/talonflame.1bpp",   footprint_top ; +
+;INCBIN "gfx/footprints/totodile.1bpp",   footprint_top
 INCBIN "gfx/footprints/croconaw.1bpp",   footprint_top
 INCBIN "gfx/footprints/feraligatr.1bpp", footprint_top
 ; 153-160 bottom halves
@@ -376,7 +377,8 @@ INCBIN "gfx/footprints/fletchinder.1bpp",   footprint_bottom ; +
 INCBIN "gfx/footprints/cyndaquil.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/quilava.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/typhlosion.1bpp", footprint_bottom
-INCBIN "gfx/footprints/totodile.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/talonflame.1bpp",   footprint_bottom ; +
+;INCBIN "gfx/footprints/totodile.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/croconaw.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/feraligatr.1bpp", footprint_bottom
 ; 161-168 top halves

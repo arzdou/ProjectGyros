@@ -165,7 +165,10 @@ FletchinderAnimation:   INCLUDE "gfx/pokemon/fletchinder/anim.asm" ; + ; +
 CyndaquilAnimation:  INCLUDE "gfx/pokemon/cyndaquil/anim.asm"
 QuilavaAnimation:    INCLUDE "gfx/pokemon/quilava/anim.asm"
 TyphlosionAnimation: INCLUDE "gfx/pokemon/typhlosion/anim.asm"
-TotodileAnimation:   INCLUDE "gfx/pokemon/totodile/anim.asm"
+TalonflameAnimation:   INCLUDE "gfx/pokemon/talonflame/anim.asm" ; + ; +
+;TotodileAnimation:   INCLUDE "gfx/pokemon/talonflame/anim.asm" ; +
+;TalonflameAnimation:   INCLUDE "gfx/pokemon/totodile/anim.asm" ; +
+;;TotodileAnimation:   INCLUDE "gfx/pokemon/totodile/anim.asm"
 CroconawAnimation:   INCLUDE "gfx/pokemon/croconaw/anim.asm"
 FeraligatrAnimation: INCLUDE "gfx/pokemon/feraligatr/anim.asm"
 SentretAnimation:    INCLUDE "gfx/pokemon/sentret/anim.asm"

@@ -165,7 +165,10 @@ FletchinderAnimationIdle:   INCLUDE "gfx/pokemon/fletchinder/anim_idle.asm" ; + 
 CyndaquilAnimationIdle:  INCLUDE "gfx/pokemon/cyndaquil/anim_idle.asm"
 QuilavaAnimationIdle:    INCLUDE "gfx/pokemon/quilava/anim_idle.asm"
 TyphlosionAnimationIdle: INCLUDE "gfx/pokemon/typhlosion/anim_idle.asm"
-TotodileAnimationIdle:   INCLUDE "gfx/pokemon/totodile/anim_idle.asm"
+TalonflameAnimationIdle:   INCLUDE "gfx/pokemon/talonflame/anim_idle.asm" ; + ; +
+;TotodileAnimationIdle:   INCLUDE "gfx/pokemon/talonflame/anim_idle.asm" ; +
+;TalonflameAnimationIdle:   INCLUDE "gfx/pokemon/totodile/anim_idle.asm" ; +
+;;TotodileAnimationIdle:   INCLUDE "gfx/pokemon/totodile/anim_idle.asm"
 CroconawAnimationIdle:   INCLUDE "gfx/pokemon/croconaw/anim_idle.asm"
 FeraligatrAnimationIdle: INCLUDE "gfx/pokemon/feraligatr/anim_idle.asm"
 SentretAnimationIdle:    INCLUDE "gfx/pokemon/sentret/anim_idle.asm"

@@ -224,6 +224,7 @@ AlphabeticalPokedexOrder:
 	db SUNFLORA
 	db SUNKERN
 	db SWINUB
+	db TALONFLAME ; +
 	db TANGELA
 	db TAUROS
 	db TEDDIURSA
@@ -231,7 +232,7 @@ AlphabeticalPokedexOrder:
 	db TENTACRUEL
 	db TOGEPI
 	db TOGETIC
-	db TOTODILE
+	;db TOTODILE
 	db TYPHLOSION
 	db TYRANITAR
 	db TYROGUE

@@ -2212,7 +2212,21 @@ TyphlosionEvosAttacks:
 	db 60, FLAMETHROWER
 	db 0 ; no more level-up moves
 
-TotodileEvosAttacks:
+;TotodileEvosAttacks:
+;	db EVOLVE_LEVEL, 18, CROCONAW
+;	db 0 ; no more evolutions
+;	db 1, SCRATCH
+;	db 1, LEER
+;	db 7, RAGE
+;	db 13, WATER_GUN
+;	db 20, BITE
+;	db 27, SCARY_FACE
+;	db 35, SLASH
+;	db 43, SCREECH
+;	db 52, HYDRO_PUMP
+;	db 0 ; no more level-up moves
+
+TalonflameEvosAttacks:
 	db EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
 	db 1, SCRATCH

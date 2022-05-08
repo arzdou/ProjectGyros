@@ -161,7 +161,8 @@ FramesPointers:
 	dw CyndaquilFrames
 	dw QuilavaFrames
 	dw TyphlosionFrames
-	dw TotodileFrames
+	dw TalonflameFrames ; +
+;	dw TotodileFrames
 	dw CroconawFrames
 	dw FeraligatrFrames
 	dw SentretFrames

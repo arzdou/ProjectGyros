@@ -163,7 +163,8 @@ EvosAttacksPointers::
 	dw CyndaquilEvosAttacks
 	dw QuilavaEvosAttacks
 	dw TyphlosionEvosAttacks
-	dw TotodileEvosAttacks
+	dw TalonflameEvosAttacks ; +
+;	dw TotodileEvosAttacks
 	dw CroconawEvosAttacks
 	dw FeraligatrEvosAttacks
 	dw SentretEvosAttacks

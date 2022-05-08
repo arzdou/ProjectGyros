@@ -11,7 +11,8 @@ NewPokedexOrder:
 	db CYNDAQUIL
 	db QUILAVA
 	db TYPHLOSION
-	db TOTODILE
+	db TALONFLAME ; +
+;	db TOTODILE
 	db CROCONAW
 	db FERALIGATR
 	db PIDGEY

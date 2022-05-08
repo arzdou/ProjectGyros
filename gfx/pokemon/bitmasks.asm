@@ -165,7 +165,10 @@ FletchinderBitmasks:   INCLUDE "gfx/pokemon/fletchinder/bitmask.asm" ; + ; +
 CyndaquilBitmasks:  INCLUDE "gfx/pokemon/cyndaquil/bitmask.asm"
 QuilavaBitmasks:    INCLUDE "gfx/pokemon/quilava/bitmask.asm"
 TyphlosionBitmasks: INCLUDE "gfx/pokemon/typhlosion/bitmask.asm"
-TotodileBitmasks:   INCLUDE "gfx/pokemon/totodile/bitmask.asm"
+TalonflameBitmasks:   INCLUDE "gfx/pokemon/talonflame/bitmask.asm" ; + ; +
+;TotodileBitmasks:   INCLUDE "gfx/pokemon/talonflame/bitmask.asm" ; +
+;TalonflameBitmasks:   INCLUDE "gfx/pokemon/totodile/bitmask.asm" ; +
+;;TotodileBitmasks:   INCLUDE "gfx/pokemon/totodile/bitmask.asm"
 CroconawBitmasks:   INCLUDE "gfx/pokemon/croconaw/bitmask.asm"
 FeraligatrBitmasks: INCLUDE "gfx/pokemon/feraligatr/bitmask.asm"
 SentretBitmasks:    INCLUDE "gfx/pokemon/sentret/bitmask.asm"
