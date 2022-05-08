@@ -333,8 +333,10 @@ PokemonPicPointers::
 ;	dba_pic CroconawFrontpic
 	dba_pic SkiddoBackpic ; +
 ;	dba_pic CroconawBackpic
-	dba_pic FeraligatrFrontpic
-	dba_pic FeraligatrBackpic
+	dba_pic GogoatFrontpic ; +
+;	dba_pic FeraligatrFrontpic
+	dba_pic GogoatBackpic ; +
+;	dba_pic FeraligatrBackpic
 	dba_pic SentretFrontpic
 	dba_pic SentretBackpic
 	dba_pic FurretFrontpic

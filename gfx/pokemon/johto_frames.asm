@@ -23,7 +23,10 @@ SkiddoFrames:   INCLUDE "gfx/pokemon/skiddo/frames.asm" ; + ; +
 ;CroconawFrames:   INCLUDE "gfx/pokemon/skiddo/frames.asm" ; +
 ;SkiddoFrames:   INCLUDE "gfx/pokemon/croconaw/frames.asm" ; +
 ;;CroconawFrames:   INCLUDE "gfx/pokemon/croconaw/frames.asm"
-FeraligatrFrames: INCLUDE "gfx/pokemon/feraligatr/frames.asm"
+GogoatFrames: INCLUDE "gfx/pokemon/gogoat/frames.asm" ; + ; +
+;FeraligatrFrames: INCLUDE "gfx/pokemon/gogoat/frames.asm" ; +
+;GogoatFrames: INCLUDE "gfx/pokemon/feraligatr/frames.asm" ; +
+;;FeraligatrFrames: INCLUDE "gfx/pokemon/feraligatr/frames.asm"
 SentretFrames:    INCLUDE "gfx/pokemon/sentret/frames.asm"
 FurretFrames:     INCLUDE "gfx/pokemon/furret/frames.asm"
 HoothootFrames:   INCLUDE "gfx/pokemon/hoothoot/frames.asm"

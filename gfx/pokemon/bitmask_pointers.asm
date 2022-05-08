@@ -165,7 +165,8 @@ BitmasksPointers:
 ;	dw TotodileBitmasks
 	dw SkiddoBitmasks ; +
 ;	dw CroconawBitmasks
-	dw FeraligatrBitmasks
+	dw GogoatBitmasks ; +
+;	dw FeraligatrBitmasks
 	dw SentretBitmasks
 	dw FurretBitmasks
 	dw HoothootBitmasks

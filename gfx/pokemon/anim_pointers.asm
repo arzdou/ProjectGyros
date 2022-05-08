@@ -165,7 +165,8 @@ AnimationPointers:
 ;	dw TotodileAnimation
 	dw SkiddoAnimation ; +
 ;	dw CroconawAnimation
-	dw FeraligatrAnimation
+	dw GogoatAnimation ; +
+;	dw FeraligatrAnimation
 	dw SentretAnimation
 	dw FurretAnimation
 	dw HoothootAnimation

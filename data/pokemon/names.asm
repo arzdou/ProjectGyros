@@ -165,7 +165,8 @@ PokemonNames::
 ;	db "TOTODILE@@"
 	db "SKIDDO@@@@" ; +
 ;	db "CROCONAW@@"
-	db "FERALIGATR"
+	db "GOGOAT@@@@" ; +
+;	db "FERALIGATR"
 	db "SENTRET@@@"
 	db "FURRET@@@@"
 	db "HOOTHOOT@@"

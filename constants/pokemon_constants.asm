@@ -185,7 +185,8 @@ JOHTO_POKEMON EQU const_value
 ;	const TOTODILE   ; 9e
 	const SKIDDO   ; 9f ; +
 ;	const CROCONAW   ; 9f
-	const FERALIGATR ; a0
+	const GOGOAT ; a0 ; +
+;	const FERALIGATR ; a0
 	const SENTRET    ; a1
 	const FURRET     ; a2
 	const HOOTHOOT   ; a3

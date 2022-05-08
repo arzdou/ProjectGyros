@@ -173,7 +173,10 @@ SkiddoAnimationIdle:   INCLUDE "gfx/pokemon/skiddo/anim_idle.asm" ; + ; +
 ;CroconawAnimationIdle:   INCLUDE "gfx/pokemon/skiddo/anim_idle.asm" ; +
 ;SkiddoAnimationIdle:   INCLUDE "gfx/pokemon/croconaw/anim_idle.asm" ; +
 ;;CroconawAnimationIdle:   INCLUDE "gfx/pokemon/croconaw/anim_idle.asm"
-FeraligatrAnimationIdle: INCLUDE "gfx/pokemon/feraligatr/anim_idle.asm"
+GogoatAnimationIdle: INCLUDE "gfx/pokemon/gogoat/anim_idle.asm" ; + ; +
+;FeraligatrAnimationIdle: INCLUDE "gfx/pokemon/gogoat/anim_idle.asm" ; +
+;GogoatAnimationIdle: INCLUDE "gfx/pokemon/feraligatr/anim_idle.asm" ; +
+;;FeraligatrAnimationIdle: INCLUDE "gfx/pokemon/feraligatr/anim_idle.asm"
 SentretAnimationIdle:    INCLUDE "gfx/pokemon/sentret/anim_idle.asm"
 FurretAnimationIdle:     INCLUDE "gfx/pokemon/furret/anim_idle.asm"
 HoothootAnimationIdle:   INCLUDE "gfx/pokemon/hoothoot/anim_idle.asm"
