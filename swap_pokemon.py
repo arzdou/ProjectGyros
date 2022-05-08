@@ -250,8 +250,6 @@ if __name__ == "__main__":
             else: 
                 delete_dir = input('Not a valid answer, please retry (Y/n): ')
 
-        
-            
     os.rename('./gfx/footprints/'+old_pokemon+'.png', './gfx/footprints/'+new_pokemon+'.png')
     
     # Base stats
@@ -616,3 +614,12 @@ if __name__ == "__main__":
         path="./data/trainers/parties.asm",
         exit_if_error=False
     )
+    
+    # All wild encounters
+    for wild_path in os.listdir('./data/wild/'):
+        swap_and_comment(
+            old=old_pokemon.upper(),
+            new=new_pokemon.upper(),
+            path='./data/wild/'+wild_path,
+            exit_if_error=False
+        )
