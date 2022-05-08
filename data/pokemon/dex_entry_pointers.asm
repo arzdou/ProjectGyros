@@ -170,7 +170,8 @@ PokedexDataPointerTable:
 ;	dw FeraligatrPokedexEntry
 	dw SentretPokedexEntry
 	dw FurretPokedexEntry
-	dw HoothootPokedexEntry
+	dw MunchlaxPokedexEntry ; +
+;	dw HoothootPokedexEntry
 	dw NoctowlPokedexEntry
 	dw LedybaPokedexEntry
 	dw LedianPokedexEntry

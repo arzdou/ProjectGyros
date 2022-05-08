@@ -171,7 +171,8 @@ MonMenuIcons:
 ;	db ICON_MONSTER     ; FERALIGATR
 	db ICON_FOX         ; SENTRET
 	db ICON_FOX         ; FURRET
-	db ICON_BIRD        ; HOOTHOOT
+	db ICON_BIRD        ; MUNCHLAX ; +
+;	db ICON_BIRD        ; HOOTHOOT
 	db ICON_BIRD        ; NOCTOWL
 	db ICON_BUG         ; LEDYBA
 	db ICON_BUG         ; LEDIAN

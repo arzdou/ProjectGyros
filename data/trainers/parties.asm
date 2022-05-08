@@ -3115,7 +3115,8 @@ SageGroup:
 	; SAGE (4)
 	db "TROY@", TRAINERTYPE_NORMAL
 	db  7, BELLSPROUT
-	db  7, HOOTHOOT
+	db  7, MUNCHLAX ; +
+;	db  7, HOOTHOOT
 	db -1 ; end
 
 	; SAGE (5)
@@ -3148,7 +3149,8 @@ SageGroup:
 	db "LI@", TRAINERTYPE_NORMAL
 	db  7, BELLSPROUT
 	db  7, BELLSPROUT
-	db 10, HOOTHOOT
+	db 10, MUNCHLAX ; +
+;	db 10, HOOTHOOT
 	db -1 ; end
 
 	; SAGE (10)
@@ -3315,7 +3317,7 @@ PokefanMGroup:
 
 	; POKEFANM (15)
 	db "JORGE@", TRAINERTYPE_ITEM
-	db 5, FLETCHLING,  BERRY
+	db 5, TALONFLAME,  BERRY
 	db -1 ; end
 
 KimonoGirlGroup:

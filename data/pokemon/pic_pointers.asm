@@ -341,8 +341,10 @@ PokemonPicPointers::
 	dba_pic SentretBackpic
 	dba_pic FurretFrontpic
 	dba_pic FurretBackpic
-	dba_pic HoothootFrontpic
-	dba_pic HoothootBackpic
+	dba_pic MunchlaxFrontpic ; +
+;	dba_pic HoothootFrontpic
+	dba_pic MunchlaxBackpic ; +
+;	dba_pic HoothootBackpic
 	dba_pic NoctowlFrontpic
 	dba_pic NoctowlBackpic
 	dba_pic LedybaFrontpic

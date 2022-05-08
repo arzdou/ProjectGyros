@@ -2090,18 +2090,21 @@ MewEvosAttacks:
 ;	db 0 ; no more level-up moves
 
 BibarelEvosAttacks:
-	db EVOLVE_LEVEL, 16, FLETCHLING ; edit this in the future
+	; db EVOLVE_LEVEL, 15, BIDOOF
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 8, RAZOR_LEAF
-	db 12, REFLECT
-	db 15, POISONPOWDER
-	db 22, SYNTHESIS
-	db 29, BODY_SLAM
-	db 36, LIGHT_SCREEN
-	db 43, SAFEGUARD
-	db 50, SOLARBEAM
+	db 9, DEFENSE_CURL
+	db 13, ROLLOUT
+	db 15, WATER_GUN
+	db 18, HEADBUTT
+	db 23, HYPER_FANG
+	db 28, CRUNCH
+	db 33, AMNESIA
+	db 38, TAKE_DOWN
+	db 43, SWORDS_DANCE
+	db 43, SUPER_FANG
+	db 53, CURSE
 	db 0 ; no more level-up moves
 
 ;BayleefEvosAttacks:
@@ -2122,20 +2125,17 @@ BibarelEvosAttacks:
 ;	db 0 ; no more level-up moves
 
 FletchlingEvosAttacks:
-	db EVOLVE_LEVEL, 14, FLETCHINDER
+	db EVOLVE_LEVEL, 17, FLETCHINDER
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, RAZOR_LEAF
-	db 1, REFLECT
-	db 8, RAZOR_LEAF
-	db 12, REFLECT
-	db 15, POISONPOWDER
-	db 23, SYNTHESIS
-	db 31, BODY_SLAM
-	db 39, LIGHT_SCREEN
-	db 47, SAFEGUARD
-	db 55, SOLARBEAM
+	db 6, QUICK_ATTACK
+	db 10, EMBER
+	db 10, PECK
+	db 13, AGILITY
+	db 16, FLAIL
+	db 25, RAZOR_WIND
+	db 48, STEEL_WING
 	db 0 ; no more level-up moves
 
 
@@ -2156,20 +2156,17 @@ FletchlingEvosAttacks:
 ;	db 0 ; no more level-up moves
 
 FletchinderEvosAttacks:
-	db EVOLVE_LEVEL, 36, TALONFLAME
+	db EVOLVE_LEVEL, 35, TALONFLAME
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, RAZOR_LEAF
-	db 1, REFLECT
-	db 8, RAZOR_LEAF
-	db 12, REFLECT
-	db 15, POISONPOWDER
-	db 23, SYNTHESIS
-	db 31, BODY_SLAM
-	db 41, LIGHT_SCREEN
-	db 51, SAFEGUARD
-	db 61, SOLARBEAM
+	db 6, QUICK_ATTACK
+	db 10, PECK
+	db 13, AGILITY
+	db 16, FLAIL
+	db 17, EMBER
+	db 27, RAZOR_WIND
+	db 55, STEEL_WING
 	db 0 ; no more level-up moves
 
 CyndaquilEvosAttacks:
@@ -2229,15 +2226,15 @@ TyphlosionEvosAttacks:
 
 TalonflameEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 7, RAGE
-	db 13, WATER_GUN
-	db 20, BITE
-	db 27, SCARY_FACE
-	db 35, SLASH
-	db 43, SCREECH
-	db 52, HYDRO_PUMP
+	db 1, TACKLE
+	db 1, GROWL
+	db 6, QUICK_ATTACK
+	db 10, PECK
+	db 13, AGILITY
+	db 16, FLAIL
+	db 17, EMBER
+	db 27, RAZOR_WIND
+	db 60, STEEL_WING
 	db 0 ; no more level-up moves
 
 ;CroconawEvosAttacks:
@@ -2258,16 +2255,16 @@ TalonflameEvosAttacks:
 SkiddoEvosAttacks:
 	db EVOLVE_LEVEL, 32, GOGOAT
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 1, RAGE
-	db 7, RAGE
-	db 13, WATER_GUN
-	db 21, BITE
-	db 28, SCARY_FACE
-	db 37, SLASH
-	db 45, SCREECH
-	db 55, HYDRO_PUMP
+	db 1, TACKLE
+	db 1, GROWTH
+	db 7, VINE_WHIP
+	db 9, TAIL_WHIP
+	db 12, LEECH_SEED
+	db 13, RAZOR_LEAF
+	db 20, SYNTHESIS
+	db 22, TAKE_DOWN
+	db 38, DOUBLE_EDGE
+	db 50, MILK_DRINK
 	db 0 ; no more level-up moves
 
 ;FeraligatrEvosAttacks:
@@ -2287,17 +2284,17 @@ SkiddoEvosAttacks:
 
 GogoatEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 1, RAGE
-	db 1, WATER_GUN
-	db 7, RAGE
-	db 13, WATER_GUN
-	db 21, BITE
-	db 28, SCARY_FACE
-	db 38, SLASH
-	db 47, SCREECH
-	db 58, HYDRO_PUMP
+	db 1, TACKLE
+	db 1, GROWTH
+	db 7, VINE_WHIP
+	db 9, TAIL_WHIP
+	db 12, LEECH_SEED
+	db 13, RAZOR_LEAF
+	db 20, SYNTHESIS
+	db 22, TAKE_DOWN
+	db 40, DOUBLE_EDGE
+	db 58, MILK_DRINK
+	db 60, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
@@ -2325,19 +2322,34 @@ FurretEvosAttacks:
 	db 48, AMNESIA
 	db 0 ; no more level-up moves
 
-HoothootEvosAttacks:
-	db EVOLVE_LEVEL, 20, NOCTOWL
-	db 0 ; no more evolutions
+MunchlaxEvosAttacks: ; +
+	db EVOLVE_LEVEL, 25, SNORLAX ; Note: custom evo level
 	db 1, TACKLE
-	db 1, GROWL
-	db 6, FORESIGHT
-	db 11, PECK
-	db 16, HYPNOSIS
-	db 22, REFLECT
-	db 28, TAKE_DOWN
-	db 34, CONFUSION
-	db 48, DREAM_EATER
+	db 1, METRONOME
+	db 4, DEFENSE_CURL
+	db 9, AMNESIA
+	db 12, LICK
+	db 16, BITE
+	db 20, SCREECH
+	db 33, BODY_SLAM
+	db 41, ROLLOUT
+	db 44, FLAIL
+	db 44, BELLY_DRUM
 	db 0 ; no more level-up moves
+
+;HoothootEvosAttacks:
+;	db EVOLVE_LEVEL, 20, NOCTOWL
+;	db 0 ; no more evolutions
+;	db 1, TACKLE
+;	db 1, GROWL
+;	db 6, FORESIGHT
+;	db 11, PECK
+;	db 16, HYPNOSIS
+;	db 22, REFLECT
+;	db 28, TAKE_DOWN
+;	db 34, CONFUSION
+;	db 48, DREAM_EATER
+;	db 0 ; no more level-up moves
 
 NoctowlEvosAttacks:
 	db 0 ; no more evolutions

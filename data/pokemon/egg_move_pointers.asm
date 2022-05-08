@@ -165,7 +165,8 @@ EggMovePointers::
 	dw NoEggMoves
 	dw SentretEggMoves
 	dw NoEggMoves
-	dw HoothootEggMoves
+	dw MunchlaxEggMoves ; +
+;	dw HoothootEggMoves
 	dw NoEggMoves
 	dw LedybaEggMoves
 	dw NoEggMoves

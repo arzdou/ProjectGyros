@@ -179,7 +179,8 @@ GogoatBitmasks: INCLUDE "gfx/pokemon/gogoat/bitmask.asm" ; + ; +
 ;;FeraligatrBitmasks: INCLUDE "gfx/pokemon/feraligatr/bitmask.asm"
 SentretBitmasks:    INCLUDE "gfx/pokemon/sentret/bitmask.asm"
 FurretBitmasks:     INCLUDE "gfx/pokemon/furret/bitmask.asm"
-HoothootBitmasks:   INCLUDE "gfx/pokemon/hoothoot/bitmask.asm"
+MunchlaxBitmasks:   INCLUDE "gfx/pokemon/munchlax/bitmask.asm" ; + ; +
+;HoothootBitmasks:   INCLUDE "gfx/pokemon/munchlax/bitmask.asm" ; +
 NoctowlBitmasks:    INCLUDE "gfx/pokemon/noctowl/bitmask.asm"
 LedybaBitmasks:     INCLUDE "gfx/pokemon/ledyba/bitmask.asm"
 LedianBitmasks:     INCLUDE "gfx/pokemon/ledian/bitmask.asm"

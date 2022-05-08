@@ -502,14 +502,25 @@ SentretEggMoves:
 	db REVERSAL
 	db -1 ; end
 
-HoothootEggMoves:
-	db MIRROR_MOVE
-	db SUPERSONIC
-	db FAINT_ATTACK
-	db WING_ATTACK
+MunchlaxEggMoves:
 	db WHIRLWIND
-	db SKY_ATTACK
+	db DOUBLE_EDGE
+	db COUNTER
+	db FISSURE
+	db SUBSTITUTE
+	db CURSE
+	db CHARM
+	db PURSUIT
 	db -1 ; end
+
+;HoothootEggMoves:
+;	db MIRROR_MOVE
+;	db SUPERSONIC
+;	db FAINT_ATTACK
+;	db WING_ATTACK
+;	db WHIRLWIND
+;	db SKY_ATTACK
+;	db -1 ; end
 
 LedybaEggMoves:
 	db PSYBEAM
@@ -830,6 +841,11 @@ LarvitarEggMoves:
 	db OUTRAGE
 	db FOCUS_ENERGY
 	db ANCIENTPOWER
+	db -1 ; end
+
+SkiddoEggMoves:
+	db DEFENSE_CURL
+	db ROLLOUT
 	db -1 ; end
 
 NoEggMoves:
