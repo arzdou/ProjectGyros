@@ -150,7 +150,10 @@ DragonairBitmasks:  INCLUDE "gfx/pokemon/dragonair/bitmask.asm"
 DragoniteBitmasks:  INCLUDE "gfx/pokemon/dragonite/bitmask.asm"
 MewtwoBitmasks:     INCLUDE "gfx/pokemon/mewtwo/bitmask.asm"
 MewBitmasks:        INCLUDE "gfx/pokemon/mew/bitmask.asm"
-ChikoritaBitmasks:  INCLUDE "gfx/pokemon/chikorita/bitmask.asm"
+BibarelBitmasks:  INCLUDE "gfx/pokemon/bibarel/bitmask.asm" ; + ; +
+;ChikoritaBitmasks:  INCLUDE "gfx/pokemon/bibarel/bitmask.asm" ; +
+;BibarelBitmasks:  INCLUDE "gfx/pokemon/chikorita/bitmask.asm" ; +
+;;ChikoritaBitmasks:  INCLUDE "gfx/pokemon/chikorita/bitmask.asm"
 BayleefBitmasks:    INCLUDE "gfx/pokemon/bayleef/bitmask.asm"
 MeganiumBitmasks:   INCLUDE "gfx/pokemon/meganium/bitmask.asm"
 CyndaquilBitmasks:  INCLUDE "gfx/pokemon/cyndaquil/bitmask.asm"

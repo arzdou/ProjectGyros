@@ -153,7 +153,8 @@ PokedexDataPointerTable:
 	dw DragonitePokedexEntry
 	dw MewtwoPokedexEntry
 	dw MewPokedexEntry
-	dw ChikoritaPokedexEntry
+	dw BibarelPokedexEntry ; +
+;	dw ChikoritaPokedexEntry
 	dw BayleefPokedexEntry
 	dw MeganiumPokedexEntry
 	dw CyndaquilPokedexEntry

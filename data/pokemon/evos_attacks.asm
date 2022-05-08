@@ -2074,7 +2074,22 @@ MewEvosAttacks:
 	db 50, ANCIENTPOWER
 	db 0 ; no more level-up moves
 
-ChikoritaEvosAttacks:
+;ChikoritaEvosAttacks:
+;	db EVOLVE_LEVEL, 16, BAYLEEF
+;	db 0 ; no more evolutions
+;	db 1, TACKLE
+;	db 1, GROWL
+;	db 8, RAZOR_LEAF
+;	db 12, REFLECT
+;	db 15, POISONPOWDER
+;	db 22, SYNTHESIS
+;	db 29, BODY_SLAM
+;	db 36, LIGHT_SCREEN
+;	db 43, SAFEGUARD
+;	db 50, SOLARBEAM
+;	db 0 ; no more level-up moves
+
+BibarelEvosAttacks:
 	db EVOLVE_LEVEL, 16, BAYLEEF
 	db 0 ; no more evolutions
 	db 1, TACKLE

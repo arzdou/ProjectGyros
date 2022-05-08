@@ -150,7 +150,10 @@ DragonairAnimation:  INCLUDE "gfx/pokemon/dragonair/anim.asm"
 DragoniteAnimation:  INCLUDE "gfx/pokemon/dragonite/anim.asm"
 MewtwoAnimation:     INCLUDE "gfx/pokemon/mewtwo/anim.asm"
 MewAnimation:        INCLUDE "gfx/pokemon/mew/anim.asm"
-ChikoritaAnimation:  INCLUDE "gfx/pokemon/chikorita/anim.asm"
+BibarelAnimation:  INCLUDE "gfx/pokemon/bibarel/anim.asm" ; + ; +
+;ChikoritaAnimation:  INCLUDE "gfx/pokemon/bibarel/anim.asm" ; +
+;BibarelAnimation:  INCLUDE "gfx/pokemon/chikorita/anim.asm" ; +
+;;ChikoritaAnimation:  INCLUDE "gfx/pokemon/chikorita/anim.asm"
 BayleefAnimation:    INCLUDE "gfx/pokemon/bayleef/anim.asm"
 MeganiumAnimation:   INCLUDE "gfx/pokemon/meganium/anim.asm"
 CyndaquilAnimation:  INCLUDE "gfx/pokemon/cyndaquil/anim.asm"

@@ -449,7 +449,16 @@ DratiniEggMoves:
 	db SUPERSONIC
 	db -1 ; end
 
-ChikoritaEggMoves:
+;ChikoritaEggMoves:
+;	db VINE_WHIP
+;	db LEECH_SEED
+;	db COUNTER
+;	db ANCIENTPOWER
+;	db FLAIL
+;	db SWORDS_DANCE
+;	db -1 ; end
+
+BibarelEggMoves:
 	db VINE_WHIP
 	db LEECH_SEED
 	db COUNTER

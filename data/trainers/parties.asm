@@ -76,7 +76,8 @@ ClairGroup:
 Rival1Group:
 	; RIVAL1 (1)
 	db "?@", TRAINERTYPE_NORMAL
-	db  5, CHIKORITA
+	db  5, BIBAREL ; +
+;	db  5, CHIKORITA
 	db -1 ; end
 
 	; RIVAL1 (2)
@@ -206,7 +207,8 @@ WillGroup:
 PKMNTrainerGroup:
 	; CAL (1)
 	db "CAL@", TRAINERTYPE_NORMAL
-	db 10, CHIKORITA
+	db 10, BIBAREL ; +
+;	db 10, CHIKORITA
 	db 10, CYNDAQUIL
 	db 10, TOTODILE
 	db -1 ; end
@@ -3295,7 +3297,7 @@ PokefanMGroup:
 
 	; POKEFANM (15)
 	db "JORGE@", TRAINERTYPE_ITEM
-	db 5, MUDKIP,  BERRY
+	db 5, BIBAREL,  BERRY
 	db -1 ; end
 
 KimonoGirlGroup:

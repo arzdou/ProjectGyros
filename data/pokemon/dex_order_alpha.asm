@@ -16,6 +16,7 @@ AlphabeticalPokedexOrder:
 	db BEEDRILL
 	db BELLOSSOM
 	db BELLSPROUT
+	db BIBAREL  ; +
 	db BLASTOISE
 	db BLISSEY
 	db BULBASAUR
@@ -26,7 +27,7 @@ AlphabeticalPokedexOrder:
 	db CHARIZARD
 	db CHARMANDER
 	db CHARMELEON
-	db CHIKORITA
+	; db CHIKORITA
 	db CHINCHOU
 	db CLEFABLE
 	db CLEFAIRY

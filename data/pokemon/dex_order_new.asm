@@ -2,7 +2,8 @@
 
 NewPokedexOrder:
 	table_width 1, NewPokedexOrder
-	db CHIKORITA
+	db BIBAREL ; +
+;	db CHIKORITA
 	db BAYLEEF
 	db MEGANIUM
 	db CYNDAQUIL
