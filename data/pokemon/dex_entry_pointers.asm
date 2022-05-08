@@ -166,7 +166,8 @@ PokedexDataPointerTable:
 ;	dw TotodilePokedexEntry
 	dw SkiddoPokedexEntry ; +
 ;	dw CroconawPokedexEntry
-	dw FeraligatrPokedexEntry
+	dw GogoatPokedexEntry ; +
+;	dw FeraligatrPokedexEntry
 	dw SentretPokedexEntry
 	dw FurretPokedexEntry
 	dw HoothootPokedexEntry

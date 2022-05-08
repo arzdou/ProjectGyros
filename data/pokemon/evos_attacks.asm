@@ -2256,7 +2256,7 @@ TalonflameEvosAttacks:
 ;	db 0 ; no more level-up moves
 
 SkiddoEvosAttacks:
-	db EVOLVE_LEVEL, 32, FERALIGATR ; GOGOAT
+	db EVOLVE_LEVEL, 32, GOGOAT
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
@@ -2270,7 +2270,22 @@ SkiddoEvosAttacks:
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-FeraligatrEvosAttacks:
+;FeraligatrEvosAttacks:
+;	db 0 ; no more evolutions
+;	db 1, SCRATCH
+;	db 1, LEER
+;	db 1, RAGE
+;	db 1, WATER_GUN
+;	db 7, RAGE
+;	db 13, WATER_GUN
+;	db 21, BITE
+;	db 28, SCARY_FACE
+;	db 38, SLASH
+;	db 47, SCREECH
+;	db 58, HYDRO_PUMP
+;	db 0 ; no more level-up moves
+
+GogoatEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER

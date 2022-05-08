@@ -173,7 +173,10 @@ SkiddoAnimation:   INCLUDE "gfx/pokemon/skiddo/anim.asm" ; + ; +
 ;CroconawAnimation:   INCLUDE "gfx/pokemon/skiddo/anim.asm" ; +
 ;SkiddoAnimation:   INCLUDE "gfx/pokemon/croconaw/anim.asm" ; +
 ;;CroconawAnimation:   INCLUDE "gfx/pokemon/croconaw/anim.asm"
-FeraligatrAnimation: INCLUDE "gfx/pokemon/feraligatr/anim.asm"
+GogoatAnimation: INCLUDE "gfx/pokemon/gogoat/anim.asm" ; + ; +
+;FeraligatrAnimation: INCLUDE "gfx/pokemon/gogoat/anim.asm" ; +
+;GogoatAnimation: INCLUDE "gfx/pokemon/feraligatr/anim.asm" ; +
+;;FeraligatrAnimation: INCLUDE "gfx/pokemon/feraligatr/anim.asm"
 SentretAnimation:    INCLUDE "gfx/pokemon/sentret/anim.asm"
 FurretAnimation:     INCLUDE "gfx/pokemon/furret/anim.asm"
 HoothootAnimation:   INCLUDE "gfx/pokemon/hoothoot/anim.asm"

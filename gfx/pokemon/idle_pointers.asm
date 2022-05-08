@@ -165,7 +165,8 @@ AnimationIdlePointers:
 ;	dw TotodileAnimationIdle
 	dw SkiddoAnimationIdle ; +
 ;	dw CroconawAnimationIdle
-	dw FeraligatrAnimationIdle
+	dw GogoatAnimationIdle ; +
+;	dw FeraligatrAnimationIdle
 	dw SentretAnimationIdle
 	dw FurretAnimationIdle
 	dw HoothootAnimationIdle

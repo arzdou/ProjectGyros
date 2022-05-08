@@ -15,7 +15,8 @@ NewPokedexOrder:
 ;	db TOTODILE
 	db SKIDDO ; +
 ;	db CROCONAW
-	db FERALIGATR
+	db GOGOAT ; +
+;	db FERALIGATR
 	db PIDGEY
 	db PIDGEOTTO
 	db PIDGEOT

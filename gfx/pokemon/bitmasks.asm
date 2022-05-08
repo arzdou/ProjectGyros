@@ -173,7 +173,10 @@ SkiddoBitmasks:   INCLUDE "gfx/pokemon/skiddo/bitmask.asm" ; + ; +
 ;CroconawBitmasks:   INCLUDE "gfx/pokemon/skiddo/bitmask.asm" ; +
 ;SkiddoBitmasks:   INCLUDE "gfx/pokemon/croconaw/bitmask.asm" ; +
 ;;CroconawBitmasks:   INCLUDE "gfx/pokemon/croconaw/bitmask.asm"
-FeraligatrBitmasks: INCLUDE "gfx/pokemon/feraligatr/bitmask.asm"
+GogoatBitmasks: INCLUDE "gfx/pokemon/gogoat/bitmask.asm" ; + ; +
+;FeraligatrBitmasks: INCLUDE "gfx/pokemon/gogoat/bitmask.asm" ; +
+;GogoatBitmasks: INCLUDE "gfx/pokemon/feraligatr/bitmask.asm" ; +
+;;FeraligatrBitmasks: INCLUDE "gfx/pokemon/feraligatr/bitmask.asm"
 SentretBitmasks:    INCLUDE "gfx/pokemon/sentret/bitmask.asm"
 FurretBitmasks:     INCLUDE "gfx/pokemon/furret/bitmask.asm"
 HoothootBitmasks:   INCLUDE "gfx/pokemon/hoothoot/bitmask.asm"

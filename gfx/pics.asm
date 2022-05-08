@@ -25,7 +25,10 @@ SECTION "Pics 1", ROMX
 HoOhFrontpic:        INCBIN "gfx/pokemon/ho_oh/front.animated.2bpp.lz"
 MachampFrontpic:     INCBIN "gfx/pokemon/machamp/front.animated.2bpp.lz"
 NinetalesFrontpic:   INCBIN "gfx/pokemon/ninetales/front.animated.2bpp.lz"
-FeraligatrFrontpic:  INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
+GogoatFrontpic:  INCBIN "gfx/pokemon/gogoat/front.animated.2bpp.lz" ; + ; +
+;FeraligatrFrontpic:  INCBIN "gfx/pokemon/gogoat/front.animated.2bpp.lz" ; +
+;GogoatFrontpic:  INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz" ; +
+;;FeraligatrFrontpic:  INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
 NidokingFrontpic:    INCBIN "gfx/pokemon/nidoking/front.animated.2bpp.lz"
 RaikouFrontpic:      INCBIN "gfx/pokemon/raikou/front.animated.2bpp.lz"
 LugiaFrontpic:       INCBIN "gfx/pokemon/lugia/front.animated.2bpp.lz"
@@ -334,7 +337,10 @@ PinsirBackpic:       INCBIN "gfx/pokemon/pinsir/back.2bpp.lz"
 LassPic:             INCBIN "gfx/trainers/lass.2bpp.lz"
 ClefableBackpic:     INCBIN "gfx/pokemon/clefable/back.2bpp.lz"
 DoduoFrontpic:       INCBIN "gfx/pokemon/doduo/front.animated.2bpp.lz"
-FeraligatrBackpic:   INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
+GogoatBackpic:   INCBIN "gfx/pokemon/gogoat/back.2bpp.lz" ; + ; +
+;FeraligatrBackpic:   INCBIN "gfx/pokemon/gogoat/back.2bpp.lz" ; +
+;GogoatBackpic:   INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz" ; +
+;;FeraligatrBackpic:   INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
 DratiniFrontpic:     INCBIN "gfx/pokemon/dratini/front.animated.2bpp.lz"
 MagnetonBackpic:     INCBIN "gfx/pokemon/magneton/back.2bpp.lz"
 QwilfishFrontpic:    INCBIN "gfx/pokemon/qwilfish/front.animated.2bpp.lz"

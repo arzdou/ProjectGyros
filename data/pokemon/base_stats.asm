@@ -188,7 +188,8 @@ INCLUDE "data/pokemon/base_stats/talonflame.asm" ; +
 ;INCLUDE "data/pokemon/base_stats/totodile.asm"
 INCLUDE "data/pokemon/base_stats/skiddo.asm" ; +
 ;INCLUDE "data/pokemon/base_stats/croconaw.asm"
-INCLUDE "data/pokemon/base_stats/feraligatr.asm"
+INCLUDE "data/pokemon/base_stats/gogoat.asm" ; +
+;INCLUDE "data/pokemon/base_stats/feraligatr.asm"
 INCLUDE "data/pokemon/base_stats/sentret.asm"
 INCLUDE "data/pokemon/base_stats/furret.asm"
 INCLUDE "data/pokemon/base_stats/hoothoot.asm"

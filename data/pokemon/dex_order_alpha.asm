@@ -62,7 +62,7 @@ AlphabeticalPokedexOrder:
 	db EXEGGUTOR
 	db FARFETCH_D
 	db FEAROW
-	db FERALIGATR
+	;db FERALIGATR
 	db FLAAFFY
 	db FLAREON
 	db FLETCHINDER ; +
@@ -75,6 +75,7 @@ AlphabeticalPokedexOrder:
 	db GIRAFARIG
 	db GLIGAR
 	db GLOOM
+	db GOGOAT  ; +
 	db GOLBAT
 	db GOLDEEN
 	db GOLDUCK

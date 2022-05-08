@@ -369,7 +369,8 @@ INCBIN "gfx/footprints/talonflame.1bpp",   footprint_top ; +
 ;INCBIN "gfx/footprints/totodile.1bpp",   footprint_top
 INCBIN "gfx/footprints/skiddo.1bpp",   footprint_top ; +
 ;INCBIN "gfx/footprints/croconaw.1bpp",   footprint_top
-INCBIN "gfx/footprints/feraligatr.1bpp", footprint_top
+INCBIN "gfx/footprints/gogoat.1bpp", footprint_top ; +
+;INCBIN "gfx/footprints/feraligatr.1bpp", footprint_top
 ; 153-160 bottom halves
 INCBIN "gfx/footprints/fletchling.1bpp",    footprint_bottom ; +
 ;INCBIN "gfx/footprints/bayleef.1bpp",    footprint_bottom
@@ -382,7 +383,8 @@ INCBIN "gfx/footprints/talonflame.1bpp",   footprint_bottom ; +
 ;INCBIN "gfx/footprints/totodile.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/skiddo.1bpp",   footprint_bottom ; +
 ;INCBIN "gfx/footprints/croconaw.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/feraligatr.1bpp", footprint_bottom
+INCBIN "gfx/footprints/gogoat.1bpp", footprint_bottom ; +
+;INCBIN "gfx/footprints/feraligatr.1bpp", footprint_bottom
 ; 161-168 top halves
 INCBIN "gfx/footprints/sentret.1bpp",    footprint_top
 INCBIN "gfx/footprints/furret.1bpp",     footprint_top

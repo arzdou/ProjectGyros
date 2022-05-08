@@ -165,7 +165,8 @@ FramesPointers:
 ;	dw TotodileFrames
 	dw SkiddoFrames ; +
 ;	dw CroconawFrames
-	dw FeraligatrFrames
+	dw GogoatFrames ; +
+;	dw FeraligatrFrames
 	dw SentretFrames
 	dw FurretFrames
 	dw HoothootFrames

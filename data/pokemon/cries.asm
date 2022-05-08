@@ -171,7 +171,8 @@ PokemonCries::
 ;	mon_cry CRY_TOTODILE,   1132,  232 ; TOTODILE
 	mon_cry CRY_TOTODILE,   1088,  272 ; SKIDDO ; +
 ;	mon_cry CRY_TOTODILE,   1088,  272 ; CROCONAW
-	mon_cry CRY_TOTODILE,   1020,  384 ; FERALIGATR
+	mon_cry CRY_TOTODILE,   1020,  384 ; GOGOAT ; +
+;	mon_cry CRY_TOTODILE,   1020,  384 ; FERALIGATR
 	mon_cry CRY_SENTRET,     138,  184 ; SENTRET
 	mon_cry CRY_SENTRET,     107,  258 ; FURRET
 	mon_cry CRY_HOOTHOOT,    145,  216 ; HOOTHOOT
