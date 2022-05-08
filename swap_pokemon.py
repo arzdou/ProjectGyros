@@ -14,7 +14,9 @@
 # -----------------------------------------------------------
 
 import os, sys, logging, requests
+from shutil import rmtree
 from json.decoder import JSONDecodeError
+
 
 # Swap and comment function
 def swap_and_comment(old: str, new: str, path: str, comment=True, exit_if_error=True):
@@ -87,7 +89,7 @@ def call_pokeapi(pokemon_name):
     for m in item_text_asm.split('\n')[start_tm:end_tm]:
         if 'add_tm ' in m:
             move_name = ''.join(filter(lambda c: c.isupper() or c=='_', m))
-            tm_list.append(move_name)
+            tm_list.append(move_name[1:]) # The filtering carries an extra _
             
     level_moves = {}
     egg_moves = []
@@ -107,6 +109,11 @@ def call_pokeapi(pokemon_name):
         elif level > 0:
             level_moves[name] = level
     level_moves = dict(sorted(level_moves.items(), key=lambda item: item[1]))
+    
+    # Types
+    pokemon_types = [types_json['type']['name'].upper() for types_json in pokemon_data['types']]
+    if len(pokemon_types) == 1:
+        pokemon_types.append(pokemon_types[0])
     
     # Items
     held_items = [item['item']['name'].upper().replace('-', '_', 10) for item in pokemon_data['held_items']]
@@ -153,6 +160,10 @@ def call_pokeapi(pokemon_name):
         'no-eggs': 'EGG_NONE',
     }
     
+    egg_group = [egg_group_dict[egg_json['name']] for egg_json in species_data['egg_groups']]
+    if len(egg_group) == 1:
+        egg_group.append(egg_group[0])
+        
     # Species
     for s in species_data['genera']:
         if s['language']['name'] == 'en':
@@ -169,14 +180,14 @@ def call_pokeapi(pokemon_name):
         'name': pokemon_name,
         'species': species,
         'stats': {stat_json['stat']['name']: stat_json['base_stat'] for stat_json in pokemon_data['stats']},
-        'types': [types_json['type']['name'].upper() for types_json in pokemon_data['types']],
+        'types': pokemon_types,
         'items': held_items,
         'catch_rate': species_data['capture_rate'],
         'base_exp': pokemon_data['base_experience'],
         'gender_ratio': gender_ratio_dict[species_data['gender_rate']],
         'step_cycles': species_data['hatch_counter'],
         'growth_rate': growth_rate_dict[species_data['growth_rate']['name']],
-        'egg_groups': [egg_group_dict[egg_json['name']] for egg_json in species_data['egg_groups']],
+        'egg_groups': egg_group,
         'height': pokemon_data['height'],
         'weight': pokemon_data['weight'],
         'dex_entry': dex_entry,
@@ -190,14 +201,14 @@ def call_pokeapi(pokemon_name):
     return out
 
 if __name__ == "__main__":
-    
+      
     args = sys.argv
     if len(args) < 3:
         logging.error("Need two arguments to be able to perform the swap")
         sys.exit()
     if len(args) > 3:
         logging.warning("More than 2 arguments were given, only first two will be used")
-
+    
     old_pokemon = args[1].lower()
     new_pokemon = args[2].lower()
     
@@ -222,11 +233,32 @@ if __name__ == "__main__":
         path="./data/pokemon/names.asm"
     )
     
+    # Rename gfx pokemon and footprint directories to allow assembly
+    try: 
+        os.rename('./gfx/pokemon/'+old_pokemon, './gfx/pokemon/'+new_pokemon)
+    except FileExistsError:
+        delete_dir = input('An existent directory was found at %s, do you want to delete it? (Y/n): '%('./gfx/pokemon/'+new_pokemon))
+        while True:
+            if delete_dir.lower() in ['y', 'yes']:
+                print('Directory deleted')
+                rmtree('./gfx/pokemon/'+new_pokemon)
+                os.rename('./gfx/pokemon/'+old_pokemon, './gfx/pokemon/'+new_pokemon)
+                break
+            elif delete_dir.lower() in ['n', 'no']:
+                print('Directory was not deleted')
+                break
+            else: 
+                delete_dir = input('Not a valid answer, please retry (Y/n): ')
+
+        
+            
+    os.rename('./gfx/footprints/'+old_pokemon+'.png', './gfx/footprints/'+new_pokemon+'.png')
+    
     # Base stats
     # Construct a new file for the new pokemon
     base_stats_text = []
     base_stats_text.append('\tdb '+new_pokemon_data['name'].upper())
-    base_stats_text.append('\n')
+    base_stats_text.append('')
     base_stats_text.append(
         '\tdb ' + 
         str(new_pokemon_data['stats']['hp']) + ', ' + 
@@ -237,7 +269,7 @@ if __name__ == "__main__":
         str(new_pokemon_data['stats']['speed']) + ', ' 
     )
     base_stats_text.append('\t;   hp  atk  def  spd  sat  sdf')
-    base_stats_text.append('\n')
+    base_stats_text.append('')
     base_stats_text.append('\tdb ' + ', '.join(new_pokemon_data['types']) + ' ; type')
     base_stats_text.append('\tdb ' + str(new_pokemon_data['catch_rate']) + ' ; catch rate')
     base_stats_text.append('\tdb ' + str(new_pokemon_data['base_exp']) + ' ; base exp')
@@ -247,13 +279,14 @@ if __name__ == "__main__":
     base_stats_text.append('\tdb ' + str(new_pokemon_data['step_cycles']) + ' ; step cycles to hatch')
     base_stats_text.append('\tdb 5 ; unkown 2')
     base_stats_text.append('\tINCBIN "gfx/pokemon/' + new_pokemon_data['name'] + '/front.dimensions"')
-    base_stats_text.append('\tdb NULL, NULL ; unused (beta front/back pics)')
+    base_stats_text.append('\tdw NULL, NULL ; unused (beta front/back pics)')
     base_stats_text.append('\tdb ' + new_pokemon_data['growth_rate'] + ' ; growth rate')
-    base_stats_text.append('\tdb ' + ', '.join(new_pokemon_data['egg_groups']) + ' ; egg groups')
-    base_stats_text.append('\n')
+    base_stats_text.append('\tdn ' + ', '.join(new_pokemon_data['egg_groups']) + ' ; egg groups')
+    base_stats_text.append('')
     base_stats_text.append('\t; tm/hm learnset')
     base_stats_text.append('\ttmhm ' + ', '.join(new_pokemon_data['moves']['tm']))
-    base_stats_text.append('\n')
+    base_stats_text.append('\t; end')
+    base_stats_text.append('')
 
     with open('./data/pokemon/base_stats/%s.asm'%new_pokemon, 'w') as f:
         f.write('\n'.join(base_stats_text))
@@ -310,17 +343,17 @@ if __name__ == "__main__":
 
     # Check if there is a block of eggmoves for the old pokemon and comment it out
     if old_pokemon.capitalize()+'EggMoves' in egg_moves_text:
-        block_index_list = [i for i, b in enumerate(egg_moves_blocks) if old_pokemon.capitalize()+'EggMoves' in b]
+        block_index = [i for i, b in enumerate(egg_moves_blocks) if old_pokemon.capitalize()+'EggMoves' in b][0]
 
         commented_block = []
-        for l in egg_moves_blocks[block_index-1].split('\n'):
-            commented_block.append(';'+l)
+        for l in egg_moves_blocks[block_index].split('\n'):
+            commented_block.append(';' + l)
             
-        egg_moves_blocks[block_index-1] = '\n'.join(commented_block)
+        egg_moves_blocks[block_index] = '\n'.join(commented_block)
         
     else:
         # If no egg moves are found the inserting index is before NoEggMoves
-        block_index = 0
+        block_index = -1
 
     # If the new pokemon has egg moves, add a block in the asm file
     if new_pokemon_data['moves']['egg']:
@@ -329,7 +362,7 @@ if __name__ == "__main__":
         for m in new_pokemon_data['moves']['egg']:
             new_egg_moves.append('\tdb ' + m)
         new_egg_moves.append('\tdb -1 ; end')
-        egg_moves_blocks.insert(block_index-1, '\n'.join(new_egg_moves))
+        egg_moves_blocks.insert(block_index, '\n'.join(new_egg_moves))
     
     with open('./data/pokemon/egg_moves.asm', 'w') as f:
         f.write('\n\n'.join(egg_moves_blocks))
