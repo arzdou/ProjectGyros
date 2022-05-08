@@ -29,7 +29,8 @@ GogoatFrames: INCLUDE "gfx/pokemon/gogoat/frames.asm" ; + ; +
 ;;FeraligatrFrames: INCLUDE "gfx/pokemon/feraligatr/frames.asm"
 SentretFrames:    INCLUDE "gfx/pokemon/sentret/frames.asm"
 FurretFrames:     INCLUDE "gfx/pokemon/furret/frames.asm"
-HoothootFrames:   INCLUDE "gfx/pokemon/hoothoot/frames.asm"
+MunchlaxFrames:   INCLUDE "gfx/pokemon/munchlax/frames.asm" ; + ; +
+;HoothootFrames:   INCLUDE "gfx/pokemon/munchlax/frames.asm" ; +
 NoctowlFrames:    INCLUDE "gfx/pokemon/noctowl/frames.asm"
 LedybaFrames:     INCLUDE "gfx/pokemon/ledyba/frames.asm"
 LedianFrames:     INCLUDE "gfx/pokemon/ledian/frames.asm"

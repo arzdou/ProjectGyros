@@ -171,7 +171,8 @@ EvosAttacksPointers::
 ;	dw FeraligatrEvosAttacks
 	dw SentretEvosAttacks
 	dw FurretEvosAttacks
-	dw HoothootEvosAttacks
+	dw MunchlaxEvosAttacks ; +
+;	dw HoothootEvosAttacks
 	dw NoctowlEvosAttacks
 	dw LedybaEvosAttacks
 	dw LedianEvosAttacks

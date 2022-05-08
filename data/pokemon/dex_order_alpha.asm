@@ -91,7 +91,7 @@ AlphabeticalPokedexOrder:
 	db HITMONLEE
 	db HITMONTOP
 	db HO_OH
-	db HOOTHOOT
+;	db HOOTHOOT
 	db HOPPIP
 	db HORSEA
 	db HOUNDOOM
@@ -134,6 +134,7 @@ AlphabeticalPokedexOrder:
 	db MARILL
 	db MAROWAK
 	; db MEGANIUM
+	db MUNCHLAX
 	db MEOWTH
 	db METAPOD
 	db MEW

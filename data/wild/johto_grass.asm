@@ -21,13 +21,13 @@ JohtoGrassWildMons:
 	db 3, HOPPIP
 	db 3, HOPPIP
 	; nite
-	db 2, HOOTHOOT
+	db 2, MUNCHLAX
 	db 2, RATTATA
-	db 3, HOOTHOOT
+	db 3, MUNCHLAX
 	db 3, RATTATA
 	db 2, RATTATA
-	db 3, HOOTHOOT
-	db 3, HOOTHOOT
+	db 3, MUNCHLAX
+	db 3, MUNCHLAX
 	end_grass_wildmons
 
 	db -1 ; end

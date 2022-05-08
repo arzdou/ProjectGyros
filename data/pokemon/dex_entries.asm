@@ -180,7 +180,8 @@ SkiddoPokedexEntry::     INCLUDE "data/pokemon/dex_entries/skiddo.asm"
 GogoatPokedexEntry::     INCLUDE "data/pokemon/dex_entries/gogoat.asm"
 SentretPokedexEntry::    INCLUDE "data/pokemon/dex_entries/sentret.asm"
 FurretPokedexEntry::     INCLUDE "data/pokemon/dex_entries/furret.asm"
-HoothootPokedexEntry::   INCLUDE "data/pokemon/dex_entries/hoothoot.asm"
+MunchlaxPokedexEntry::   INCLUDE "data/pokemon/dex_entries/munchlax.asm" ; + ; +
+;HoothootPokedexEntry::   INCLUDE "data/pokemon/dex_entries/munchlax.asm" ; +
 NoctowlPokedexEntry::    INCLUDE "data/pokemon/dex_entries/noctowl.asm"
 LedybaPokedexEntry::     INCLUDE "data/pokemon/dex_entries/ledyba.asm"
 LedianPokedexEntry::     INCLUDE "data/pokemon/dex_entries/ledian.asm"

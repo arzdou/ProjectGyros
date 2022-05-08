@@ -209,7 +209,8 @@ Pokered_MonIndices:
 ;	db FERALIGATR
 	db SENTRET
 	db FURRET
-	db HOOTHOOT
+	db MUNCHLAX ; +
+;	db HOOTHOOT
 	db NOCTOWL
 	db LEDYBA
 	db LEDIAN

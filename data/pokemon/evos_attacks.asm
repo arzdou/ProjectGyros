@@ -2325,19 +2325,34 @@ FurretEvosAttacks:
 	db 48, AMNESIA
 	db 0 ; no more level-up moves
 
-HoothootEvosAttacks:
-	db EVOLVE_LEVEL, 20, NOCTOWL
-	db 0 ; no more evolutions
+MunchlaxEvosAttacks: ; +
+	db 0 ; ADD YOUR EVOLUTION
 	db 1, TACKLE
-	db 1, GROWL
-	db 6, FORESIGHT
-	db 11, PECK
-	db 16, HYPNOSIS
-	db 22, REFLECT
-	db 28, TAKE_DOWN
-	db 34, CONFUSION
-	db 48, DREAM_EATER
+	db 1, METRONOME
+	db 4, DEFENSE_CURL
+	db 9, AMNESIA
+	db 12, LICK
+	db 16, BITE
+	db 20, SCREECH
+	db 33, BODY_SLAM
+	db 41, ROLLOUT
+	db 44, FLAIL
+	db 44, BELLY_DRUM
 	db 0 ; no more level-up moves
+
+;HoothootEvosAttacks:
+;	db EVOLVE_LEVEL, 20, NOCTOWL
+;	db 0 ; no more evolutions
+;	db 1, TACKLE
+;	db 1, GROWL
+;	db 6, FORESIGHT
+;	db 11, PECK
+;	db 16, HYPNOSIS
+;	db 22, REFLECT
+;	db 28, TAKE_DOWN
+;	db 34, CONFUSION
+;	db 48, DREAM_EATER
+;	db 0 ; no more level-up moves
 
 NoctowlEvosAttacks:
 	db 0 ; no more evolutions

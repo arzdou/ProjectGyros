@@ -169,7 +169,8 @@ AnimationPointers:
 ;	dw FeraligatrAnimation
 	dw SentretAnimation
 	dw FurretAnimation
-	dw HoothootAnimation
+	dw MunchlaxAnimation ; +
+;	dw HoothootAnimation
 	dw NoctowlAnimation
 	dw LedybaAnimation
 	dw LedianAnimation

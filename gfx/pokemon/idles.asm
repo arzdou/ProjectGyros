@@ -179,7 +179,8 @@ GogoatAnimationIdle: INCLUDE "gfx/pokemon/gogoat/anim_idle.asm" ; + ; +
 ;;FeraligatrAnimationIdle: INCLUDE "gfx/pokemon/feraligatr/anim_idle.asm"
 SentretAnimationIdle:    INCLUDE "gfx/pokemon/sentret/anim_idle.asm"
 FurretAnimationIdle:     INCLUDE "gfx/pokemon/furret/anim_idle.asm"
-HoothootAnimationIdle:   INCLUDE "gfx/pokemon/hoothoot/anim_idle.asm"
+MunchlaxAnimationIdle:   INCLUDE "gfx/pokemon/munchlax/anim_idle.asm" ; + ; +
+;HoothootAnimationIdle:   INCLUDE "gfx/pokemon/munchlax/anim_idle.asm" ; +
 NoctowlAnimationIdle:    INCLUDE "gfx/pokemon/noctowl/anim_idle.asm"
 LedybaAnimationIdle:     INCLUDE "gfx/pokemon/ledyba/anim_idle.asm"
 LedianAnimationIdle:     INCLUDE "gfx/pokemon/ledian/anim_idle.asm"

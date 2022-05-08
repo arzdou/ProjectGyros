@@ -179,7 +179,8 @@ GogoatAnimation: INCLUDE "gfx/pokemon/gogoat/anim.asm" ; + ; +
 ;;FeraligatrAnimation: INCLUDE "gfx/pokemon/feraligatr/anim.asm"
 SentretAnimation:    INCLUDE "gfx/pokemon/sentret/anim.asm"
 FurretAnimation:     INCLUDE "gfx/pokemon/furret/anim.asm"
-HoothootAnimation:   INCLUDE "gfx/pokemon/hoothoot/anim.asm"
+MunchlaxAnimation:   INCLUDE "gfx/pokemon/munchlax/anim.asm" ; + ; +
+;HoothootAnimation:   INCLUDE "gfx/pokemon/munchlax/anim.asm" ; +
 NoctowlAnimation:    INCLUDE "gfx/pokemon/noctowl/anim.asm"
 LedybaAnimation:     INCLUDE "gfx/pokemon/ledyba/anim.asm"
 LedianAnimation:     INCLUDE "gfx/pokemon/ledian/anim.asm"
