@@ -1,21 +1,21 @@
-	db TALONFLAME ; 158
+	db TALONFLAME
 
-	db  50,  65,  64,  43,  44,  48
+	db 78, 81, 71, 69, 74, 126, 
 	;   hp  atk  def  spd  sat  sdf
 
-	db WATER, WATER ; type
+	db FIRE, FLYING ; type
 	db 45 ; catch rate
-	db 66 ; base exp
+	db 175 ; base exp
 	db NO_ITEM, NO_ITEM ; items
-	db GENDER_F12_5 ; gender ratio
-	db 100 ; unknown 1
-	db 20 ; step cycles to hatch
-	db 5 ; unknown 2
+	db GENDER_F50 ; gender ratio
+	db 100 ; unkown 1
+	db 15 ; step cycles to hatch
+	db 5 ; unkown 2
 	INCBIN "gfx/pokemon/talonflame/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_MONSTER, EGG_WATER_1 ; egg groups
+	dn EGG_FLYING, EGG_FLYING ; egg groups
 
 	; tm/hm learnset
-	tmhm DYNAMICPUNCH, HEADBUTT, CURSE, TOXIC, HIDDEN_POWER, SNORE, BLIZZARD, ICY_WIND, PROTECT, RAIN_DANCE, ENDURE, FRUSTRATION, IRON_TAIL, RETURN, DIG, MUD_SLAP, DOUBLE_TEAM, ICE_PUNCH, SWAGGER, SLEEP_TALK, DETECT, REST, ATTRACT, CUT, SURF, WHIRLPOOL, ICE_BEAM
+	tmhm HYPER_BEAM, TOXIC, DOUBLE_TEAM, FIRE_BLAST, SWIFT, REST, THIEF, SNORE, PROTECT, ENDURE, SWAGGER, ATTRACT, SLEEP_TALK, RETURN, FRUSTRATION, HIDDEN_POWER, SUNNY_DAY
 	; end

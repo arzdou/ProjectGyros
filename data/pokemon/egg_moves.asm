@@ -843,5 +843,10 @@ LarvitarEggMoves:
 	db ANCIENTPOWER
 	db -1 ; end
 
+SkiddoEggMoves:
+	db DEFENSE_CURL
+	db ROLLOUT
+	db -1 ; end
+
 NoEggMoves:
 	db -1 ; end
