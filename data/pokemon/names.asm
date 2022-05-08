@@ -154,7 +154,8 @@ PokemonNames::
 	db "MEW@@@@@@@"
 	db "BIBAREL@@@" ; +
 ;	db "CHIKORITA@"
-	db "BAYLEEF@@@"
+	db "FLETCHLING" ; +
+;	db "BAYLEEF@@@"
 	db "MEGANIUM@@"
 	db "CYNDAQUIL@"
 	db "QUILAVA@@@"

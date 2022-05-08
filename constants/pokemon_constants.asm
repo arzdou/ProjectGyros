@@ -174,7 +174,8 @@
 JOHTO_POKEMON EQU const_value
 	const BIBAREL  ; 98 ; +
 ;	const CHIKORITA  ; 98
-	const BAYLEEF    ; 99
+	const FLETCHLING    ; 99 ; +
+;	const BAYLEEF    ; 99
 	const MEGANIUM   ; 9a
 	const CYNDAQUIL  ; 9b
 	const QUILAVA    ; 9c

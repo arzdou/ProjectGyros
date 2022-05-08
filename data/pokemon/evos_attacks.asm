@@ -2090,7 +2090,7 @@ MewEvosAttacks:
 ;	db 0 ; no more level-up moves
 
 BibarelEvosAttacks:
-	db EVOLVE_LEVEL, 16, BAYLEEF
+	db EVOLVE_LEVEL, 16, FLETCHLING ; edit this in the future
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2104,7 +2104,24 @@ BibarelEvosAttacks:
 	db 50, SOLARBEAM
 	db 0 ; no more level-up moves
 
-BayleefEvosAttacks:
+;BayleefEvosAttacks:
+;	db EVOLVE_LEVEL, 32, MEGANIUM
+;	db 0 ; no more evolutions
+;	db 1, TACKLE
+;	db 1, GROWL
+;	db 1, RAZOR_LEAF
+;	db 1, REFLECT
+;	db 8, RAZOR_LEAF
+;	db 12, REFLECT
+;	db 15, POISONPOWDER
+;	db 23, SYNTHESIS
+;	db 31, BODY_SLAM
+;	db 39, LIGHT_SCREEN
+;	db 47, SAFEGUARD
+;	db 55, SOLARBEAM
+;	db 0 ; no more level-up moves
+
+FletchlingEvosAttacks:
 	db EVOLVE_LEVEL, 32, MEGANIUM
 	db 0 ; no more evolutions
 	db 1, TACKLE
@@ -2120,6 +2137,7 @@ BayleefEvosAttacks:
 	db 47, SAFEGUARD
 	db 55, SOLARBEAM
 	db 0 ; no more level-up moves
+
 
 MeganiumEvosAttacks:
 	db 0 ; no more evolutions

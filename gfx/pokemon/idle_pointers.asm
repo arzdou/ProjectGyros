@@ -154,7 +154,8 @@ AnimationIdlePointers:
 	dw MewAnimationIdle
 	dw BibarelAnimationIdle ; +
 ;	dw ChikoritaAnimationIdle
-	dw BayleefAnimationIdle
+	dw FletchlingAnimationIdle ; +
+;	dw BayleefAnimationIdle
 	dw MeganiumAnimationIdle
 	dw CyndaquilAnimationIdle
 	dw QuilavaAnimationIdle

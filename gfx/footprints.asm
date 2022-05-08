@@ -358,7 +358,8 @@ INCBIN "gfx/footprints/mew.1bpp",        footprint_bottom
 INCBIN "gfx/footprints/bibarel.1bpp",  footprint_bottom ; +
 ;INCBIN "gfx/footprints/chikorita.1bpp",  footprint_bottom
 ; 153-160 top halves
-INCBIN "gfx/footprints/bayleef.1bpp",    footprint_top
+INCBIN "gfx/footprints/fletchling.1bpp",    footprint_top ; +
+;INCBIN "gfx/footprints/bayleef.1bpp",    footprint_top
 INCBIN "gfx/footprints/meganium.1bpp",   footprint_top
 INCBIN "gfx/footprints/cyndaquil.1bpp",  footprint_top
 INCBIN "gfx/footprints/quilava.1bpp",    footprint_top
@@ -367,7 +368,8 @@ INCBIN "gfx/footprints/totodile.1bpp",   footprint_top
 INCBIN "gfx/footprints/croconaw.1bpp",   footprint_top
 INCBIN "gfx/footprints/feraligatr.1bpp", footprint_top
 ; 153-160 bottom halves
-INCBIN "gfx/footprints/bayleef.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/fletchling.1bpp",    footprint_bottom ; +
+;INCBIN "gfx/footprints/bayleef.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/meganium.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/cyndaquil.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/quilava.1bpp",    footprint_bottom

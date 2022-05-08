@@ -156,7 +156,8 @@ MonMenuIcons:
 	db ICON_HUMANSHAPE  ; MEW
 	db ICON_ODDISH      ; BIBAREL ; +
 ;	db ICON_ODDISH      ; CHIKORITA
-	db ICON_ODDISH      ; BAYLEEF
+	db ICON_ODDISH      ; FLETCHLING ; +
+;	db ICON_ODDISH      ; BAYLEEF
 	db ICON_ODDISH      ; MEGANIUM
 	db ICON_FOX         ; CYNDAQUIL
 	db ICON_FOX         ; QUILAVA

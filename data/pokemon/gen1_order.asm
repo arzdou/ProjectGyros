@@ -194,7 +194,8 @@ Pokered_MonIndices:
 	assert_table_length 190 ; gen 1 mon indexes
 	db BIBAREL ; +
 ;	db CHIKORITA
-	db BAYLEEF
+	db FLETCHLING ; +
+;	db BAYLEEF
 	db MEGANIUM
 	db CYNDAQUIL
 	db QUILAVA

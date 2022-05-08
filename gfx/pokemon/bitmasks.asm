@@ -154,7 +154,10 @@ BibarelBitmasks:  INCLUDE "gfx/pokemon/bibarel/bitmask.asm" ; + ; +
 ;ChikoritaBitmasks:  INCLUDE "gfx/pokemon/bibarel/bitmask.asm" ; +
 ;BibarelBitmasks:  INCLUDE "gfx/pokemon/chikorita/bitmask.asm" ; +
 ;;ChikoritaBitmasks:  INCLUDE "gfx/pokemon/chikorita/bitmask.asm"
-BayleefBitmasks:    INCLUDE "gfx/pokemon/bayleef/bitmask.asm"
+FletchlingBitmasks:    INCLUDE "gfx/pokemon/fletchling/bitmask.asm" ; + ; +
+;BayleefBitmasks:    INCLUDE "gfx/pokemon/fletchling/bitmask.asm" ; +
+;FletchlingBitmasks:    INCLUDE "gfx/pokemon/bayleef/bitmask.asm" ; +
+;;BayleefBitmasks:    INCLUDE "gfx/pokemon/bayleef/bitmask.asm"
 MeganiumBitmasks:   INCLUDE "gfx/pokemon/meganium/bitmask.asm"
 CyndaquilBitmasks:  INCLUDE "gfx/pokemon/cyndaquil/bitmask.asm"
 QuilavaBitmasks:    INCLUDE "gfx/pokemon/quilava/bitmask.asm"

@@ -177,7 +177,8 @@ INCLUDE "data/pokemon/base_stats/mewtwo.asm"
 INCLUDE "data/pokemon/base_stats/mew.asm"
 INCLUDE "data/pokemon/base_stats/bibarel.asm" ; +
 ;INCLUDE "data/pokemon/base_stats/chikorita.asm"
-INCLUDE "data/pokemon/base_stats/bayleef.asm"
+INCLUDE "data/pokemon/base_stats/fletchling.asm" ; +
+;INCLUDE "data/pokemon/base_stats/bayleef.asm"
 INCLUDE "data/pokemon/base_stats/meganium.asm"
 INCLUDE "data/pokemon/base_stats/cyndaquil.asm"
 INCLUDE "data/pokemon/base_stats/quilava.asm"

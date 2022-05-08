@@ -154,7 +154,8 @@ FramesPointers:
 	dw MewFrames
 	dw BibarelFrames ; +
 ;	dw ChikoritaFrames
-	dw BayleefFrames
+	dw FletchlingFrames ; +
+;	dw BayleefFrames
 	dw MeganiumFrames
 	dw CyndaquilFrames
 	dw QuilavaFrames

@@ -4,7 +4,10 @@ BibarelFrames:  INCLUDE "gfx/pokemon/bibarel/frames.asm" ; + ; +
 ;ChikoritaFrames:  INCLUDE "gfx/pokemon/bibarel/frames.asm" ; +
 ;BibarelFrames:  INCLUDE "gfx/pokemon/chikorita/frames.asm" ; +
 ;;ChikoritaFrames:  INCLUDE "gfx/pokemon/chikorita/frames.asm"
-BayleefFrames:    INCLUDE "gfx/pokemon/bayleef/frames.asm"
+FletchlingFrames:    INCLUDE "gfx/pokemon/fletchling/frames.asm" ; + ; +
+;BayleefFrames:    INCLUDE "gfx/pokemon/fletchling/frames.asm" ; +
+;FletchlingFrames:    INCLUDE "gfx/pokemon/bayleef/frames.asm" ; +
+;;BayleefFrames:    INCLUDE "gfx/pokemon/bayleef/frames.asm"
 MeganiumFrames:   INCLUDE "gfx/pokemon/meganium/frames.asm"
 CyndaquilFrames:  INCLUDE "gfx/pokemon/cyndaquil/frames.asm"
 QuilavaFrames:    INCLUDE "gfx/pokemon/quilava/frames.asm"

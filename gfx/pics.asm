@@ -144,7 +144,10 @@ NidorinaFrontpic:    INCBIN "gfx/pokemon/nidorina/front.animated.2bpp.lz"
 FlareonFrontpic:     INCBIN "gfx/pokemon/flareon/front.animated.2bpp.lz"
 FarfetchDFrontpic:   INCBIN "gfx/pokemon/farfetch_d/front.animated.2bpp.lz"
 VileplumeFrontpic:   INCBIN "gfx/pokemon/vileplume/front.animated.2bpp.lz"
-BayleefFrontpic:     INCBIN "gfx/pokemon/bayleef/front.animated.2bpp.lz"
+FletchlingFrontpic:     INCBIN "gfx/pokemon/fletchling/front.animated.2bpp.lz" ; + ; +
+;BayleefFrontpic:     INCBIN "gfx/pokemon/fletchling/front.animated.2bpp.lz" ; +
+;FletchlingFrontpic:     INCBIN "gfx/pokemon/bayleef/front.animated.2bpp.lz" ; +
+;;BayleefFrontpic:     INCBIN "gfx/pokemon/bayleef/front.animated.2bpp.lz"
 MagmarFrontpic:      INCBIN "gfx/pokemon/magmar/front.animated.2bpp.lz"
 TentacruelFrontpic:  INCBIN "gfx/pokemon/tentacruel/front.animated.2bpp.lz"
 ElekidFrontpic:      INCBIN "gfx/pokemon/elekid/front.animated.2bpp.lz"
@@ -351,7 +354,10 @@ FarfetchDBackpic:    INCBIN "gfx/pokemon/farfetch_d/back.2bpp.lz"
 NidoranMBackpic:     INCBIN "gfx/pokemon/nidoran_m/back.2bpp.lz"
 LedybaBackpic:       INCBIN "gfx/pokemon/ledyba/back.2bpp.lz"
 CyndaquilBackpic:    INCBIN "gfx/pokemon/cyndaquil/back.2bpp.lz"
-BayleefBackpic:      INCBIN "gfx/pokemon/bayleef/back.2bpp.lz"
+FletchlingBackpic:      INCBIN "gfx/pokemon/fletchling/back.2bpp.lz" ; + ; +
+;BayleefBackpic:      INCBIN "gfx/pokemon/fletchling/back.2bpp.lz" ; +
+;FletchlingBackpic:      INCBIN "gfx/pokemon/bayleef/back.2bpp.lz" ; +
+;;BayleefBackpic:      INCBIN "gfx/pokemon/bayleef/back.2bpp.lz"
 OddishFrontpic:      INCBIN "gfx/pokemon/oddish/front.animated.2bpp.lz"
 RapidashBackpic:     INCBIN "gfx/pokemon/rapidash/back.2bpp.lz"
 DoduoBackpic:        INCBIN "gfx/pokemon/doduo/back.2bpp.lz"

@@ -154,7 +154,10 @@ BibarelAnimationIdle:  INCLUDE "gfx/pokemon/bibarel/anim_idle.asm" ; + ; +
 ;ChikoritaAnimationIdle:  INCLUDE "gfx/pokemon/bibarel/anim_idle.asm" ; +
 ;BibarelAnimationIdle:  INCLUDE "gfx/pokemon/chikorita/anim_idle.asm" ; +
 ;;ChikoritaAnimationIdle:  INCLUDE "gfx/pokemon/chikorita/anim_idle.asm"
-BayleefAnimationIdle:    INCLUDE "gfx/pokemon/bayleef/anim_idle.asm"
+FletchlingAnimationIdle:    INCLUDE "gfx/pokemon/fletchling/anim_idle.asm" ; + ; +
+;BayleefAnimationIdle:    INCLUDE "gfx/pokemon/fletchling/anim_idle.asm" ; +
+;FletchlingAnimationIdle:    INCLUDE "gfx/pokemon/bayleef/anim_idle.asm" ; +
+;;BayleefAnimationIdle:    INCLUDE "gfx/pokemon/bayleef/anim_idle.asm"
 MeganiumAnimationIdle:   INCLUDE "gfx/pokemon/meganium/anim_idle.asm"
 CyndaquilAnimationIdle:  INCLUDE "gfx/pokemon/cyndaquil/anim_idle.asm"
 QuilavaAnimationIdle:    INCLUDE "gfx/pokemon/quilava/anim_idle.asm"

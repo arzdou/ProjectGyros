@@ -156,7 +156,8 @@ EvosAttacksPointers::
 	dw MewEvosAttacks
 	dw BibarelEvosAttacks ; +
 ;	dw ChikoritaEvosAttacks
-	dw BayleefEvosAttacks
+	dw FletchlingEvosAttacks ; +
+;	dw BayleefEvosAttacks
 	dw MeganiumEvosAttacks
 	dw CyndaquilEvosAttacks
 	dw QuilavaEvosAttacks

@@ -155,7 +155,8 @@ PokedexDataPointerTable:
 	dw MewPokedexEntry
 	dw BibarelPokedexEntry ; +
 ;	dw ChikoritaPokedexEntry
-	dw BayleefPokedexEntry
+	dw FletchlingPokedexEntry ; +
+;	dw BayleefPokedexEntry
 	dw MeganiumPokedexEntry
 	dw CyndaquilPokedexEntry
 	dw QuilavaPokedexEntry

@@ -311,8 +311,10 @@ PokemonPicPointers::
 ;	dba_pic ChikoritaFrontpic
 	dba_pic BibarelBackpic ; +
 ;	dba_pic ChikoritaBackpic
-	dba_pic BayleefFrontpic
-	dba_pic BayleefBackpic
+	dba_pic FletchlingFrontpic ; +
+;	dba_pic BayleefFrontpic
+	dba_pic FletchlingBackpic ; +
+;	dba_pic BayleefBackpic
 	dba_pic MeganiumFrontpic
 	dba_pic MeganiumBackpic
 	dba_pic CyndaquilFrontpic

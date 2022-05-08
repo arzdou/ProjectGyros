@@ -154,7 +154,10 @@ BibarelAnimation:  INCLUDE "gfx/pokemon/bibarel/anim.asm" ; + ; +
 ;ChikoritaAnimation:  INCLUDE "gfx/pokemon/bibarel/anim.asm" ; +
 ;BibarelAnimation:  INCLUDE "gfx/pokemon/chikorita/anim.asm" ; +
 ;;ChikoritaAnimation:  INCLUDE "gfx/pokemon/chikorita/anim.asm"
-BayleefAnimation:    INCLUDE "gfx/pokemon/bayleef/anim.asm"
+FletchlingAnimation:    INCLUDE "gfx/pokemon/fletchling/anim.asm" ; + ; +
+;BayleefAnimation:    INCLUDE "gfx/pokemon/fletchling/anim.asm" ; +
+;FletchlingAnimation:    INCLUDE "gfx/pokemon/bayleef/anim.asm" ; +
+;;BayleefAnimation:    INCLUDE "gfx/pokemon/bayleef/anim.asm"
 MeganiumAnimation:   INCLUDE "gfx/pokemon/meganium/anim.asm"
 CyndaquilAnimation:  INCLUDE "gfx/pokemon/cyndaquil/anim.asm"
 QuilavaAnimation:    INCLUDE "gfx/pokemon/quilava/anim.asm"
