@@ -65,6 +65,7 @@ AlphabeticalPokedexOrder:
 	db FERALIGATR
 	db FLAAFFY
 	db FLAREON
+	db FLETCHINDER ; +
 	db FLETCHLING  ; +	
 	db FORRETRESS
 	db FURRET
@@ -131,7 +132,7 @@ AlphabeticalPokedexOrder:
 	db MAREEP
 	db MARILL
 	db MAROWAK
-	db MEGANIUM
+	; db MEGANIUM
 	db MEOWTH
 	db METAPOD
 	db MEW

@@ -158,7 +158,8 @@ MonMenuIcons:
 ;	db ICON_ODDISH      ; CHIKORITA
 	db ICON_ODDISH      ; FLETCHLING ; +
 ;	db ICON_ODDISH      ; BAYLEEF
-	db ICON_ODDISH      ; MEGANIUM
+	db ICON_ODDISH      ; FLETCHINDER ; +
+;	db ICON_ODDISH      ; MEGANIUM
 	db ICON_FOX         ; CYNDAQUIL
 	db ICON_FOX         ; QUILAVA
 	db ICON_FOX         ; TYPHLOSION

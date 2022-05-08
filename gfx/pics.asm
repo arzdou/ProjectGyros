@@ -41,7 +41,10 @@ SECTION "Pics 2", ROMX
 
 BlastoiseFrontpic:   INCBIN "gfx/pokemon/blastoise/front.animated.2bpp.lz"
 RapidashFrontpic:    INCBIN "gfx/pokemon/rapidash/front.animated.2bpp.lz"
-MeganiumFrontpic:    INCBIN "gfx/pokemon/meganium/front.animated.2bpp.lz"
+FletchinderFrontpic:    INCBIN "gfx/pokemon/fletchinder/front.animated.2bpp.lz" ; + ; +
+;MeganiumFrontpic:    INCBIN "gfx/pokemon/fletchinder/front.animated.2bpp.lz" ; +
+;FletchinderFrontpic:    INCBIN "gfx/pokemon/meganium/front.animated.2bpp.lz" ; +
+;;MeganiumFrontpic:    INCBIN "gfx/pokemon/meganium/front.animated.2bpp.lz"
 NidoqueenFrontpic:   INCBIN "gfx/pokemon/nidoqueen/front.animated.2bpp.lz"
 HitmonleeFrontpic:   INCBIN "gfx/pokemon/hitmonlee/front.animated.2bpp.lz"
 ScizorFrontpic:      INCBIN "gfx/pokemon/scizor/front.animated.2bpp.lz"
@@ -545,7 +548,10 @@ SlugmaBackpic:       INCBIN "gfx/pokemon/slugma/back.2bpp.lz"
 KabutoBackpic:       INCBIN "gfx/pokemon/kabuto/back.2bpp.lz"
 VictreebelBackpic:   INCBIN "gfx/pokemon/victreebel/back.2bpp.lz"
 MeowthBackpic:       INCBIN "gfx/pokemon/meowth/back.2bpp.lz"
-MeganiumBackpic:     INCBIN "gfx/pokemon/meganium/back.2bpp.lz"
+FletchinderBackpic:     INCBIN "gfx/pokemon/fletchinder/back.2bpp.lz" ; + ; +
+;MeganiumBackpic:     INCBIN "gfx/pokemon/fletchinder/back.2bpp.lz" ; +
+;FletchinderBackpic:     INCBIN "gfx/pokemon/meganium/back.2bpp.lz" ; +
+;;MeganiumBackpic:     INCBIN "gfx/pokemon/meganium/back.2bpp.lz"
 PicnickerPic:        INCBIN "gfx/trainers/picnicker.2bpp.lz"
 LickitungBackpic:    INCBIN "gfx/pokemon/lickitung/back.2bpp.lz"
 TogepiFrontpic:      INCBIN "gfx/pokemon/togepi/front.animated.2bpp.lz"

@@ -156,7 +156,8 @@ FramesPointers:
 ;	dw ChikoritaFrames
 	dw FletchlingFrames ; +
 ;	dw BayleefFrames
-	dw MeganiumFrames
+	dw FletchinderFrames ; +
+;	dw MeganiumFrames
 	dw CyndaquilFrames
 	dw QuilavaFrames
 	dw TyphlosionFrames

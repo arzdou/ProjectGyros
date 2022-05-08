@@ -156,7 +156,8 @@ BitmasksPointers:
 ;	dw ChikoritaBitmasks
 	dw FletchlingBitmasks ; +
 ;	dw BayleefBitmasks
-	dw MeganiumBitmasks
+	dw FletchinderBitmasks ; +
+;	dw MeganiumBitmasks
 	dw CyndaquilBitmasks
 	dw QuilavaBitmasks
 	dw TyphlosionBitmasks

@@ -2122,7 +2122,7 @@ BibarelEvosAttacks:
 ;	db 0 ; no more level-up moves
 
 FletchlingEvosAttacks:
-	db EVOLVE_LEVEL, 32, MEGANIUM
+	db EVOLVE_LEVEL, 32, FLETCHINDER
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2139,7 +2139,23 @@ FletchlingEvosAttacks:
 	db 0 ; no more level-up moves
 
 
-MeganiumEvosAttacks:
+;MeganiumEvosAttacks:
+;	db 0 ; no more evolutions
+;	db 1, TACKLE
+;	db 1, GROWL
+;	db 1, RAZOR_LEAF
+;	db 1, REFLECT
+;	db 8, RAZOR_LEAF
+;	db 12, REFLECT
+;	db 15, POISONPOWDER
+;	db 23, SYNTHESIS
+;	db 31, BODY_SLAM
+;	db 41, LIGHT_SCREEN
+;	db 51, SAFEGUARD
+;	db 61, SOLARBEAM
+;	db 0 ; no more level-up moves
+
+FletchinderEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL

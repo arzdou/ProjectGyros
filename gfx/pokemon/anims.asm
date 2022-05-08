@@ -158,7 +158,10 @@ FletchlingAnimation:    INCLUDE "gfx/pokemon/fletchling/anim.asm" ; + ; +
 ;BayleefAnimation:    INCLUDE "gfx/pokemon/fletchling/anim.asm" ; +
 ;FletchlingAnimation:    INCLUDE "gfx/pokemon/bayleef/anim.asm" ; +
 ;;BayleefAnimation:    INCLUDE "gfx/pokemon/bayleef/anim.asm"
-MeganiumAnimation:   INCLUDE "gfx/pokemon/meganium/anim.asm"
+FletchinderAnimation:   INCLUDE "gfx/pokemon/fletchinder/anim.asm" ; + ; +
+;MeganiumAnimation:   INCLUDE "gfx/pokemon/fletchinder/anim.asm" ; +
+;FletchinderAnimation:   INCLUDE "gfx/pokemon/meganium/anim.asm" ; +
+;;MeganiumAnimation:   INCLUDE "gfx/pokemon/meganium/anim.asm"
 CyndaquilAnimation:  INCLUDE "gfx/pokemon/cyndaquil/anim.asm"
 QuilavaAnimation:    INCLUDE "gfx/pokemon/quilava/anim.asm"
 TyphlosionAnimation: INCLUDE "gfx/pokemon/typhlosion/anim.asm"

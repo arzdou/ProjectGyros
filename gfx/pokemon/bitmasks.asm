@@ -158,7 +158,10 @@ FletchlingBitmasks:    INCLUDE "gfx/pokemon/fletchling/bitmask.asm" ; + ; +
 ;BayleefBitmasks:    INCLUDE "gfx/pokemon/fletchling/bitmask.asm" ; +
 ;FletchlingBitmasks:    INCLUDE "gfx/pokemon/bayleef/bitmask.asm" ; +
 ;;BayleefBitmasks:    INCLUDE "gfx/pokemon/bayleef/bitmask.asm"
-MeganiumBitmasks:   INCLUDE "gfx/pokemon/meganium/bitmask.asm"
+FletchinderBitmasks:   INCLUDE "gfx/pokemon/fletchinder/bitmask.asm" ; + ; +
+;MeganiumBitmasks:   INCLUDE "gfx/pokemon/fletchinder/bitmask.asm" ; +
+;FletchinderBitmasks:   INCLUDE "gfx/pokemon/meganium/bitmask.asm" ; +
+;;MeganiumBitmasks:   INCLUDE "gfx/pokemon/meganium/bitmask.asm"
 CyndaquilBitmasks:  INCLUDE "gfx/pokemon/cyndaquil/bitmask.asm"
 QuilavaBitmasks:    INCLUDE "gfx/pokemon/quilava/bitmask.asm"
 TyphlosionBitmasks: INCLUDE "gfx/pokemon/typhlosion/bitmask.asm"

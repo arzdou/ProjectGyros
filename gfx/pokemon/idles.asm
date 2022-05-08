@@ -158,7 +158,10 @@ FletchlingAnimationIdle:    INCLUDE "gfx/pokemon/fletchling/anim_idle.asm" ; + ;
 ;BayleefAnimationIdle:    INCLUDE "gfx/pokemon/fletchling/anim_idle.asm" ; +
 ;FletchlingAnimationIdle:    INCLUDE "gfx/pokemon/bayleef/anim_idle.asm" ; +
 ;;BayleefAnimationIdle:    INCLUDE "gfx/pokemon/bayleef/anim_idle.asm"
-MeganiumAnimationIdle:   INCLUDE "gfx/pokemon/meganium/anim_idle.asm"
+FletchinderAnimationIdle:   INCLUDE "gfx/pokemon/fletchinder/anim_idle.asm" ; + ; +
+;MeganiumAnimationIdle:   INCLUDE "gfx/pokemon/fletchinder/anim_idle.asm" ; +
+;FletchinderAnimationIdle:   INCLUDE "gfx/pokemon/meganium/anim_idle.asm" ; +
+;;MeganiumAnimationIdle:   INCLUDE "gfx/pokemon/meganium/anim_idle.asm"
 CyndaquilAnimationIdle:  INCLUDE "gfx/pokemon/cyndaquil/anim_idle.asm"
 QuilavaAnimationIdle:    INCLUDE "gfx/pokemon/quilava/anim_idle.asm"
 TyphlosionAnimationIdle: INCLUDE "gfx/pokemon/typhlosion/anim_idle.asm"

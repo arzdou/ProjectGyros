@@ -156,7 +156,8 @@ AnimationPointers:
 ;	dw ChikoritaAnimation
 	dw FletchlingAnimation ; +
 ;	dw BayleefAnimation
-	dw MeganiumAnimation
+	dw FletchinderAnimation ; +
+;	dw MeganiumAnimation
 	dw CyndaquilAnimation
 	dw QuilavaAnimation
 	dw TyphlosionAnimation

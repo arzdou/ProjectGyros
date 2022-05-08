@@ -157,7 +157,8 @@ PokedexDataPointerTable:
 ;	dw ChikoritaPokedexEntry
 	dw FletchlingPokedexEntry ; +
 ;	dw BayleefPokedexEntry
-	dw MeganiumPokedexEntry
+	dw FletchinderPokedexEntry ; +
+;	dw MeganiumPokedexEntry
 	dw CyndaquilPokedexEntry
 	dw QuilavaPokedexEntry
 	dw TyphlosionPokedexEntry

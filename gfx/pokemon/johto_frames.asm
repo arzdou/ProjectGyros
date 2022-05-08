@@ -8,7 +8,10 @@ FletchlingFrames:    INCLUDE "gfx/pokemon/fletchling/frames.asm" ; + ; +
 ;BayleefFrames:    INCLUDE "gfx/pokemon/fletchling/frames.asm" ; +
 ;FletchlingFrames:    INCLUDE "gfx/pokemon/bayleef/frames.asm" ; +
 ;;BayleefFrames:    INCLUDE "gfx/pokemon/bayleef/frames.asm"
-MeganiumFrames:   INCLUDE "gfx/pokemon/meganium/frames.asm"
+FletchinderFrames:   INCLUDE "gfx/pokemon/fletchinder/frames.asm" ; + ; +
+;MeganiumFrames:   INCLUDE "gfx/pokemon/fletchinder/frames.asm" ; +
+;FletchinderFrames:   INCLUDE "gfx/pokemon/meganium/frames.asm" ; +
+;;MeganiumFrames:   INCLUDE "gfx/pokemon/meganium/frames.asm"
 CyndaquilFrames:  INCLUDE "gfx/pokemon/cyndaquil/frames.asm"
 QuilavaFrames:    INCLUDE "gfx/pokemon/quilava/frames.asm"
 TyphlosionFrames: INCLUDE "gfx/pokemon/typhlosion/frames.asm"

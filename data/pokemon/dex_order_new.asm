@@ -6,7 +6,8 @@ NewPokedexOrder:
 ;	db CHIKORITA
 	db FLETCHLING ; +
 ;	db BAYLEEF
-	db MEGANIUM
+	db FLETCHINDER ; +
+;	db MEGANIUM
 	db CYNDAQUIL
 	db QUILAVA
 	db TYPHLOSION

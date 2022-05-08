@@ -156,7 +156,8 @@ AnimationIdlePointers:
 ;	dw ChikoritaAnimationIdle
 	dw FletchlingAnimationIdle ; +
 ;	dw BayleefAnimationIdle
-	dw MeganiumAnimationIdle
+	dw FletchinderAnimationIdle ; +
+;	dw MeganiumAnimationIdle
 	dw CyndaquilAnimationIdle
 	dw QuilavaAnimationIdle
 	dw TyphlosionAnimationIdle
