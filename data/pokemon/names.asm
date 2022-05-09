@@ -156,7 +156,7 @@ PokemonNames::
 ;	db "CHIKORITA@"
 	db "FLETCHLING" ; +
 ;	db "BAYLEEF@@@"
-	db "FLECHINDER" ; FLETCHINDER too long!
+	db "FLETCHINDR" ; FLETCHINDER too long!
 ;	db "MEGANIUM@@"
 	db "CYNDAQUIL@"
 	db "QUILAVA@@@"
