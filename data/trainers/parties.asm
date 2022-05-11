@@ -3317,7 +3317,9 @@ PokefanMGroup:
 
 	; POKEFANM (15)
 	db "JORGE@", TRAINERTYPE_ITEM
-	db 5, TALONFLAME,  BERRY
+	db 1, BIBAREL,  BERRY
+	db 1, MUNCHLAX,  BERRY
+	db 1, FLETCHINDER,  BERRY
 	db -1 ; end
 
 KimonoGirlGroup:
