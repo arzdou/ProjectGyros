@@ -1,12 +1,14 @@
 # -----------------------------------------------------------
 # Script that performs a pokemon swap in a pokecrystal 
 # disassembly project. The pokemon information necessary to 
-# create the base stats file and update the evoattacks and 
-# eggmoves file is obtained from pokeAPI and parsed into their 
+# create the base stats file and update the evoattacks.asm and 
+# egg_moves.asm files are obtained from pokeAPI and parsed into their 
 # corresponding formats. The script will only include moves 
 # that are defined within the project and discard the rest.
 #
-# Sprite, animations and footprint must be done manualy.
+# The script also changes the name of the gfx/pokemon and 
+# gfx/footprint directories and files to the new pokemon but
+# will not update any of the sprites or .asm files
 #
 # (C) 2022 Gyros Team, Spain
 # Released under GNU Public License (GPL)
@@ -24,8 +26,8 @@ def swap_and_comment(old: str, new: str, path: str, comment=True, exit_if_error=
         Swap all ocurrences of "old" to "new" in a file given by path 
         and comment out the change
         
-        Parameters:
-
+        Parameters
+        ----------------
         - old: text to swap
         - new: text to replace with
         - path: location to the .asm file
@@ -63,8 +65,15 @@ def swap_and_comment(old: str, new: str, path: str, comment=True, exit_if_error=
             
         return 0
     
-def call_pokeapi(pokemon_name):
-    response = requests.get('https://pokeapi.co/api/v2/pokemon/'+pokemon_name)
+def call_pokeapi(pokemon_name: str):
+    """
+    Call the pokeapi API and parse the information into a more compressed format
+    
+    Parameters 
+    -----------------------
+    pokemon_name: name or id of the requested pokemon
+    """
+    response = requests.get('https://pokeapi.co/api/v2/pokemon/'+pokemon_name.lower())
     pokemon_data = response.json()
     response = requests.get(pokemon_data['species']['url'])
     species_data = response.json()
@@ -389,8 +398,8 @@ if __name__ == "__main__":
 
     # Dex entry file
     #
-    # Construct the file and addit to the dex entries. It is most 
-    # likely that the spacing on the extry is incorrect since it
+    # Construct the file and add it to the dex entries. It is most 
+    # likely that the spacing on the entry is incorrect since it
     # will be adapted for future generations
     dex_entry_text = []
     dex_entry_text.append('\tdb "%s@" ; species name'%new_pokemon_data['species'])
@@ -448,7 +457,7 @@ if __name__ == "__main__":
     dex_alpha_pokemon.sort()
     dex_alpha_index = dex_alpha_pokemon.index(new_pokemon.upper())
     dex_alpha_lines[comment_index] = ';' + dex_alpha_lines[comment_index]
-    dex_alpha_lines.insert(dex_alpha_index+4, '\tdb '+new_pokemon.upper())
+    dex_alpha_lines.insert(dex_alpha_index+4, '\tdb '+new_pokemon.upper()) # +4 to account for the initial 4 lines
 
     with open('./data/pokemon/dex_order_alpha.asm', 'w') as f:
         f.write('\n'.join(dex_alpha_lines))
