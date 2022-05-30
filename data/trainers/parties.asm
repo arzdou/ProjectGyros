@@ -3337,7 +3337,7 @@ PokefanMGroup:
 
 	; POKEFANM (15)
 	db "JORGE@", TRAINERTYPE_ITEM
-	db 2, FLETCHINDER,  BERRY
+	db 2, TURTWIG,  BERRY
 	db -1 ; end
 
 KimonoGirlGroup:
