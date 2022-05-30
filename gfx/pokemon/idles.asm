@@ -6,14 +6,19 @@ CharmeleonAnimationIdle: INCLUDE "gfx/pokemon/charmeleon/anim_idle.asm"
 CharizardAnimationIdle:  INCLUDE "gfx/pokemon/charizard/anim_idle.asm"
 MudkipAnimationIdle:     INCLUDE "gfx/pokemon/mudkip/anim_idle.asm"   ; +
 ;SquirtleAnimationIdle:   INCLUDE "gfx/pokemon/squirtle/anim_idle.asm"
-WartortleAnimationIdle:  INCLUDE "gfx/pokemon/wartortle/anim_idle.asm"
-BlastoiseAnimationIdle:  INCLUDE "gfx/pokemon/blastoise/anim_idle.asm"
+MarshtompAnimationIdle:  INCLUDE "gfx/pokemon/marshtomp/anim_idle.asm" ; + ; +
+;WartortleAnimationIdle:  INCLUDE "gfx/pokemon/marshtomp/anim_idle.asm" ; +
+SwampertAnimationIdle:  INCLUDE "gfx/pokemon/swampert/anim_idle.asm" ; + ; +
+;BlastoiseAnimationIdle:  INCLUDE "gfx/pokemon/swampert/anim_idle.asm" ; +
 CaterpieAnimationIdle:   INCLUDE "gfx/pokemon/caterpie/anim_idle.asm"
 MetapodAnimationIdle:    INCLUDE "gfx/pokemon/metapod/anim_idle.asm"
 ButterfreeAnimationIdle: INCLUDE "gfx/pokemon/butterfree/anim_idle.asm"
-WeedleAnimationIdle:     INCLUDE "gfx/pokemon/weedle/anim_idle.asm"
-KakunaAnimationIdle:     INCLUDE "gfx/pokemon/kakuna/anim_idle.asm"
-BeedrillAnimationIdle:   INCLUDE "gfx/pokemon/beedrill/anim_idle.asm"
+TurtwigAnimationIdle:     INCLUDE "gfx/pokemon/turtwig/anim_idle.asm" ; + ; +
+;WeedleAnimationIdle:     INCLUDE "gfx/pokemon/turtwig/anim_idle.asm" ; +
+GrotleAnimationIdle:     INCLUDE "gfx/pokemon/grotle/anim_idle.asm" ; + ; +
+;KakunaAnimationIdle:     INCLUDE "gfx/pokemon/grotle/anim_idle.asm" ; +
+TorterraAnimationIdle:   INCLUDE "gfx/pokemon/torterra/anim_idle.asm" ; + ; +
+;BeedrillAnimationIdle:   INCLUDE "gfx/pokemon/torterra/anim_idle.asm" ; +
 PidgeyAnimationIdle:     INCLUDE "gfx/pokemon/pidgey/anim_idle.asm"
 PidgeottoAnimationIdle:  INCLUDE "gfx/pokemon/pidgeotto/anim_idle.asm"
 PidgeotAnimationIdle:    INCLUDE "gfx/pokemon/pidgeot/anim_idle.asm"

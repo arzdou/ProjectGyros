@@ -14,14 +14,19 @@ PokemonCries::
 	mon_cry CRY_CHARMANDER,    0,  256 ; CHARIZARD
 	mon_cry CRY_SQUIRTLE,     96,  192 ; MUDKIP NEEDS UPDATE +
 	;mon_cry CRY_SQUIRTLE,     96,  192 ; SQUIRTLE
-	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
-	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
+	mon_cry CRY_SQUIRTLE,     32,  192 ; MARSHTOMP ; +
+;	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
+	mon_cry CRY_BLASTOISE,     0,  256 ; SWAMPERT ; +
+;	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
 	mon_cry CRY_CATERPIE,    128,  160 ; CATERPIE
 	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
 	mon_cry CRY_CATERPIE,    119,  192 ; BUTTERFREE
-	mon_cry CRY_WEEDLE,      238,  129 ; WEEDLE
-	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
-	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
+	mon_cry CRY_WEEDLE,      238,  129 ; TURTWIG ; +
+;	mon_cry CRY_WEEDLE,      238,  129 ; WEEDLE
+	mon_cry CRY_BLASTOISE,   255,  129 ; GROTLE ; +
+;	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
+	mon_cry CRY_BLASTOISE,    96,  256 ; TORTERRA ; +
+;	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
 	mon_cry CRY_PIDGEY,      223,  132 ; PIDGEY
 	mon_cry CRY_PIDGEOTTO,    40,  320 ; PIDGEOTTO
 	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT

@@ -848,5 +848,13 @@ SkiddoEggMoves:
 	db ROLLOUT
 	db -1 ; end
 
+TurtwigEggMoves:
+	db BODY_SLAM
+	db THRASH
+	db DOUBLE_EDGE
+	db GROWTH
+	db AMNESIA
+	db -1 ; end
+
 NoEggMoves:
 	db -1 ; end

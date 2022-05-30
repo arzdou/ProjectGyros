@@ -114,15 +114,18 @@ TreeMonSet_Forest:
 	db 15, PINECO,     10
 	db 10, NOCTOWL,    10
 	db  5, BUTTERFREE, 10
-	db  5, BEEDRILL,   10
+	db  5, TORTERRA,   10 ; +
+;	db  5, BEEDRILL,   10
 	db -1
 ; rare
 	db 50, MUNCHLAX,   10
 	db 15, CATERPIE,   10
-	db 15, WEEDLE,     10
+	db 15, TURTWIG,     10 ; +
+;	db 15, WEEDLE,     10
 	db 10, MUNCHLAX,   10
 	db  5, METAPOD,    10
-	db  5, KAKUNA,     10
+	db  5, GROTLE,     10 ; +
+;	db  5, KAKUNA,     10
 	db -1
 
 TreeMonSet_Rock:

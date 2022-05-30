@@ -35,9 +35,12 @@ NewPokedexOrder:
 	db CATERPIE
 	db METAPOD
 	db BUTTERFREE
-	db WEEDLE
-	db KAKUNA
-	db BEEDRILL
+	db TURTWIG ; +
+;	db WEEDLE
+	db GROTLE ; +
+;	db KAKUNA
+	db TORTERRA ; +
+;	db BEEDRILL
 	db LEDYBA
 	db LEDIAN
 	db SPINARAK
@@ -242,8 +245,10 @@ NewPokedexOrder:
 	db CHARIZARD
 	db MUDKIP   ; +
 	;db SQUIRTLE
-	db WARTORTLE
-	db BLASTOISE
+	db MARSHTOMP ; +
+;	db WARTORTLE
+	db SWAMPERT ; +
+;	db BLASTOISE
 	db ARTICUNO
 	db ZAPDOS
 	db MOLTRES

@@ -4,9 +4,12 @@ AsleepTreeMonsNite:
 	db CATERPIE
 	db METAPOD
 	db BUTTERFREE
-	db WEEDLE
-	db KAKUNA
-	db BEEDRILL
+	db TURTWIG ; +
+;	db WEEDLE
+	db GROTLE ; +
+;	db KAKUNA
+	db TORTERRA ; +
+;	db BEEDRILL
 	db SPEAROW
 	db EKANS
 	db EXEGGCUTE

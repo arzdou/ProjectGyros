@@ -10,14 +10,19 @@ EvosAttacksPointers::
 	dw CharizardEvosAttacks
 	dw MudkipEvosAttacks ; +
 	;dw SquirtleEvosAttacks
-	dw WartortleEvosAttacks
-	dw BlastoiseEvosAttacks
+	dw MarshtompEvosAttacks ; +
+;	dw WartortleEvosAttacks
+	dw SwampertEvosAttacks ; +
+;	dw BlastoiseEvosAttacks
 	dw CaterpieEvosAttacks
 	dw MetapodEvosAttacks
 	dw ButterfreeEvosAttacks
-	dw WeedleEvosAttacks
-	dw KakunaEvosAttacks
-	dw BeedrillEvosAttacks
+	dw TurtwigEvosAttacks ; +
+;	dw WeedleEvosAttacks
+	dw GrotleEvosAttacks ; +
+;	dw KakunaEvosAttacks
+	dw TorterraEvosAttacks ; +
+;	dw BeedrillEvosAttacks
 	dw PidgeyEvosAttacks
 	dw PidgeottoEvosAttacks
 	dw PidgeotEvosAttacks

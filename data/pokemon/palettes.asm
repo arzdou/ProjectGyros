@@ -31,22 +31,32 @@ INCBIN "gfx/pokemon/mudkip/front.gbcpal", middle_colors   ; +
 INCLUDE "gfx/pokemon/mudkip/shiny.pal"                    ; +
 ;INCBIN "gfx/pokemon/squirtle/front.gbcpal", middle_colors
 ;INCLUDE "gfx/pokemon/squirtle/shiny.pal"
-INCBIN "gfx/pokemon/wartortle/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/wartortle/shiny.pal"
-INCBIN "gfx/pokemon/blastoise/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/blastoise/shiny.pal"
+INCBIN "gfx/pokemon/marshtomp/front.gbcpal", middle_colors ; +
+;INCBIN "gfx/pokemon/wartortle/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/marshtomp/shiny.pal" ; +
+;INCLUDE "gfx/pokemon/wartortle/shiny.pal"
+INCBIN "gfx/pokemon/swampert/front.gbcpal", middle_colors ; +
+;INCBIN "gfx/pokemon/blastoise/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/swampert/shiny.pal" ; +
+;INCLUDE "gfx/pokemon/blastoise/shiny.pal"
 INCBIN "gfx/pokemon/caterpie/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/caterpie/shiny.pal"
 INCBIN "gfx/pokemon/metapod/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/metapod/shiny.pal"
 INCBIN "gfx/pokemon/butterfree/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/butterfree/shiny.pal"
-INCBIN "gfx/pokemon/weedle/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/weedle/shiny.pal"
-INCBIN "gfx/pokemon/kakuna/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/kakuna/shiny.pal"
-INCBIN "gfx/pokemon/beedrill/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/beedrill/shiny.pal"
+INCBIN "gfx/pokemon/turtwig/front.gbcpal", middle_colors ; +
+;INCBIN "gfx/pokemon/weedle/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/turtwig/shiny.pal" ; +
+;INCLUDE "gfx/pokemon/weedle/shiny.pal"
+INCBIN "gfx/pokemon/grotle/front.gbcpal", middle_colors ; +
+;INCBIN "gfx/pokemon/kakuna/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/grotle/shiny.pal" ; +
+;INCLUDE "gfx/pokemon/kakuna/shiny.pal"
+INCBIN "gfx/pokemon/torterra/front.gbcpal", middle_colors ; +
+;INCBIN "gfx/pokemon/beedrill/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/torterra/shiny.pal" ; +
+;INCLUDE "gfx/pokemon/beedrill/shiny.pal"
 INCBIN "gfx/pokemon/pidgey/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/pidgey/shiny.pal"
 INCBIN "gfx/pokemon/pidgeotto/front.gbcpal", middle_colors

@@ -8,14 +8,19 @@ AnimationPointers:
 	dw CharizardAnimation
 	dw MudkipAnimation   ; +
 ;	dw SquirtleAnimation
-	dw WartortleAnimation
-	dw BlastoiseAnimation
+	dw MarshtompAnimation ; +
+;	dw WartortleAnimation
+	dw SwampertAnimation ; +
+;	dw BlastoiseAnimation
 	dw CaterpieAnimation
 	dw MetapodAnimation
 	dw ButterfreeAnimation
-	dw WeedleAnimation
-	dw KakunaAnimation
-	dw BeedrillAnimation
+	dw TurtwigAnimation ; +
+;	dw WeedleAnimation
+	dw GrotleAnimation ; +
+;	dw KakunaAnimation
+	dw TorterraAnimation ; +
+;	dw BeedrillAnimation
 	dw PidgeyAnimation
 	dw PidgeottoAnimation
 	dw PidgeotAnimation

@@ -9,14 +9,19 @@ PokedexDataPointerTable:
 	dw CharizardPokedexEntry
 	dw MudkipPokedexEntry     ; +
 	;dw SquirtlePokedexEntry
-	dw WartortlePokedexEntry
-	dw BlastoisePokedexEntry
+	dw MarshtompPokedexEntry ; +
+;	dw WartortlePokedexEntry
+	dw SwampertPokedexEntry ; +
+;	dw BlastoisePokedexEntry
 	dw CaterpiePokedexEntry
 	dw MetapodPokedexEntry
 	dw ButterfreePokedexEntry
-	dw WeedlePokedexEntry
-	dw KakunaPokedexEntry
-	dw BeedrillPokedexEntry
+	dw TurtwigPokedexEntry ; +
+;	dw WeedlePokedexEntry
+	dw GrotlePokedexEntry ; +
+;	dw KakunaPokedexEntry
+	dw TorterraPokedexEntry ; +
+;	dw BeedrillPokedexEntry
 	dw PidgeyPokedexEntry
 	dw PidgeottoPokedexEntry
 	dw PidgeotPokedexEntry

@@ -149,41 +149,77 @@ MudkipEvosAttacks: ; + NEEDS UPDATE
 ;	db 47, HYDRO_PUMP
 ;	db 0 ; no more level-up moves
 
-WartortleEvosAttacks:
-	db EVOLVE_LEVEL, 36, BLASTOISE
-	db 0 ; no more evolutions
+MarshtompEvosAttacks: ; +
+	db 0 ; ADD YOUR EVOLUTION
 	db 1, TACKLE
-	db 1, TAIL_WHIP
-	db 1, BUBBLE
-	db 4, TAIL_WHIP
-	db 7, BUBBLE
-	db 10, WITHDRAW
-	db 13, WATER_GUN
-	db 19, BITE
-	db 25, RAPID_SPIN
-	db 31, PROTECT
-	db 37, RAIN_DANCE
-	db 45, SKULL_BASH
-	db 53, HYDRO_PUMP
+	db 1, GROWL
+	db 1, WATER_GUN
+	db 1, MUD_SLAP
+	db 9, ROCK_THROW
+	db 15, SUPERSONIC
+	db 15, BIDE
+	db 20, FORESIGHT
+	db 31, TAKE_DOWN
+	db 35, AMNESIA
+	db 42, PROTECT
+	db 45, SCREECH
+	db 46, EARTHQUAKE
+	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-BlastoiseEvosAttacks:
-	db 0 ; no more evolutions
+;WartortleEvosAttacks:
+;	db EVOLVE_LEVEL, 36, BLASTOISE
+;	db 0 ; no more evolutions
+;	db 1, TACKLE
+;	db 1, TAIL_WHIP
+;	db 1, BUBBLE
+;	db 4, TAIL_WHIP
+;	db 7, BUBBLE
+;	db 10, WITHDRAW
+;	db 13, WATER_GUN
+;	db 19, BITE
+;	db 25, RAPID_SPIN
+;	db 31, PROTECT
+;	db 37, RAIN_DANCE
+;	db 45, SKULL_BASH
+;	db 53, HYDRO_PUMP
+;	db 0 ; no more level-up moves
+
+SwampertEvosAttacks: ; +
+	db 0 ; ADD YOUR EVOLUTION
 	db 1, TACKLE
-	db 1, TAIL_WHIP
-	db 1, BUBBLE
-	db 1, WITHDRAW
-	db 4, TAIL_WHIP
-	db 7, BUBBLE
-	db 10, WITHDRAW
-	db 13, WATER_GUN
-	db 19, BITE
-	db 25, RAPID_SPIN
-	db 31, PROTECT
-	db 42, RAIN_DANCE
-	db 55, SKULL_BASH
-	db 68, HYDRO_PUMP
+	db 1, GROWL
+	db 1, WATER_GUN
+	db 1, MUD_SLAP
+	db 9, ROCK_THROW
+	db 15, SUPERSONIC
+	db 15, BIDE
+	db 20, FORESIGHT
+	db 31, TAKE_DOWN
+	db 35, AMNESIA
+	db 46, PROTECT
+	db 49, SCREECH
+	db 52, EARTHQUAKE
+	db 63, HYDRO_PUMP
 	db 0 ; no more level-up moves
+
+;BlastoiseEvosAttacks:
+;	db 0 ; no more evolutions
+;	db 1, TACKLE
+;	db 1, TAIL_WHIP
+;	db 1, BUBBLE
+;	db 1, WITHDRAW
+;	db 4, TAIL_WHIP
+;	db 7, BUBBLE
+;	db 10, WITHDRAW
+;	db 13, WATER_GUN
+;	db 19, BITE
+;	db 25, RAPID_SPIN
+;	db 31, PROTECT
+;	db 42, RAIN_DANCE
+;	db 55, SKULL_BASH
+;	db 68, HYDRO_PUMP
+;	db 0 ; no more level-up moves
 
 CaterpieEvosAttacks:
 	db EVOLVE_LEVEL, 7, METAPOD
@@ -213,31 +249,77 @@ ButterfreeEvosAttacks:
 	db 40, SAFEGUARD
 	db 0 ; no more level-up moves
 
-WeedleEvosAttacks:
-	db EVOLVE_LEVEL, 7, KAKUNA
-	db 0 ; no more evolutions
-	db 1, POISON_STING
-	db 1, STRING_SHOT
+TurtwigEvosAttacks: ; +
+	db 0 ; ADD YOUR EVOLUTION
+	db 1, TACKLE
+	db 5, WITHDRAW
+	db 9, ABSORB
+	db 13, RAZOR_LEAF
+	db 17, CURSE
+	db 21, BITE
+	db 25, MEGA_DRAIN
+	db 29, LEECH_SEED
+	db 33, SYNTHESIS
+	db 37, CRUNCH
+	db 41, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
-KakunaEvosAttacks:
-	db EVOLVE_LEVEL, 10, BEEDRILL
-	db 0 ; no more evolutions
-	db 1, HARDEN
-	db 7, HARDEN
+;WeedleEvosAttacks:
+;	db EVOLVE_LEVEL, 7, KAKUNA
+;	db 0 ; no more evolutions
+;	db 1, POISON_STING
+;	db 1, STRING_SHOT
+;	db 0 ; no more level-up moves
+
+GrotleEvosAttacks: ; +
+	db 0 ; ADD YOUR EVOLUTION
+	db 1, TACKLE
+	db 1, WITHDRAW
+	db 9, ABSORB
+	db 13, RAZOR_LEAF
+	db 17, CURSE
+	db 22, BITE
+	db 27, MEGA_DRAIN
+	db 32, LEECH_SEED
+	db 37, SYNTHESIS
+	db 42, CRUNCH
+	db 47, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
-BeedrillEvosAttacks:
-	db 0 ; no more evolutions
-	db 1, FURY_ATTACK
-	db 10, FURY_ATTACK
-	db 15, FOCUS_ENERGY
-	db 20, TWINEEDLE
-	db 25, RAGE
-	db 30, PURSUIT
-	db 35, PIN_MISSILE
-	db 40, AGILITY
+;KakunaEvosAttacks:
+;	db EVOLVE_LEVEL, 10, BEEDRILL
+;	db 0 ; no more evolutions
+;	db 1, HARDEN
+;	db 7, HARDEN
+;	db 0 ; no more level-up moves
+
+TorterraEvosAttacks: ; +
+	db 0 ; ADD YOUR EVOLUTION
+	db 1, TACKLE
+	db 1, ABSORB
+	db 1, RAZOR_LEAF
+	db 1, WITHDRAW
+	db 17, CURSE
+	db 22, BITE
+	db 27, MEGA_DRAIN
+	db 32, EARTHQUAKE
+	db 33, LEECH_SEED
+	db 39, SYNTHESIS
+	db 45, CRUNCH
+	db 51, GIGA_DRAIN
 	db 0 ; no more level-up moves
+
+;BeedrillEvosAttacks:
+;	db 0 ; no more evolutions
+;	db 1, FURY_ATTACK
+;	db 10, FURY_ATTACK
+;	db 15, FOCUS_ENERGY
+;	db 20, TWINEEDLE
+;	db 25, RAGE
+;	db 30, PURSUIT
+;	db 35, PIN_MISSILE
+;	db 40, AGILITY
+;	db 0 ; no more level-up moves
 
 PidgeyEvosAttacks:
 	db EVOLVE_LEVEL, 18, PIDGEOTTO

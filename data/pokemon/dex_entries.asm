@@ -11,14 +11,19 @@ CharmeleonPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmeleon.asm"
 CharizardPokedexEntry::  INCLUDE "data/pokemon/dex_entries/charizard.asm"
 MudkipPokedexEntry::     INCLUDE "data/pokemon/dex_entries/mudkip.asm"     ; +
 ;SquirtlePokedexEntry::   INCLUDE "data/pokemon/dex_entries/squirtle.asm"
-WartortlePokedexEntry::  INCLUDE "data/pokemon/dex_entries/wartortle.asm"
-BlastoisePokedexEntry::  INCLUDE "data/pokemon/dex_entries/blastoise.asm"
+MarshtompPokedexEntry::  INCLUDE "data/pokemon/dex_entries/marshtomp.asm" ; + ; +
+;WartortlePokedexEntry::  INCLUDE "data/pokemon/dex_entries/marshtomp.asm" ; +
+SwampertPokedexEntry::  INCLUDE "data/pokemon/dex_entries/swampert.asm" ; + ; +
+;BlastoisePokedexEntry::  INCLUDE "data/pokemon/dex_entries/swampert.asm" ; +
 CaterpiePokedexEntry::   INCLUDE "data/pokemon/dex_entries/caterpie.asm"
 MetapodPokedexEntry::    INCLUDE "data/pokemon/dex_entries/metapod.asm"
 ButterfreePokedexEntry:: INCLUDE "data/pokemon/dex_entries/butterfree.asm"
-WeedlePokedexEntry::     INCLUDE "data/pokemon/dex_entries/weedle.asm"
-KakunaPokedexEntry::     INCLUDE "data/pokemon/dex_entries/kakuna.asm"
-BeedrillPokedexEntry::   INCLUDE "data/pokemon/dex_entries/beedrill.asm"
+TurtwigPokedexEntry::     INCLUDE "data/pokemon/dex_entries/turtwig.asm" ; + ; +
+;WeedlePokedexEntry::     INCLUDE "data/pokemon/dex_entries/turtwig.asm" ; +
+GrotlePokedexEntry::     INCLUDE "data/pokemon/dex_entries/grotle.asm" ; + ; +
+;KakunaPokedexEntry::     INCLUDE "data/pokemon/dex_entries/grotle.asm" ; +
+TorterraPokedexEntry::   INCLUDE "data/pokemon/dex_entries/torterra.asm" ; + ; +
+;BeedrillPokedexEntry::   INCLUDE "data/pokemon/dex_entries/torterra.asm" ; +
 PidgeyPokedexEntry::     INCLUDE "data/pokemon/dex_entries/pidgey.asm"
 PidgeottoPokedexEntry::  INCLUDE "data/pokemon/dex_entries/pidgeotto.asm"
 PidgeotPokedexEntry::    INCLUDE "data/pokemon/dex_entries/pidgeot.asm"

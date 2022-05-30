@@ -8,14 +8,19 @@ BitmasksPointers:
 	dw CharizardBitmasks
 	dw MudkipBitmasks     ; +
 ;	dw SquirtleBitmasks
-	dw WartortleBitmasks
-	dw BlastoiseBitmasks
+	dw MarshtompBitmasks ; +
+;	dw WartortleBitmasks
+	dw SwampertBitmasks ; +
+;	dw BlastoiseBitmasks
 	dw CaterpieBitmasks
 	dw MetapodBitmasks
 	dw ButterfreeBitmasks
-	dw WeedleBitmasks
-	dw KakunaBitmasks
-	dw BeedrillBitmasks
+	dw TurtwigBitmasks ; +
+;	dw WeedleBitmasks
+	dw GrotleBitmasks ; +
+;	dw KakunaBitmasks
+	dw TorterraBitmasks ; +
+;	dw BeedrillBitmasks
 	dw PidgeyBitmasks
 	dw PidgeottoBitmasks
 	dw PidgeotBitmasks

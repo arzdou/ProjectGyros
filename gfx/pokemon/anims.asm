@@ -6,14 +6,19 @@ CharmeleonAnimation: INCLUDE "gfx/pokemon/charmeleon/anim.asm"
 CharizardAnimation:  INCLUDE "gfx/pokemon/charizard/anim.asm"
 MudkipAnimation:   INCLUDE "gfx/pokemon/mudkip/anim.asm"   ; +
 ;SquirtleAnimation:   INCLUDE "gfx/pokemon/squirtle/anim.asm"
-WartortleAnimation:  INCLUDE "gfx/pokemon/wartortle/anim.asm"
-BlastoiseAnimation:  INCLUDE "gfx/pokemon/blastoise/anim.asm"
+MarshtompAnimation:  INCLUDE "gfx/pokemon/marshtomp/anim.asm" ; + ; +
+;WartortleAnimation:  INCLUDE "gfx/pokemon/marshtomp/anim.asm" ; +
+SwampertAnimation:  INCLUDE "gfx/pokemon/swampert/anim.asm" ; + ; +
+;BlastoiseAnimation:  INCLUDE "gfx/pokemon/swampert/anim.asm" ; +
 CaterpieAnimation:   INCLUDE "gfx/pokemon/caterpie/anim.asm"
 MetapodAnimation:    INCLUDE "gfx/pokemon/metapod/anim.asm"
 ButterfreeAnimation: INCLUDE "gfx/pokemon/butterfree/anim.asm"
-WeedleAnimation:     INCLUDE "gfx/pokemon/weedle/anim.asm"
-KakunaAnimation:     INCLUDE "gfx/pokemon/kakuna/anim.asm"
-BeedrillAnimation:   INCLUDE "gfx/pokemon/beedrill/anim.asm"
+TurtwigAnimation:     INCLUDE "gfx/pokemon/turtwig/anim.asm" ; + ; +
+;WeedleAnimation:     INCLUDE "gfx/pokemon/turtwig/anim.asm" ; +
+GrotleAnimation:     INCLUDE "gfx/pokemon/grotle/anim.asm" ; + ; +
+;KakunaAnimation:     INCLUDE "gfx/pokemon/grotle/anim.asm" ; +
+TorterraAnimation:   INCLUDE "gfx/pokemon/torterra/anim.asm" ; + ; +
+;BeedrillAnimation:   INCLUDE "gfx/pokemon/torterra/anim.asm" ; +
 PidgeyAnimation:     INCLUDE "gfx/pokemon/pidgey/anim.asm"
 PidgeottoAnimation:  INCLUDE "gfx/pokemon/pidgeotto/anim.asm"
 PidgeotAnimation:    INCLUDE "gfx/pokemon/pidgeot/anim.asm"

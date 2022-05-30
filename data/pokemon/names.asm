@@ -8,14 +8,19 @@ PokemonNames::
 	db "CHARIZARD@"
 	db "MUDKIP@@@@" ; +
 	;db "SQUIRTLE@@"
-	db "WARTORTLE@"
-	db "BLASTOISE@"
+	db "MARSHTOMP@" ; +
+;	db "WARTORTLE@"
+	db "SWAMPERT@@" ; +
+;	db "BLASTOISE@"
 	db "CATERPIE@@"
 	db "METAPOD@@@"
 	db "BUTTERFREE"
-	db "WEEDLE@@@@"
-	db "KAKUNA@@@@"
-	db "BEEDRILL@@"
+	db "TURTWIG@@@" ; +
+;	db "WEEDLE@@@@"
+	db "GROTLE@@@@" ; +
+;	db "KAKUNA@@@@"
+	db "TORTERRA@@" ; +
+;	db "BEEDRILL@@"
 	db "PIDGEY@@@@"
 	db "PIDGEOTTO@"
 	db "PIDGEOT@@@"

@@ -8,14 +8,19 @@ FramesPointers:
 	dw CharizardFrames
 	dw MudkipFrames  ; +
 ;	dw SquirtleFrames
-	dw WartortleFrames
-	dw BlastoiseFrames
+	dw MarshtompFrames ; +
+;	dw WartortleFrames
+	dw SwampertFrames ; +
+;	dw BlastoiseFrames
 	dw CaterpieFrames
 	dw MetapodFrames
 	dw ButterfreeFrames
-	dw WeedleFrames
-	dw KakunaFrames
-	dw BeedrillFrames
+	dw TurtwigFrames ; +
+;	dw WeedleFrames
+	dw GrotleFrames ; +
+;	dw KakunaFrames
+	dw TorterraFrames ; +
+;	dw BeedrillFrames
 	dw PidgeyFrames
 	dw PidgeottoFrames
 	dw PidgeotFrames

@@ -6,14 +6,19 @@ CharmeleonBitmasks: INCLUDE "gfx/pokemon/charmeleon/bitmask.asm"
 CharizardBitmasks:  INCLUDE "gfx/pokemon/charizard/bitmask.asm"
 MudkipBitmasks:     INCLUDE "gfx/pokemon/mudkip/bitmask.asm"
 ;SquirtleBitmasks:   INCLUDE "gfx/pokemon/squirtle/bitmask.asm"
-WartortleBitmasks:  INCLUDE "gfx/pokemon/wartortle/bitmask.asm"
-BlastoiseBitmasks:  INCLUDE "gfx/pokemon/blastoise/bitmask.asm"
+MarshtompBitmasks:  INCLUDE "gfx/pokemon/marshtomp/bitmask.asm" ; + ; +
+;WartortleBitmasks:  INCLUDE "gfx/pokemon/marshtomp/bitmask.asm" ; +
+SwampertBitmasks:  INCLUDE "gfx/pokemon/swampert/bitmask.asm" ; + ; +
+;BlastoiseBitmasks:  INCLUDE "gfx/pokemon/swampert/bitmask.asm" ; +
 CaterpieBitmasks:   INCLUDE "gfx/pokemon/caterpie/bitmask.asm"
 MetapodBitmasks:    INCLUDE "gfx/pokemon/metapod/bitmask.asm"
 ButterfreeBitmasks: INCLUDE "gfx/pokemon/butterfree/bitmask.asm"
-WeedleBitmasks:     INCLUDE "gfx/pokemon/weedle/bitmask.asm"
-KakunaBitmasks:     INCLUDE "gfx/pokemon/kakuna/bitmask.asm"
-BeedrillBitmasks:   INCLUDE "gfx/pokemon/beedrill/bitmask.asm"
+TurtwigBitmasks:     INCLUDE "gfx/pokemon/turtwig/bitmask.asm" ; + ; +
+;WeedleBitmasks:     INCLUDE "gfx/pokemon/turtwig/bitmask.asm" ; +
+GrotleBitmasks:     INCLUDE "gfx/pokemon/grotle/bitmask.asm" ; + ; +
+;KakunaBitmasks:     INCLUDE "gfx/pokemon/grotle/bitmask.asm" ; +
+TorterraBitmasks:   INCLUDE "gfx/pokemon/torterra/bitmask.asm" ; + ; +
+;BeedrillBitmasks:   INCLUDE "gfx/pokemon/torterra/bitmask.asm" ; +
 PidgeyBitmasks:     INCLUDE "gfx/pokemon/pidgey/bitmask.asm"
 PidgeottoBitmasks:  INCLUDE "gfx/pokemon/pidgeotto/bitmask.asm"
 PidgeotBitmasks:    INCLUDE "gfx/pokemon/pidgeot/bitmask.asm"

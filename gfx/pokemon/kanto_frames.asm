@@ -8,14 +8,19 @@ CharmeleonFrames: INCLUDE "gfx/pokemon/charmeleon/frames.asm"
 CharizardFrames:  INCLUDE "gfx/pokemon/charizard/frames.asm"
 MudkipFrames:     INCLUDE "gfx/pokemon/mudkip/frames.asm"   ; +
 ;SquirtleFrames:   INCLUDE "gfx/pokemon/squirtle/frames.asm"
-WartortleFrames:  INCLUDE "gfx/pokemon/wartortle/frames.asm"
-BlastoiseFrames:  INCLUDE "gfx/pokemon/blastoise/frames.asm"
+MarshtompFrames:  INCLUDE "gfx/pokemon/marshtomp/frames.asm" ; + ; +
+;WartortleFrames:  INCLUDE "gfx/pokemon/marshtomp/frames.asm" ; +
+SwampertFrames:  INCLUDE "gfx/pokemon/swampert/frames.asm" ; + ; +
+;BlastoiseFrames:  INCLUDE "gfx/pokemon/swampert/frames.asm" ; +
 CaterpieFrames:   INCLUDE "gfx/pokemon/caterpie/frames.asm"
 MetapodFrames:    INCLUDE "gfx/pokemon/metapod/frames.asm"
 ButterfreeFrames: INCLUDE "gfx/pokemon/butterfree/frames.asm"
-WeedleFrames:     INCLUDE "gfx/pokemon/weedle/frames.asm"
-KakunaFrames:     INCLUDE "gfx/pokemon/kakuna/frames.asm"
-BeedrillFrames:   INCLUDE "gfx/pokemon/beedrill/frames.asm"
+TurtwigFrames:     INCLUDE "gfx/pokemon/turtwig/frames.asm" ; + ; +
+;WeedleFrames:     INCLUDE "gfx/pokemon/turtwig/frames.asm" ; +
+GrotleFrames:     INCLUDE "gfx/pokemon/grotle/frames.asm" ; + ; +
+;KakunaFrames:     INCLUDE "gfx/pokemon/grotle/frames.asm" ; +
+TorterraFrames:   INCLUDE "gfx/pokemon/torterra/frames.asm" ; + ; +
+;BeedrillFrames:   INCLUDE "gfx/pokemon/torterra/frames.asm" ; +
 PidgeyFrames:     INCLUDE "gfx/pokemon/pidgey/frames.asm"
 PidgeottoFrames:  INCLUDE "gfx/pokemon/pidgeotto/frames.asm"
 PidgeotFrames:    INCLUDE "gfx/pokemon/pidgeot/frames.asm"

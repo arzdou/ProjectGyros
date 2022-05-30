@@ -19,22 +19,32 @@ PokemonPicPointers::
 	dba_pic MudkipBackpic    ; +
 ;	dba_pic SquirtleFrontpic
 ;	dba_pic SquirtleBackpic
-	dba_pic WartortleFrontpic
-	dba_pic WartortleBackpic
-	dba_pic BlastoiseFrontpic
-	dba_pic BlastoiseBackpic
+	dba_pic MarshtompFrontpic ; +
+;	dba_pic WartortleFrontpic
+	dba_pic MarshtompBackpic ; +
+;	dba_pic WartortleBackpic
+	dba_pic SwampertFrontpic ; +
+;	dba_pic BlastoiseFrontpic
+	dba_pic SwampertBackpic ; +
+;	dba_pic BlastoiseBackpic
 	dba_pic CaterpieFrontpic
 	dba_pic CaterpieBackpic
 	dba_pic MetapodFrontpic
 	dba_pic MetapodBackpic
 	dba_pic ButterfreeFrontpic
 	dba_pic ButterfreeBackpic
-	dba_pic WeedleFrontpic
-	dba_pic WeedleBackpic
-	dba_pic KakunaFrontpic
-	dba_pic KakunaBackpic
-	dba_pic BeedrillFrontpic
-	dba_pic BeedrillBackpic
+	dba_pic TurtwigFrontpic ; +
+;	dba_pic WeedleFrontpic
+	dba_pic TurtwigBackpic ; +
+;	dba_pic WeedleBackpic
+	dba_pic GrotleFrontpic ; +
+;	dba_pic KakunaFrontpic
+	dba_pic GrotleBackpic ; +
+;	dba_pic KakunaBackpic
+	dba_pic TorterraFrontpic ; +
+;	dba_pic BeedrillFrontpic
+	dba_pic TorterraBackpic ; +
+;	dba_pic BeedrillBackpic
 	dba_pic PidgeyFrontpic
 	dba_pic PidgeyBackpic
 	dba_pic PidgeottoFrontpic

@@ -8,14 +8,19 @@ AnimationIdlePointers:
 	dw CharizardAnimationIdle
 	dw MudkipAnimationIdle  ; +
 ;	dw SquirtleAnimationIdle
-	dw WartortleAnimationIdle
-	dw BlastoiseAnimationIdle
+	dw MarshtompAnimationIdle ; +
+;	dw WartortleAnimationIdle
+	dw SwampertAnimationIdle ; +
+;	dw BlastoiseAnimationIdle
 	dw CaterpieAnimationIdle
 	dw MetapodAnimationIdle
 	dw ButterfreeAnimationIdle
-	dw WeedleAnimationIdle
-	dw KakunaAnimationIdle
-	dw BeedrillAnimationIdle
+	dw TurtwigAnimationIdle ; +
+;	dw WeedleAnimationIdle
+	dw GrotleAnimationIdle ; +
+;	dw KakunaAnimationIdle
+	dw TorterraAnimationIdle ; +
+;	dw BeedrillAnimationIdle
 	dw PidgeyAnimationIdle
 	dw PidgeottoAnimationIdle
 	dw PidgeotAnimationIdle

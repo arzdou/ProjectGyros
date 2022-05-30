@@ -13,11 +13,11 @@ AlphabeticalPokedexOrder:
 	db ARTICUNO
 	db AZUMARILL
 	; db BAYLEEF
-	db BEEDRILL
+;	db BEEDRILL
 	db BELLOSSOM
 	db BELLSPROUT
 	db BIBAREL  ; +
-	db BLASTOISE
+;	db BLASTOISE
 	db BLISSEY
 	db BULBASAUR
 	db BUTTERFREE
@@ -74,6 +74,7 @@ AlphabeticalPokedexOrder:
 	db GEODUDE
 	db GIRAFARIG
 	db GLIGAR
+	db GROTLE
 	db GLOOM
 	db GOGOAT  ; +
 	db GOLBAT
@@ -106,7 +107,7 @@ AlphabeticalPokedexOrder:
 	db KABUTO
 	db KABUTOPS
 	db KADABRA
-	db KAKUNA
+;	db KAKUNA
 	db KANGASKHAN
 	db KINGDRA
 	db KINGLER
@@ -124,6 +125,7 @@ AlphabeticalPokedexOrder:
 	db MACHOP
 	db MAGBY
 	db MAGCARGO
+	db MARSHTOMP
 	db MAGIKARP
 	db MAGMAR
 	db MAGNEMITE
@@ -213,13 +215,16 @@ AlphabeticalPokedexOrder:
 	db SMEARGLE
 	db SMOOCHUM
 	db SNEASEL
+	db SWAMPERT
 	db SNORLAX
 	db SNUBBULL
 	db SPEAROW
 	db SPINARAK
 	;db SQUIRTLE
 	db STANTLER
+	db TORTERRA
 	db STARMIE
+	db TURTWIG
 	db STARYU
 	db STEELIX
 	db SUDOWOODO
@@ -250,8 +255,8 @@ AlphabeticalPokedexOrder:
 	db VILEPLUME
 	db VOLTORB
 	db VULPIX
-	db WARTORTLE
-	db WEEDLE
+;	db WARTORTLE
+;	db WEEDLE
 	db WEEPINBELL
 	db WEEZING
 	db WIGGLYTUFF

@@ -27,7 +27,8 @@ Pokered_MonIndices:
 	db GASTLY
 	db SCYTHER
 	db STARYU
-	db BLASTOISE
+	db SWAMPERT ; +
+;	db BLASTOISE
 	db PINSIR
 	db TANGELA
 	db SCIZOR ; MISSINGNO.
@@ -111,9 +112,12 @@ Pokered_MonIndices:
 	db PARAS
 	db POLIWHIRL
 	db POLIWRATH
-	db WEEDLE
-	db KAKUNA
-	db BEEDRILL
+	db TURTWIG ; +
+;	db WEEDLE
+	db GROTLE ; +
+;	db KAKUNA
+	db TORTERRA ; +
+;	db BEEDRILL
 	db HOUNDOOM ; MISSINGNO.
 	db DODRIO
 	db PRIMEAPE
@@ -179,7 +183,8 @@ Pokered_MonIndices:
 	db MUDKIP
 	;db SQUIRTLE
 	db CHARMELEON
-	db WARTORTLE
+	db MARSHTOMP ; +
+;	db WARTORTLE
 	db CHARIZARD
 	db LARVITAR ; MISSINGNO.
 	db PUPITAR ; MISSINGNO. KABUTOPS FOSSIL

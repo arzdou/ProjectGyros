@@ -27,14 +27,19 @@
 	const CHARIZARD  ; 06
 	const MUDKIP     ; 07 +
 	;const SQUIRTLE   ; 07
-	const WARTORTLE  ; 08
-	const BLASTOISE  ; 09
+	const MARSHTOMP  ; 08 ; +
+;	const WARTORTLE  ; 08
+	const SWAMPERT  ; 09 ; +
+;	const BLASTOISE  ; 09
 	const CATERPIE   ; 0a
 	const METAPOD    ; 0b
 	const BUTTERFREE ; 0c
-	const WEEDLE     ; 0d
-	const KAKUNA     ; 0e
-	const BEEDRILL   ; 0f
+	const TURTWIG     ; 0d ; +
+;	const WEEDLE     ; 0d
+	const GROTLE     ; 0e ; +
+;	const KAKUNA     ; 0e
+	const TORTERRA   ; 0f ; +
+;	const BEEDRILL   ; 0f
 	const PIDGEY     ; 10
 	const PIDGEOTTO  ; 11
 	const PIDGEOT    ; 12
