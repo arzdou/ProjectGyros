@@ -693,9 +693,6 @@ DratiniBackpic:      INCBIN "gfx/pokemon/dratini/back.2bpp.lz"
 ElectrodeBackpic:    INCBIN "gfx/pokemon/electrode/back.2bpp.lz"
 SkarmoryBackpic:     INCBIN "gfx/pokemon/skarmory/back.2bpp.lz"
 MetapodBackpic:      INCBIN "gfx/pokemon/metapod/back.2bpp.lz"
-JigglypuffBackpic:   INCBIN "gfx/pokemon/jigglypuff/back.2bpp.lz"
-OddishBackpic:       INCBIN "gfx/pokemon/oddish/back.2bpp.lz"
-UnownDBackpic:       INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
 
 
 SECTION "Pics 18", ROMX
@@ -775,6 +772,10 @@ NidoranFFrontpic:    INCBIN "gfx/pokemon/nidoran_f/front.animated.2bpp.lz"
 PidgeyFrontpic:      INCBIN "gfx/pokemon/pidgey/front.animated.2bpp.lz"
 ParasectBackpic:     INCBIN "gfx/pokemon/parasect/back.2bpp.lz"
 
+; These didn't fit in 'Pics 17' section
+JigglypuffBackpic:   INCBIN "gfx/pokemon/jigglypuff/back.2bpp.lz"
+OddishBackpic:       INCBIN "gfx/pokemon/oddish/back.2bpp.lz"
+UnownDBackpic:       INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
 
 
 
