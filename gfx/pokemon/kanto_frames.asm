@@ -65,9 +65,12 @@ MankeyFrames:     INCLUDE "gfx/pokemon/mankey/frames.asm"
 PrimeapeFrames:   INCLUDE "gfx/pokemon/primeape/frames.asm"
 GrowlitheFrames:  INCLUDE "gfx/pokemon/growlithe/frames.asm"
 ArcanineFrames:   INCLUDE "gfx/pokemon/arcanine/frames.asm"
-PoliwagFrames:    INCLUDE "gfx/pokemon/poliwag/frames.asm"
-PoliwhirlFrames:  INCLUDE "gfx/pokemon/poliwhirl/frames.asm"
-PoliwrathFrames:  INCLUDE "gfx/pokemon/poliwrath/frames.asm"
+FennekinFrames:    INCLUDE "gfx/pokemon/fennekin/frames.asm" ; + ; +
+;PoliwagFrames:    INCLUDE "gfx/pokemon/fennekin/frames.asm" ; +
+BraixenFrames:  INCLUDE "gfx/pokemon/braixen/frames.asm" ; + ; +
+;PoliwhirlFrames:  INCLUDE "gfx/pokemon/braixen/frames.asm" ; +
+DelphoxFrames:  INCLUDE "gfx/pokemon/delphox/frames.asm" ; + ; +
+;PoliwrathFrames:  INCLUDE "gfx/pokemon/delphox/frames.asm" ; +
 AbraFrames:       INCLUDE "gfx/pokemon/abra/frames.asm"
 KadabraFrames:    INCLUDE "gfx/pokemon/kadabra/frames.asm"
 AlakazamFrames:   INCLUDE "gfx/pokemon/alakazam/frames.asm"

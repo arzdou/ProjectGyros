@@ -889,44 +889,85 @@ ArcanineEvosAttacks:
 	db 50, EXTREMESPEED
 	db 0 ; no more level-up moves
 
-PoliwagEvosAttacks:
-	db EVOLVE_LEVEL, 25, POLIWHIRL
-	db 0 ; no more evolutions
-	db 1, BUBBLE
-	db 7, HYPNOSIS
-	db 13, WATER_GUN
-	db 19, DOUBLESLAP
-	db 25, RAIN_DANCE
-	db 31, BODY_SLAM
-	db 37, BELLY_DRUM
-	db 43, HYDRO_PUMP
+FennekinEvosAttacks: ; +
+	db 0 ; ADD YOUR EVOLUTION
+	db 1, SCRATCH
+	db 1, TAIL_WHIP
+	db 5, EMBER
+	db 17, PSYBEAM
+	db 20, FIRE_SPIN
+	db 27, LIGHT_SCREEN
+	db 35, FLAMETHROWER
+	db 43, SUNNY_DAY
+	db 48, FIRE_BLAST
 	db 0 ; no more level-up moves
 
-PoliwhirlEvosAttacks:
-	db EVOLVE_ITEM, WATER_STONE, POLIWRATH
-	db EVOLVE_TRADE, KINGS_ROCK, POLITOED
-	db 0 ; no more evolutions
-	db 1, BUBBLE
-	db 1, HYPNOSIS
-	db 1, WATER_GUN
-	db 7, HYPNOSIS
-	db 13, WATER_GUN
-	db 19, DOUBLESLAP
-	db 27, RAIN_DANCE
-	db 35, BODY_SLAM
-	db 43, BELLY_DRUM
-	db 51, HYDRO_PUMP
+;PoliwagEvosAttacks:
+;	db EVOLVE_LEVEL, 25, POLIWHIRL
+;	db 0 ; no more evolutions
+;	db 1, BUBBLE
+;	db 7, HYPNOSIS
+;	db 13, WATER_GUN
+;	db 19, DOUBLESLAP
+;	db 25, RAIN_DANCE
+;	db 31, BODY_SLAM
+;	db 37, BELLY_DRUM
+;	db 43, HYDRO_PUMP
+;	db 0 ; no more level-up moves
+
+BraixenEvosAttacks: ; +
+	db 0 ; ADD YOUR EVOLUTION
+	db 1, SCRATCH
+	db 1, TAIL_WHIP
+	db 5, EMBER
+	db 18, PSYBEAM
+	db 22, FIRE_SPIN
+	db 30, LIGHT_SCREEN
+	db 41, FLAMETHROWER
+	db 51, SUNNY_DAY
+	db 55, FIRE_BLAST
 	db 0 ; no more level-up moves
 
-PoliwrathEvosAttacks:
-	db 0 ; no more evolutions
-	db 1, WATER_GUN
-	db 1, HYPNOSIS
-	db 1, DOUBLESLAP
-	db 1, SUBMISSION
-	db 35, SUBMISSION
-	db 51, MIND_READER
+;PoliwhirlEvosAttacks:
+;	db EVOLVE_ITEM, WATER_STONE, POLIWRATH
+;	db EVOLVE_TRADE, KINGS_ROCK, POLITOED
+;	db 0 ; no more evolutions
+;	db 1, BUBBLE
+;	db 1, HYPNOSIS
+;	db 1, WATER_GUN
+;	db 7, HYPNOSIS
+;	db 13, WATER_GUN
+;	db 19, DOUBLESLAP
+;	db 27, RAIN_DANCE
+;	db 35, BODY_SLAM
+;	db 43, BELLY_DRUM
+;	db 51, HYDRO_PUMP
+;	db 0 ; no more level-up moves
+
+DelphoxEvosAttacks: ; +
+	db 0 ; ADD YOUR EVOLUTION
+	db 1, SCRATCH
+	db 1, TAIL_WHIP
+	db 1, SHADOW_BALL
+	db 1, FUTURE_SIGHT
+	db 5, EMBER
+	db 18, PSYBEAM
+	db 22, FIRE_SPIN
+	db 30, LIGHT_SCREEN
+	db 42, FLAMETHROWER
+	db 55, SUNNY_DAY
+	db 61, FIRE_BLAST
 	db 0 ; no more level-up moves
+
+;PoliwrathEvosAttacks:
+;	db 0 ; no more evolutions
+;	db 1, WATER_GUN
+;	db 1, HYPNOSIS
+;	db 1, DOUBLESLAP
+;	db 1, SUBMISSION
+;	db 35, SUBMISSION
+;	db 51, MIND_READER
+;	db 0 ; no more level-up moves
 
 AbraEvosAttacks:
 	db EVOLVE_LEVEL, 16, KADABRA

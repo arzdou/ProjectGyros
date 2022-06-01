@@ -68,9 +68,12 @@ MankeyPokedexEntry::     INCLUDE "data/pokemon/dex_entries/mankey.asm"
 PrimeapePokedexEntry::   INCLUDE "data/pokemon/dex_entries/primeape.asm"
 GrowlithePokedexEntry::  INCLUDE "data/pokemon/dex_entries/growlithe.asm"
 ArcaninePokedexEntry::   INCLUDE "data/pokemon/dex_entries/arcanine.asm"
-PoliwagPokedexEntry::    INCLUDE "data/pokemon/dex_entries/poliwag.asm"
-PoliwhirlPokedexEntry::  INCLUDE "data/pokemon/dex_entries/poliwhirl.asm"
-PoliwrathPokedexEntry::  INCLUDE "data/pokemon/dex_entries/poliwrath.asm"
+FennekinPokedexEntry::    INCLUDE "data/pokemon/dex_entries/fennekin.asm" ; + ; +
+;PoliwagPokedexEntry::    INCLUDE "data/pokemon/dex_entries/fennekin.asm" ; +
+BraixenPokedexEntry::  INCLUDE "data/pokemon/dex_entries/braixen.asm" ; + ; +
+;PoliwhirlPokedexEntry::  INCLUDE "data/pokemon/dex_entries/braixen.asm" ; +
+DelphoxPokedexEntry::  INCLUDE "data/pokemon/dex_entries/delphox.asm" ; + ; +
+;PoliwrathPokedexEntry::  INCLUDE "data/pokemon/dex_entries/delphox.asm" ; +
 AbraPokedexEntry::       INCLUDE "data/pokemon/dex_entries/abra.asm"
 KadabraPokedexEntry::    INCLUDE "data/pokemon/dex_entries/kadabra.asm"
 

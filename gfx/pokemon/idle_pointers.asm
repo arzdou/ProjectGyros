@@ -65,9 +65,12 @@ AnimationIdlePointers:
 	dw PrimeapeAnimationIdle
 	dw GrowlitheAnimationIdle
 	dw ArcanineAnimationIdle
-	dw PoliwagAnimationIdle
-	dw PoliwhirlAnimationIdle
-	dw PoliwrathAnimationIdle
+	dw FennekinAnimationIdle ; +
+;	dw PoliwagAnimationIdle
+	dw BraixenAnimationIdle ; +
+;	dw PoliwhirlAnimationIdle
+	dw DelphoxAnimationIdle ; +
+;	dw PoliwrathAnimationIdle
 	dw AbraAnimationIdle
 	dw KadabraAnimationIdle
 	dw AlakazamAnimationIdle

@@ -186,13 +186,17 @@ GrowlitheEggMoves:
 	db FIRE_SPIN
 	db -1 ; end
 
-PoliwagEggMoves:
-	db MIST
-	db SPLASH
-	db BUBBLEBEAM
-	db HAZE
-	db MIND_READER
+FennekinEggMoves:
+	db HYPNOSIS
 	db -1 ; end
+
+;PoliwagEggMoves:
+;	db MIST
+;	db SPLASH
+;	db BUBBLEBEAM
+;	db HAZE
+;	db MIND_READER
+;	db -1 ; end
 
 AbraEggMoves:
 	db LIGHT_SCREEN

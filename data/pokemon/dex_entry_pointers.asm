@@ -66,9 +66,12 @@ PokedexDataPointerTable:
 	dw PrimeapePokedexEntry
 	dw GrowlithePokedexEntry
 	dw ArcaninePokedexEntry
-	dw PoliwagPokedexEntry
-	dw PoliwhirlPokedexEntry
-	dw PoliwrathPokedexEntry
+	dw FennekinPokedexEntry ; +
+;	dw PoliwagPokedexEntry
+	dw BraixenPokedexEntry ; +
+;	dw PoliwhirlPokedexEntry
+	dw DelphoxPokedexEntry ; +
+;	dw PoliwrathPokedexEntry
 	dw AbraPokedexEntry
 	dw KadabraPokedexEntry
 	dw AlakazamPokedexEntry

@@ -63,9 +63,12 @@ MankeyBitmasks:     INCLUDE "gfx/pokemon/mankey/bitmask.asm"
 PrimeapeBitmasks:   INCLUDE "gfx/pokemon/primeape/bitmask.asm"
 GrowlitheBitmasks:  INCLUDE "gfx/pokemon/growlithe/bitmask.asm"
 ArcanineBitmasks:   INCLUDE "gfx/pokemon/arcanine/bitmask.asm"
-PoliwagBitmasks:    INCLUDE "gfx/pokemon/poliwag/bitmask.asm"
-PoliwhirlBitmasks:  INCLUDE "gfx/pokemon/poliwhirl/bitmask.asm"
-PoliwrathBitmasks:  INCLUDE "gfx/pokemon/poliwrath/bitmask.asm"
+FennekinBitmasks:    INCLUDE "gfx/pokemon/fennekin/bitmask.asm" ; + ; +
+;PoliwagBitmasks:    INCLUDE "gfx/pokemon/fennekin/bitmask.asm" ; +
+BraixenBitmasks:  INCLUDE "gfx/pokemon/braixen/bitmask.asm" ; + ; +
+;PoliwhirlBitmasks:  INCLUDE "gfx/pokemon/braixen/bitmask.asm" ; +
+DelphoxBitmasks:  INCLUDE "gfx/pokemon/delphox/bitmask.asm" ; + ; +
+;PoliwrathBitmasks:  INCLUDE "gfx/pokemon/delphox/bitmask.asm" ; +
 AbraBitmasks:       INCLUDE "gfx/pokemon/abra/bitmask.asm"
 KadabraBitmasks:    INCLUDE "gfx/pokemon/kadabra/bitmask.asm"
 AlakazamBitmasks:   INCLUDE "gfx/pokemon/alakazam/bitmask.asm"

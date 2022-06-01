@@ -71,7 +71,8 @@ Pokered_MonIndices:
 	db SWINUB ; MISSINGNO.
 	db PILOSWINE ; MISSINGNO.
 	db DODUO
-	db POLIWAG
+	db FENNEKIN ; +
+;	db POLIWAG
 	db JYNX
 	db MOLTRES
 	db ARTICUNO
@@ -110,8 +111,10 @@ Pokered_MonIndices:
 	db ZUBAT
 	db EKANS
 	db PARAS
-	db POLIWHIRL
-	db POLIWRATH
+	db BRAIXEN ; +
+;	db POLIWHIRL
+	db DELPHOX ; +
+;	db POLIWRATH
 	db TURTWIG ; +
 ;	db WEEDLE
 	db GROTLE ; +

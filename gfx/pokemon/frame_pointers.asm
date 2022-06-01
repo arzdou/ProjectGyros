@@ -65,9 +65,12 @@ FramesPointers:
 	dw PrimeapeFrames
 	dw GrowlitheFrames
 	dw ArcanineFrames
-	dw PoliwagFrames
-	dw PoliwhirlFrames
-	dw PoliwrathFrames
+	dw FennekinFrames ; +
+;	dw PoliwagFrames
+	dw BraixenFrames ; +
+;	dw PoliwhirlFrames
+	dw DelphoxFrames ; +
+;	dw PoliwrathFrames
 	dw AbraFrames
 	dw KadabraFrames
 	dw AlakazamFrames

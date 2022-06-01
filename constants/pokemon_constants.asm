@@ -84,9 +84,12 @@
 	const PRIMEAPE   ; 39
 	const GROWLITHE  ; 3a
 	const ARCANINE   ; 3b
-	const POLIWAG    ; 3c
-	const POLIWHIRL  ; 3d
-	const POLIWRATH  ; 3e
+	const FENNEKIN    ; 3c ; +
+;	const POLIWAG    ; 3c
+	const BRAIXEN  ; 3d ; +
+;	const POLIWHIRL  ; 3d
+	const DELPHOX  ; 3e ; +
+;	const POLIWRATH  ; 3e
 	const ABRA       ; 3f
 	const KADABRA    ; 40
 	const ALAKAZAM   ; 41

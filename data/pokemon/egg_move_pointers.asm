@@ -60,7 +60,8 @@ EggMovePointers::
 	dw NoEggMoves
 	dw GrowlitheEggMoves
 	dw NoEggMoves
-	dw PoliwagEggMoves
+	dw FennekinEggMoves ; +
+;	dw PoliwagEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw AbraEggMoves

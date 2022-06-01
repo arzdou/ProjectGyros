@@ -65,9 +65,12 @@ AnimationPointers:
 	dw PrimeapeAnimation
 	dw GrowlitheAnimation
 	dw ArcanineAnimation
-	dw PoliwagAnimation
-	dw PoliwhirlAnimation
-	dw PoliwrathAnimation
+	dw FennekinAnimation ; +
+;	dw PoliwagAnimation
+	dw BraixenAnimation ; +
+;	dw PoliwhirlAnimation
+	dw DelphoxAnimation ; +
+;	dw PoliwrathAnimation
 	dw AbraAnimation
 	dw KadabraAnimation
 	dw AlakazamAnimation

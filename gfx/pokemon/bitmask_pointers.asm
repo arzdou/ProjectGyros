@@ -65,9 +65,12 @@ BitmasksPointers:
 	dw PrimeapeBitmasks
 	dw GrowlitheBitmasks
 	dw ArcanineBitmasks
-	dw PoliwagBitmasks
-	dw PoliwhirlBitmasks
-	dw PoliwrathBitmasks
+	dw FennekinBitmasks ; +
+;	dw PoliwagBitmasks
+	dw BraixenBitmasks ; +
+;	dw PoliwhirlBitmasks
+	dw DelphoxBitmasks ; +
+;	dw PoliwrathBitmasks
 	dw AbraBitmasks
 	dw KadabraBitmasks
 	dw AlakazamBitmasks

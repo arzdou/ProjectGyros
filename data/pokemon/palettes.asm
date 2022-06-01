@@ -145,12 +145,18 @@ INCBIN "gfx/pokemon/growlithe/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/growlithe/shiny.pal"
 INCBIN "gfx/pokemon/arcanine/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/arcanine/shiny.pal"
-INCBIN "gfx/pokemon/poliwag/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/poliwag/shiny.pal"
-INCBIN "gfx/pokemon/poliwhirl/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/poliwhirl/shiny.pal"
-INCBIN "gfx/pokemon/poliwrath/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/poliwrath/shiny.pal"
+INCBIN "gfx/pokemon/fennekin/front.gbcpal", middle_colors ; +
+;INCBIN "gfx/pokemon/poliwag/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/fennekin/shiny.pal" ; +
+;INCLUDE "gfx/pokemon/poliwag/shiny.pal"
+INCBIN "gfx/pokemon/braixen/front.gbcpal", middle_colors ; +
+;INCBIN "gfx/pokemon/poliwhirl/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/braixen/shiny.pal" ; +
+;INCLUDE "gfx/pokemon/poliwhirl/shiny.pal"
+INCBIN "gfx/pokemon/delphox/front.gbcpal", middle_colors ; +
+;INCBIN "gfx/pokemon/poliwrath/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/delphox/shiny.pal" ; +
+;INCLUDE "gfx/pokemon/poliwrath/shiny.pal"
 INCBIN "gfx/pokemon/abra/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/abra/shiny.pal"
 INCBIN "gfx/pokemon/kadabra/front.gbcpal", middle_colors

@@ -88,9 +88,12 @@ INCLUDE "data/pokemon/base_stats/mankey.asm"
 INCLUDE "data/pokemon/base_stats/primeape.asm"
 INCLUDE "data/pokemon/base_stats/growlithe.asm"
 INCLUDE "data/pokemon/base_stats/arcanine.asm"
-INCLUDE "data/pokemon/base_stats/poliwag.asm"
-INCLUDE "data/pokemon/base_stats/poliwhirl.asm"
-INCLUDE "data/pokemon/base_stats/poliwrath.asm"
+INCLUDE "data/pokemon/base_stats/fennekin.asm" ; +
+;INCLUDE "data/pokemon/base_stats/poliwag.asm"
+INCLUDE "data/pokemon/base_stats/braixen.asm" ; +
+;INCLUDE "data/pokemon/base_stats/poliwhirl.asm"
+INCLUDE "data/pokemon/base_stats/delphox.asm" ; +
+;INCLUDE "data/pokemon/base_stats/poliwrath.asm"
 INCLUDE "data/pokemon/base_stats/abra.asm"
 INCLUDE "data/pokemon/base_stats/kadabra.asm"
 INCLUDE "data/pokemon/base_stats/alakazam.asm"

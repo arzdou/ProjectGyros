@@ -67,9 +67,12 @@ EvosAttacksPointers::
 	dw PrimeapeEvosAttacks
 	dw GrowlitheEvosAttacks
 	dw ArcanineEvosAttacks
-	dw PoliwagEvosAttacks
-	dw PoliwhirlEvosAttacks
-	dw PoliwrathEvosAttacks
+	dw FennekinEvosAttacks ; +
+;	dw PoliwagEvosAttacks
+	dw BraixenEvosAttacks ; +
+;	dw PoliwhirlEvosAttacks
+	dw DelphoxEvosAttacks ; +
+;	dw PoliwrathEvosAttacks
 	dw AbraEvosAttacks
 	dw KadabraEvosAttacks
 	dw AlakazamEvosAttacks

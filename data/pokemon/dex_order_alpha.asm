@@ -15,6 +15,7 @@ AlphabeticalPokedexOrder:
 	; db BAYLEEF
 ;	db BEEDRILL
 	db BELLOSSOM
+	db BRAIXEN
 	db BELLSPROUT
 	db BIBAREL  ; +
 ;	db BLASTOISE
@@ -33,6 +34,7 @@ AlphabeticalPokedexOrder:
 	db CLEFAIRY
 	db CLEFFA
 	db CLOYSTER
+	db DELPHOX
 	db CORSOLA
 	db CROBAT
 	; db CROCONAW
@@ -56,6 +58,7 @@ AlphabeticalPokedexOrder:
 	db ELECTABUZZ
 	db ELECTRODE
 	db ELEKID
+	db FENNEKIN
 	db ENTEI
 	db ESPEON
 	db EXEGGCUTE
@@ -175,9 +178,9 @@ AlphabeticalPokedexOrder:
 	db PINECO
 	db PINSIR
 	db POLITOED
-	db POLIWAG
-	db POLIWHIRL
-	db POLIWRATH
+;	db POLIWAG
+;	db POLIWHIRL
+;	db POLIWRATH
 	db PONYTA
 	db PORYGON
 	db PORYGON2

@@ -83,9 +83,12 @@ NewPokedexOrder:
 	db JUMPLUFF
 	db PARAS
 	db PARASECT
-	db POLIWAG
-	db POLIWHIRL
-	db POLIWRATH
+	db FENNEKIN ; +
+;	db POLIWAG
+	db BRAIXEN ; +
+;	db POLIWHIRL
+	db DELPHOX ; +
+;	db POLIWRATH
 	db POLITOED
 	db MAGIKARP
 	db GYARADOS

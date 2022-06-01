@@ -65,9 +65,12 @@ PokemonNames::
 	db "PRIMEAPE@@"
 	db "GROWLITHE@"
 	db "ARCANINE@@"
-	db "POLIWAG@@@"
-	db "POLIWHIRL@"
-	db "POLIWRATH@"
+	db "FENNEKIN@@" ; +
+;	db "POLIWAG@@@"
+	db "BRAIXEN@@@" ; +
+;	db "POLIWHIRL@"
+	db "DELPHOX@@@" ; +
+;	db "POLIWRATH@"
 	db "ABRA@@@@@@"
 	db "KADABRA@@@"
 	db "ALAKAZAM@@"

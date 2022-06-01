@@ -63,9 +63,12 @@ MankeyAnimationIdle:     INCLUDE "gfx/pokemon/mankey/anim_idle.asm"
 PrimeapeAnimationIdle:   INCLUDE "gfx/pokemon/primeape/anim_idle.asm"
 GrowlitheAnimationIdle:  INCLUDE "gfx/pokemon/growlithe/anim_idle.asm"
 ArcanineAnimationIdle:   INCLUDE "gfx/pokemon/arcanine/anim_idle.asm"
-PoliwagAnimationIdle:    INCLUDE "gfx/pokemon/poliwag/anim_idle.asm"
-PoliwhirlAnimationIdle:  INCLUDE "gfx/pokemon/poliwhirl/anim_idle.asm"
-PoliwrathAnimationIdle:  INCLUDE "gfx/pokemon/poliwrath/anim_idle.asm"
+FennekinAnimationIdle:    INCLUDE "gfx/pokemon/fennekin/anim_idle.asm" ; + ; +
+;PoliwagAnimationIdle:    INCLUDE "gfx/pokemon/fennekin/anim_idle.asm" ; +
+BraixenAnimationIdle:  INCLUDE "gfx/pokemon/braixen/anim_idle.asm" ; + ; +
+;PoliwhirlAnimationIdle:  INCLUDE "gfx/pokemon/braixen/anim_idle.asm" ; +
+DelphoxAnimationIdle:  INCLUDE "gfx/pokemon/delphox/anim_idle.asm" ; + ; +
+;PoliwrathAnimationIdle:  INCLUDE "gfx/pokemon/delphox/anim_idle.asm" ; +
 AbraAnimationIdle:       INCLUDE "gfx/pokemon/abra/anim_idle.asm"
 KadabraAnimationIdle:    INCLUDE "gfx/pokemon/kadabra/anim_idle.asm"
 AlakazamAnimationIdle:   INCLUDE "gfx/pokemon/alakazam/anim_idle.asm"

@@ -63,9 +63,12 @@ MankeyAnimation:     INCLUDE "gfx/pokemon/mankey/anim.asm"
 PrimeapeAnimation:   INCLUDE "gfx/pokemon/primeape/anim.asm"
 GrowlitheAnimation:  INCLUDE "gfx/pokemon/growlithe/anim.asm"
 ArcanineAnimation:   INCLUDE "gfx/pokemon/arcanine/anim.asm"
-PoliwagAnimation:    INCLUDE "gfx/pokemon/poliwag/anim.asm"
-PoliwhirlAnimation:  INCLUDE "gfx/pokemon/poliwhirl/anim.asm"
-PoliwrathAnimation:  INCLUDE "gfx/pokemon/poliwrath/anim.asm"
+FennekinAnimation:    INCLUDE "gfx/pokemon/fennekin/anim.asm" ; + ; +
+;PoliwagAnimation:    INCLUDE "gfx/pokemon/fennekin/anim.asm" ; +
+BraixenAnimation:  INCLUDE "gfx/pokemon/braixen/anim.asm" ; + ; +
+;PoliwhirlAnimation:  INCLUDE "gfx/pokemon/braixen/anim.asm" ; +
+DelphoxAnimation:  INCLUDE "gfx/pokemon/delphox/anim.asm" ; + ; +
+;PoliwrathAnimation:  INCLUDE "gfx/pokemon/delphox/anim.asm" ; +
 AbraAnimation:       INCLUDE "gfx/pokemon/abra/anim.asm"
 KadabraAnimation:    INCLUDE "gfx/pokemon/kadabra/anim.asm"
 AlakazamAnimation:   INCLUDE "gfx/pokemon/alakazam/anim.asm"

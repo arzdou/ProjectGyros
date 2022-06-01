@@ -62,7 +62,8 @@ ChuckGroup:
 	; CHUCK (1)
 	db "CHUCK@", TRAINERTYPE_MOVES
 	db 27, PRIMEAPE,   LEER, RAGE, KARATE_CHOP, FURY_SWIPES
-	db 30, POLIWRATH,  HYPNOSIS, MIND_READER, SURF, DYNAMICPUNCH
+	db 30, DELPHOX,  HYPNOSIS, MIND_READER, SURF, DYNAMICPUNCH ; +
+;	db 30, POLIWRATH,  HYPNOSIS, MIND_READER, SURF, DYNAMICPUNCH
 	db -1 ; end
 
 ClairGroup:
@@ -486,7 +487,8 @@ SchoolboyGroup:
 	db "BILLY@", TRAINERTYPE_NORMAL
 	db 27, PARAS
 	db 27, PARAS
-	db 27, POLIWHIRL
+	db 27, BRAIXEN ; +
+;	db 27, POLIWHIRL
 	db 35, DITTO
 	db -1 ; end
 
@@ -1043,7 +1045,8 @@ CooltrainerFGroup:
 
 	; COOLTRAINERF (15)
 	db "EMMA@", TRAINERTYPE_NORMAL
-	db 28, POLIWHIRL
+	db 28, BRAIXEN ; +
+;	db 28, POLIWHIRL
 	db -1 ; end
 
 	; COOLTRAINERF (16)
@@ -1670,14 +1673,17 @@ FisherGroup:
 	; FISHER (4)
 	db "KYLE@", TRAINERTYPE_NORMAL
 	db 28, SEAKING
-	db 31, POLIWHIRL
+	db 31, BRAIXEN ; +
+;	db 31, POLIWHIRL
 	db 31, SEAKING
 	db -1 ; end
 
 	; FISHER (5)
 	db "HENRY@", TRAINERTYPE_NORMAL
-	db  8, POLIWAG
-	db  8, POLIWAG
+	db  8, FENNEKIN ; +
+;	db  8, POLIWAG
+	db  8, FENNEKIN ; +
+;	db  8, POLIWAG
 	db -1 ; end
 
 	; FISHER (6)
@@ -2065,20 +2071,24 @@ SwimmerFGroup:
 SailorGroup:
 	; SAILOR (1)
 	db "EUGENE@", TRAINERTYPE_NORMAL
-	db 17, POLIWHIRL
+	db 17, BRAIXEN ; +
+;	db 17, POLIWHIRL
 	db 17, RATICATE
 	db 19, KRABBY
 	db -1 ; end
 
 	; SAILOR (2)
 	db "HUEY@", TRAINERTYPE_NORMAL
-	db 18, POLIWAG
-	db 18, POLIWHIRL
+	db 18, FENNEKIN ; +
+;	db 18, POLIWAG
+	db 18, BRAIXEN ; +
+;	db 18, POLIWHIRL
 	db -1 ; end
 
 	; SAILOR (3)
 	db "TERRELL@", TRAINERTYPE_NORMAL
-	db 20, POLIWHIRL
+	db 20, BRAIXEN ; +
+;	db 20, POLIWHIRL
 	db -1 ; end
 
 	; SAILOR (4)
@@ -2091,7 +2101,8 @@ SailorGroup:
 	db "ERNEST@", TRAINERTYPE_NORMAL
 	db 18, MACHOP
 	db 18, MACHOP
-	db 18, POLIWHIRL
+	db 18, BRAIXEN ; +
+;	db 18, POLIWHIRL
 	db -1 ; end
 
 	; SAILOR (6)
@@ -2109,7 +2120,8 @@ SailorGroup:
 	db "KENNETH@", TRAINERTYPE_NORMAL
 	db 28, MACHOP
 	db 28, MACHOP
-	db 28, POLIWRATH
+	db 28, DELPHOX ; +
+;	db 28, POLIWRATH
 	db 28, MACHOP
 	db -1 ; end
 
@@ -2127,20 +2139,25 @@ SailorGroup:
 
 	; SAILOR (11)
 	db "HUEY@", TRAINERTYPE_NORMAL
-	db 28, POLIWHIRL
-	db 28, POLIWHIRL
+	db 28, BRAIXEN ; +
+;	db 28, POLIWHIRL
+	db 28, BRAIXEN ; +
+;	db 28, POLIWHIRL
 	db -1 ; end
 
 	; SAILOR (12)
 	db "HUEY@", TRAINERTYPE_NORMAL
-	db 34, POLIWHIRL
-	db 34, POLIWRATH
+	db 34, BRAIXEN ; +
+;	db 34, POLIWHIRL
+	db 34, DELPHOX ; +
+;	db 34, POLIWRATH
 	db -1 ; end
 
 	; SAILOR (13)
 	db "HUEY@", TRAINERTYPE_MOVES
 	db 38, POLITOED,   WHIRLPOOL, RAIN_DANCE, BODY_SLAM, PERISH_SONG
-	db 38, POLIWRATH,  SURF, STRENGTH, ICE_PUNCH, SUBMISSION
+	db 38, DELPHOX,  SURF, STRENGTH, ICE_PUNCH, SUBMISSION ; +
+;	db 38, POLIWRATH,  SURF, STRENGTH, ICE_PUNCH, SUBMISSION
 	db -1 ; end
 
 SuperNerdGroup:
@@ -2998,7 +3015,8 @@ CamperGroup:
 	db "SID@", TRAINERTYPE_NORMAL
 	db 32, DUGTRIO
 	db 29, PRIMEAPE
-	db 29, POLIWRATH
+	db 29, DELPHOX ; +
+;	db 29, POLIWRATH
 	db -1 ; end
 
 	; CAMPER (9)

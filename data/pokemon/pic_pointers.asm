@@ -133,12 +133,18 @@ PokemonPicPointers::
 	dba_pic GrowlitheBackpic
 	dba_pic ArcanineFrontpic
 	dba_pic ArcanineBackpic
-	dba_pic PoliwagFrontpic
-	dba_pic PoliwagBackpic
-	dba_pic PoliwhirlFrontpic
-	dba_pic PoliwhirlBackpic
-	dba_pic PoliwrathFrontpic
-	dba_pic PoliwrathBackpic
+	dba_pic FennekinFrontpic ; +
+;	dba_pic PoliwagFrontpic
+	dba_pic FennekinBackpic ; +
+;	dba_pic PoliwagBackpic
+	dba_pic BraixenFrontpic ; +
+;	dba_pic PoliwhirlFrontpic
+	dba_pic BraixenBackpic ; +
+;	dba_pic PoliwhirlBackpic
+	dba_pic DelphoxFrontpic ; +
+;	dba_pic PoliwrathFrontpic
+	dba_pic DelphoxBackpic ; +
+;	dba_pic PoliwrathBackpic
 	dba_pic AbraFrontpic
 	dba_pic AbraBackpic
 	dba_pic KadabraFrontpic
