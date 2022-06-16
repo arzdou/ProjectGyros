@@ -1,62 +1,62 @@
 SECTION "Map Blocks 1", ROMX
 
 Pokecenter2F_Blocks:
-	INCBIN "maps/Pokecenter2F.blk"
+	INCBIN "maps/Pokecenter2F.ablk"
 
 TradeCenter_Blocks:
 TimeCapsule_Blocks:
-	INCBIN "maps/TradeCenter.blk"
+	INCBIN "maps/TradeCenter.ablk"
 
 Colosseum_Blocks:
-	INCBIN "maps/Colosseum.blk"
+	INCBIN "maps/Colosseum.ablk"
 
 BattleTowerOutside_Blocks:
-	INCBIN "maps/BattleTowerOutside.blk"
+	INCBIN "maps/BattleTowerOutside.ablk"
 
 BattleTower1F_Blocks:
-	INCBIN "maps/BattleTower1F.blk"
+	INCBIN "maps/BattleTower1F.ablk"
 
 BattleTowerElevator_Blocks:
-	INCBIN "maps/BattleTowerElevator.blk"
+	INCBIN "maps/BattleTowerElevator.ablk"
 
 BattleTowerHallway_Blocks:
-	INCBIN "maps/BattleTowerHallway.blk"
+	INCBIN "maps/BattleTowerHallway.ablk"
 
 BattleTowerBattleRoom_Blocks:
-	INCBIN "maps/BattleTowerBattleRoom.blk"
+	INCBIN "maps/BattleTowerBattleRoom.ablk"
 
 
 SECTION "Map Blocks 2", ROMX
 
 NewBarkTown_Blocks:
-	INCBIN "maps/NewBarkTown.blk"
+	INCBIN "maps/NewBarkTown.ablk"
 
 PlayersHouse1F_Blocks:
-	INCBIN "maps/PlayersHouse1F.blk"
+	INCBIN "maps/PlayersHouse1F.ablk"
 
 PlayersHouse2F_Blocks:
-	INCBIN "maps/PlayersHouse2F.blk"
+	INCBIN "maps/PlayersHouse2F.ablk"
 
 
 SECTION "Map Blocks 3", ROMX
 
 IndigoPlateauPokecenter1F_Blocks:
-	INCBIN "maps/IndigoPlateauPokecenter1F.blk"
+	INCBIN "maps/IndigoPlateauPokecenter1F.ablk"
 
 WillsRoom_Blocks:
-	INCBIN "maps/WillsRoom.blk"
+	INCBIN "maps/WillsRoom.ablk"
 
 KogasRoom_Blocks:
-	INCBIN "maps/KogasRoom.blk"
+	INCBIN "maps/KogasRoom.ablk"
 
 BrunosRoom_Blocks:
-	INCBIN "maps/BrunosRoom.blk"
+	INCBIN "maps/BrunosRoom.ablk"
 
 KarensRoom_Blocks:
-	INCBIN "maps/KarensRoom.blk"
+	INCBIN "maps/KarensRoom.ablk"
 
 LancesRoom_Blocks:
-	INCBIN "maps/LancesRoom.blk"
+	INCBIN "maps/LancesRoom.ablk"
 
 HallOfFame_Blocks:
-	INCBIN "maps/HallOfFame.blk"
+	INCBIN "maps/HallOfFame.ablk"

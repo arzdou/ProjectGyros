@@ -324,10 +324,10 @@ ReloadSpritesNoPalettes::
 	call DelayFrame
 	ret
 
-SwapTextboxPalettes::
-	homecall _SwapTextboxPalettes
-	ret
+;SwapTextboxPalettes::
+;	homecall _SwapTextboxPalettes
+;	ret
 
-ScrollBGMapPalettes::
-	homecall _ScrollBGMapPalettes
-	ret
+;ScrollBGMapPalettes::
+;	homecall _ScrollBGMapPalettes
+;	ret
